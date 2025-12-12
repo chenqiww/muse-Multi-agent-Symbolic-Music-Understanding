@@ -9,15 +9,6 @@ This project implements a multi-agent architecture that uses Large Language Mode
 1. **Music Theory & Metadata QA**: Questions about key signatures, time signatures, bars, chords, and other structural elements of music
 2. **Emotion Recognition**: Classification of musical pieces into emotional categories (Q1-Q4) based on arousal-valence dimensions
 
-## Architecture
-
-The system consists of four main agents:
-
-- **Agent A (Validattion and Controller)**: Validate input from user and routes user queries to appropriate specialized agents based on the question type
-- **Agent B (syntax understanding)**: Analyzes ABC notation and answers music theory/metadata questions using a two-step approach (expert analysis + evaluator)
-- **Agent C (Emotion recognition)**: Classifies emotions using an arousal-valence approach with multiple analysts and majority voting
-- **Agent D (Aggregator)**: Combines results from multiple agents when both ABC and emotion questions are present
-
 
 
 ## Usage
