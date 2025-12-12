@@ -5,6 +5,7 @@ import re
 from collections import Counter
 
 model_name = "google/gemma-3-27b-it"
+#model_name = "meta-llama/Meta-Llama-3.1-70B-Instruct"
 
 client = OpenAI(
     api_key=get_access_token(),

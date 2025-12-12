@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.stats import kendalltau
 import re
 # model_name = "google/gemma-3-27b-it"
-model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+model_name = "meta-llama/Meta-Llama-3.1-70B-Instruct"
 # model_name = "openai/gpt-oss-20b"
 df = pd.read_csv("data/Metadata_QA_cleaned.csv")
 
