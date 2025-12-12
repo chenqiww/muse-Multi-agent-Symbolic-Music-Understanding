@@ -146,10 +146,11 @@ on ABC Notation Understanding. https://anonymous.4open.science/r/ABC-Eval-B622
 ```
 
 **Emotion Recognition Dataset:**
-```
-Joe, M. (2024). EMelodyGen: Emotion-Conditioned Melody Generation in ABC 
-Notation with Musical Feature Templates. https://arxiv.org/abs/2405.16775
+Zhou, M., Li, X., Yu, F., & Li, W. (2023).
+*EMelodyGen: Emotion-Conditioned Melody Generation in ABC Notation with the Musical Feature Template.*
+arXiv:2309.13259. https://arxiv.org/abs/2309.13259
+
 Dataset: https://huggingface.co/datasets/monetjoe/EMelodyGen
-```
+
 
 
