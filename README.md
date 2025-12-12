@@ -170,11 +170,6 @@ Part of the emotion-related test data in this project comes from the **Rough4Q s
 - **Source**: [HuggingFace Dataset](https://huggingface.co/datasets/monetjoe/EMelodyGen)
 - **Format**: ABC notation melodies with emotion labels
 
-**Citation:**
-```
-Joe, M. (2024). EMelodyGen: Emotion-Conditioned Melody Generation in ABC 
-Notation with Musical Feature Templates. https://arxiv.org/abs/2405.16775
-```
 
 The dataset is publicly available and can be accessed via the HuggingFace link above. When using emotion recognition features or test data, please cite the original EMelodyGen paper.
 
@@ -207,64 +202,6 @@ The system uses the following LLM models :
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # This file
 ```
-
-## Key Components
-
-### ABC Score Extraction
-
-The system can extract ABC scores from various formats:
-- Triple backticks: ` ```abc ... ``` `
-- "Input:" markers
-- "Score:" markers
-- Pattern matching for ABC notation headers (X:, K:, M:, L:, R:)
-
-### Emotion Classification Pipeline
-
-1. **Arousal Classification**: Multiple analysts (default: 3) classify arousal as HIGH or LOW
-2. **Valence Classification**: Multiple analysts classify valence as HIGH or LOW
-3. **Majority Voting**: Final arousal/valence determined by majority vote
-4. **Emotion Mapping**: Combined arousal-valence mapped to Q1-Q4 categories
-
-### Controller Logic
-
-The controller agent analyzes user questions and routes to:
-- **ABC**: Music theory, notation, structure questions
-- **EMOTION**: Emotion, mood, valence/arousal questions
-- **BOTH**: When both types of questions are present
-- **NONE**: When no specialized agent is needed
-
-## Results
-
-Results are saved as CSV files with additional columns:
-- `agent_answer`: Full response from the agent
-- `predicted_label`: Predicted emotion label (0-3)
-- `predicted_arousal`: Predicted arousal level (HIGH/LOW)
-- `predicted_valence`: Predicted valence level (HIGH/LOW)
-- `ground_truth_arousal`: Ground truth arousal (for evaluation)
-- `ground_truth_valence`: Ground truth valence (for evaluation)
-
-## Evaluation Metrics
-
-The system reports:
-- **Overall Accuracy**: Label prediction accuracy
-- **Arousal Accuracy**: Arousal classification accuracy
-- **Valence Accuracy**: Valence classification accuracy
-
-## Limitations
-
-- Requires access to ALCF inference API
-- ABC score extraction may fail on non-standard formats
-- Emotion classification is based on symbolic features only (no audio)
-- Model performance depends on the underlying LLM capabilities
-
-## Contributing
-
-When adding new features:
-1. Follow the existing agent architecture pattern
-2. Update input validation if needed
-3. Add appropriate test scripts
-4. Document new functionality in this README
-
 
 ## Citation
 
