@@ -13,7 +13,7 @@ This project implements a multi-agent architecture that uses Large Language Mode
 
 The system consists of four main agents:
 
-- **Agent A (Controller)**: Routes user queries to appropriate specialized agents based on the question type
+- **Agent A (Validattion and Controller)**: Validate input from user and routes user queries to appropriate specialized agents based on the question type
 - **Agent B (ABC Expert)**: Analyzes ABC notation and answers music theory/metadata questions using a two-step approach (expert analysis + evaluator)
 - **Agent C (Emotion Expert)**: Classifies emotions using an arousal-valence approach with multiple analysts and majority voting
 - **Agent D (Aggregator)**: Combines results from multiple agents when both ABC and emotion questions are present
