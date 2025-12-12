@@ -19,9 +19,8 @@ The system consists of four main agents:
 - **Agent D (Aggregator)**: Combines results from multiple agents when both ABC and emotion questions are present
 
 ## Features
-
+### Controller
 ### ABC Notation Analysis
-- Extracts and validates ABC scores from various input formats
 - Analyzes key signatures, time signatures, note lengths, chords, bars, rhythm patterns, and melodic contours
 - Answers questions about music structure and notation
 
@@ -97,7 +96,7 @@ python src/metadata_QA_agent.py
 
 ### Controller Testing
 
-Test the controller agent's routing accuracy:
+Test the controller agent's controller accuracy:
 
 ```bash
 python src/test_val_con.py
@@ -193,11 +192,11 @@ The system uses the following LLM models :
 .
 ├── src/
 │   ├── multi_agent_system.py          # Main multi-agent system
-│   ├── metadata_QA_agent.py           # ABC expert agent for metadata QA
-│   ├── metadata_QA_baseline.py         # Baseline for metadata QA
-│   ├── emotion_baseline.py             # Direct LLM baseline for emotion
+│   ├── metadata_QA_agent.py           # test for ABC expert agent for metadata QA
+│   ├── metadata_QA_baseline.py         # test for Baseline for metadata QA
+│   ├── emotion_baseline.py             # test for Direct LLM baseline for emotion
 │   ├── emotion_recognition_baseline_draft_version.py  # Alternative emotion baseline
-│   ├── multi_agent_test_emotion.py     # Emotion classification system
+│   ├── multi_agent_test_emotion.py     # test for Emotion classification system
 │   ├── test_val_con.py                 # Controller testing script
 │   └── inference_auth_token.py         # Authentication module
 ├── data/
@@ -269,7 +268,6 @@ When adding new features:
 
 ## Citation
 
-If you use this code in your research, please cite:
 
 **ABC/Metadata QA and emotion recognition Dataset:**
 ```
