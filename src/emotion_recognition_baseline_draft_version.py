@@ -5,9 +5,9 @@ from scipy.stats import kendalltau
 import re
 import sys
 
-# model_name = "google/gemma-3-27b-it"
-model_name = "openai/gpt-oss-20b"
-#model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+model_name = "google/gemma-3-27b-it"
+#model_name = "openai/gpt-oss-20b"
+#model_name = "meta-llama/Meta-Llama-3.1-70B-Instruct"
 df = pd.read_csv("data/Emotion_Recognition_cleaned.csv")
 
 if len(sys.argv) > 1 and sys.argv[1].startswith('--'):
