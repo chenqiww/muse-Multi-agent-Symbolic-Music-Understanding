@@ -1,0 +1,664 @@
+idx,question,ans,controller_decision,emotion_gt,emotion_pred,emotion_correct,key_gt,bars_gt,abc_related_gt,abc_related_pred,abc_related_correct
+0,"M:4/4
+L:1/4
+K:G
+P:A
+d
+P:B
+|:""G""gd/2g/2 B/2g/2d/2g/2|""Am""e/2d/2c/2d/2 ""D""e/2d/2e/2f/2|\
+""G""gd/2g/2 B/2g/2d/2g/2|""D""c/2e/2d/2c/2 ""G""B/2G/2G/2d/2:|
+P:C
+|:""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""D""c/2d/2A/2d/2 c/2d/2A/2d/2|\
+""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""Am""e/2d/2c/2B/2 ""D""A/2F/2D/2F/2|
+""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""C""G/2e/2c/2e/2 G/2e/2c/2e/2|\
+""D""d/2e/2F/2g/2 a/2c'/2b/2a/2| [1""G""g2 gd:|[2 ""G"" g g g||",1000,SKIPPED,0,-1,,0,0,0,-1,
+1,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+2,"M:4/4
+L:1/4
+K:G
+P:A
+d
+P:B
+|:""G""gd/2g/2 B/2g/2d/2g/2|""Am""e/2d/2c/2d/2 ""D""e/2d/2e/2f/2|\
+""G""gd/2g/2 B/2g/2d/2g/2|""D""c/2e/2d/2c/2 ""G""B/2G/2G/2d/2:|
+P:C
+|:""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""D""c/2d/2A/2d/2 c/2d/2A/2d/2|\
+""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""Am""e/2d/2c/2B/2 ""D""A/2F/2D/2F/2|
+""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""C""G/2e/2c/2e/2 G/2e/2c/2e/2|\
+""D""d/2e/2F/2g/2 a/2c'/2b/2a/2| [1""G""g2 gd:|[2 ""G"" g g g||",1000,SKIPPED,0,-1,,0,0,0,-1,
+3,"how many bars are here
+what is the emotion here",0101,SKIPPED,1,-1,,0,1,1,-1,
+4,"how many bars are here
+what is the signature key here
+what is the emotion here",0111,SKIPPED,1,-1,,1,1,1,-1,
+5,what is the signature key here,0010,SKIPPED,0,-1,,1,0,1,-1,
+6,"what is the emotion here
+how many bars are here
+what is the signature key here",0111,SKIPPED,1,-1,,1,1,1,-1,
+7,,0000,SKIPPED,0,-1,,0,0,0,-1,
+8,"M:4/4
+L:1/4
+K:C
+G/2|:""C""c/2d/2e/2c/2 ""F""A/2c/2F|""C""c/2d/2e/2c/2 ""G""B/2d/2d|\
+""C""e/2d/2c/2e/2 ""D""d/2c/2d/2c/2|""G""B/2c/2d/2g/2 ""C""e/2c/2c/2B/2:|
+K:G
+|: || |:""D""cA/2c/2 ""G""d/2B/2G/2B/2|""D""cA/2c/2 ""G""B/2d/2g/2d/2|\
+""D""cA/2c/2 ""G""B/2d/2g/2d/2|""D""e/2c/2A/2f/2 ""G""g/2d/2B/2G/2:|
+""Am""c/2A/2(3A/2A/2A/2 A/2B/2c/2d/2|""D""e/2d/2e/2f/2 ""G""g/2d/2B/2G/2|\
+""Am""c/2A/2(3A/2A/2A/2 A/2B/2c/2d/2|""E7""e/2B/2^G/2B/2 E/2B/2G/2e/2|
+""Am""c/2A/2(3A/2A/2A/2 A/2B/2c/2d/2|""D""e/2d/2e/2f/2 ""G""g/2a/2b/2g/2|\
+""D""f/2e/2d/2e/2 f/2g/2a/2b/2|""D""c'/2a/2f/2d/2 ""G""g2:|
+what is the emotion here
+what is the signature key here
+how many bars are here",1111,BOTH,1,1,True,1,1,1,1,True
+9,"what is the signature key here
+how many bars are here
+what is the emotion here",0111,SKIPPED,1,-1,,1,1,1,-1,
+10,"M:3/4
+L:1/4
+K:G
+""G""e2d|B3/2A/2G|""Am""A2B|E3|""C""A2B|""D""E2F|""G""GBe|""D""d3|""G""e2d|B3/2A/2G|""Am""A2B|
+E3|""C""A2B|""D""E2F|""G""G3-|G3|""Em""g3/2f/2e|""D""f2d|""C""e3/2d/2c|""G""d2B|""C""c2e|\
+""G""d2B|""Am""B2E|
+""D""B/2d/2-d2|""Em""g3/2f/2e|""D""f2d|""C""e3/2d/2c|""E""d2B|""Am""c2e|""C""e3/2d/2c|""D""BcA\
+|""G""G3:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+11,"M:4/4
+L:1/4
+K:G
+e|:""G""dB ""C""A3/2E/2|""C""EE ""G""D3/2D/2|""G""GB AG|""D""A2 ""C""e2|""G""dB ""C""A3/2G/2|
+""C""AE ""G""D3/2D/2|""G""GB AG|""G""d2 ""D7""GG/2A/2|""G""Bd ""C""g3/2e/2|""G""dB ""D7""AG/2A/2|
+""G""Bd gd|""C""e2 g3/2e/2|""G""dB ""Am""A3/2E/2|""Am""EE ""G""D3/2D/2|""G""GB AG|A2 e2:||
+what is the emotion here",1100,EMOTION,1,1,True,0,0,0,0,True
+12,"M:6/4
+L:1/4
+K:D
+P:A
+af|""D""d3 ccd|""G""BG ""D/a""A2 ""A7""AB/2c/2|\
+M:4/4
+""D""d3/2e/2 fg|\
+M:6/4
+""Em7""e2""A""a2af|
+""Bm""d3 ccd|""G""BG""D/a""A2""A7""AB/2c/2|\
+M:5/4
+""D""df""G""B""Em""e""A7""c|""D""d3
+P:B
+M:4/4
+""A7""A2 |""D""d3/2c/2 ""D""d/2e/2f/2g/2|""D""a2 ""G""b3/2a/2|""D""af e/2d/2e/2(3f/4a/4g/4\
+|""Em""f2 ""A""ea/2f/2|
+M:6/4
+""Bm""d3 ccd|""G""BG""D/a""A2""A7""AB/2c/2|\
+M:5/4
+""D""df""G""B""Em""e""A7""c|""D""d3||",1000,SKIPPED,0,-1,,0,0,0,-1,
+13,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+14,"M:4/4
+L:1/4
+K:A
+""A""EA/2B/2 E/2c/2B/2E/2|c/2B/2A c2|""A""EA/2B/2 E/2c/2B/2E/2|c/2B/2A A2|
+""A""EA/2B/2 E/2c/2B/2E/2|""A""c/2B/2A ""E""B2|""A""c/2e/2a a=G|""D""F/2A/2B ""A""A2:|
+""E""B/2^A/2B/2G/2 E/2G/2B/2c/2|d/2B/2c B2|""D""A/2G/2A/2F/2 D/2F/2A/2B/2|\
+""D""=c/2A/2B ""A""A2|
+""E""B/2^A/2B/2G/2 E/2G/2B/2c/2|d/2B/2c B2|""A""c/2e/2a a=G|""D""F/2A/2B ""A""A2|
+how many bars are here
+what is the signature key here
+what is the emotion here",1111,BOTH,1,1,True,1,1,1,1,True
+15,,0000,SKIPPED,0,-1,,0,0,0,-1,
+16,"N:/f2Play AABA last time/fP
+M:2/4
+L:1/4
+K:A
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2E/4F/4|\
+E/2C/2 ""E""B,/2^B,/2|
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2D/2|\
+""E""C/2B,/2 ""A""A,:||:
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2c/4e/4|\
+""A7""c/2=G/2 ""C7""=c|
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2A/2|\
+""A7""=G/2F/2 ""D""D:|
+how many bars are here
+what is the signature key here",1011,ABC,0,0,True,1,1,1,1,True
+17,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+18,what is the emotion here,0100,SKIPPED,1,-1,,0,0,0,-1,
+19,"M:4/4
+L:1/8
+K:A
+P:A
+ed|""A""c2Ac ""D""d2Bd|""A""c2Ac ""E7""BGEd|""A""c2Ac ""D""d2Bd|\
+""A""c/2A3/2""E7""B/2G3/2 ""A""A2:|
+P:B
+AB|""A""c/2e3/2ea ""D""f2ed|""A""c2Ac ""E7""BGEd|""A""c/2e3/2ea ""D""f2ed|\
+""A""c/2A3/2""E7""B/2G3/2 ""A""A2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+20,"M:4/4
+L:1/8
+K:F
+P:A
+(3FED|""F""CAGF CAGF|""Bb""(3DEDGB ""G7""d4|""C7""c_cBG AGDE|""F""(3FAG(3FED ""C7""C4|
+""F""CAGF CAGF|""Bb""(3DEDGB ""G7""d4|""C7""c_cBG AGDE|""F""F2A2 F2:|
+K:C
+P:B
+""G7""G2|""C""(3edcG2 (3edcG2|""Dm""(3fedA2 (3fedA2|""G7""BG^FG AGed|\
+""C""(3ced(3cBA ""G7""G4|
+""C""(3edcG2 (3edcG2|""Dm""(3fedA2 (3fedA2|""G7""BG^FG AGed|""C""c2e2 c2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+21,"M:4/4
+L:1/8
+K:F
+P:A
+(3FED|""F""CAGF CAGF|""Bb""(3DEDGB ""G7""d4|""C7""c_cBG AGDE|""F""(3FAG(3FED ""C7""C4|
+""F""CAGF CAGF|""Bb""(3DEDGB ""G7""d4|""C7""c_cBG AGDE|""F""F2A2 F2:|
+K:C
+P:B
+""G7""G2|""C""(3edcG2 (3edcG2|""Dm""(3fedA2 (3fedA2|""G7""BG^FG AGed|\
+""C""(3ced(3cBA ""G7""G4|
+""C""(3edcG2 (3edcG2|""Dm""(3fedA2 (3fedA2|""G7""BG^FG AGed|""C""c2e2 c2:|
+what is the emotion here
+how many bars are here
+what is the signature key here",1111,BOTH,1,1,True,1,1,1,1,True
+22,what is the emotion here,0100,SKIPPED,1,-1,,0,0,0,-1,
+23,"M:3/4
+L:1/4
+K:G
+""G""e2d|B3/2A/2G|""Am""A2B|E3|""C""A2B|""D""E2F|""G""GBe|""D""d3|""G""e2d|B3/2A/2G|""Am""A2B|
+E3|""C""A2B|""D""E2F|""G""G3-|G3|""Em""g3/2f/2e|""D""f2d|""C""e3/2d/2c|""G""d2B|""C""c2e|\
+""G""d2B|""Am""B2E|
+""D""B/2d/2-d2|""Em""g3/2f/2e|""D""f2d|""C""e3/2d/2c|""E""d2B|""Am""c2e|""C""e3/2d/2c|""D""BcA\
+|""G""G3:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+24,"what is the signature key here
+what is the emotion here
+how many bars are here",0111,SKIPPED,1,-1,,1,1,1,-1,
+25,what is the emotion here,0100,SKIPPED,1,-1,,0,0,0,-1,
+26,"M:4/4
+L:1/4
+K:G
+P:A
+d
+P:B
+|:""G""gd/2g/2 B/2g/2d/2g/2|""Am""e/2d/2c/2d/2 ""D""e/2d/2e/2f/2|\
+""G""gd/2g/2 B/2g/2d/2g/2|""D""c/2e/2d/2c/2 ""G""B/2G/2G/2d/2:|
+P:C
+|:""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""D""c/2d/2A/2d/2 c/2d/2A/2d/2|\
+""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""Am""e/2d/2c/2B/2 ""D""A/2F/2D/2F/2|
+""G""B/2d/2G/2d/2 B/2d/2G/2d/2|""C""G/2e/2c/2e/2 G/2e/2c/2e/2|\
+""D""d/2e/2F/2g/2 a/2c'/2b/2a/2| [1""G""g2 gd:|[2 ""G"" g g g||",1000,SKIPPED,0,-1,,0,0,0,-1,
+27,"M:4/4
+L:1/4
+K:A
+""A""EA/2B/2 E/2c/2B/2E/2|c/2B/2A c2|""A""EA/2B/2 E/2c/2B/2E/2|c/2B/2A A2|
+""A""EA/2B/2 E/2c/2B/2E/2|""A""c/2B/2A ""E""B2|""A""c/2e/2a a=G|""D""F/2A/2B ""A""A2:|
+""E""B/2^A/2B/2G/2 E/2G/2B/2c/2|d/2B/2c B2|""D""A/2G/2A/2F/2 D/2F/2A/2B/2|\
+""D""=c/2A/2B ""A""A2|
+""E""B/2^A/2B/2G/2 E/2G/2B/2c/2|d/2B/2c B2|""A""c/2e/2a a=G|""D""F/2A/2B ""A""A2|
+how many bars are here
+what is the signature key here
+what is the emotion here",1111,BOTH,1,1,True,1,1,1,1,True
+28,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+29,"M:4/4
+L:1/8
+K:A
+cd|""A""e2e2 c2cd|""A""e2e2 c2Bc|""E7""d2d2 B2Bc|""E7""d2d2 B2cB|
+""A""A2A2 a3a|""D""g2f2 ""A""e2dc|""D""f2dB ""A""A2GA|""E7""B4 ""A""A2:|
+P:V 1
+cd|e2ec2EAc|e2ec2EGB|d2dB2EGB|d2dB2EcB|
+A2A2 a3g|fAdf eEAc|f2dB A2GA|B4 A2:|
+P:V 2
+cd|e2ec2EAc|eEec2EGB|dEdB2EGB|
+dEdB2EcB|A2A2 a3g|fAdf eEAc|f2dB A2GA|B4 A2:|
+P:V 3
+cd|eEeE cEAc|eEeE cEGB|dEdE BEGB|
+dEdE BEcB|A2A2 a3g|fAdf eEAc|f2dB A2GA|B4 A2:|
+P:V 4
+cd|eEeE cEAc|efed cEGB|dEdE BEGB|dedc BEcB|
+A/2B/2A/2G/2A/4B/4c/4d/4e/4f/4g/4a3g|fAdf eEAc|f2dB A2GA|B4 A2:|
+what is the emotion here",1100,EMOTION,1,1,True,0,0,0,0,True
+30,"M:4/4
+L:1/8
+K:A
+P:A
+E2|""A""A2A2 ""E7""AcBd|""A""c2c2 ""D""cedf|""A""eagf edcB|""A""ABcA ""E7""dBGE|
+""A""A2A2 ""E7""AcBd|""A""c2c2 ""D""cedf|""A""eagf ""E7""edcB|""A""A2a2 A2:|
+P:B
+e2|""A""ceAe ceAe|""Bm""dfBf dfBf|""A""ceAe ceAc|""B7""BAGF ""E7""E2e2|
+""A""ceAe ceAe|""Bm""dfBf dfBf|""A""eagf ""E7""edcB|""A""A2a2 A2:|
+what is the emotion here",1100,EMOTION,1,1,True,0,0,0,0,True
+31,"how many bars are here
+what is the emotion here
+what is the signature key here",0111,SKIPPED,1,-1,,1,1,1,-1,
+32,"N:A(ABBB)2(ACCC)2B
+M:6/8
+K:D
+P:A
+""D""dcd f2e|""G""d2B BdB|""D""ABA d2e|""D""fdd ""A7""d2A|
+""D""dcd f2e|""G""d2B BdB|""D""ABA d2e|fdd d3||
+P:B
+""D""fdf a2f|""A7""ede ""D""f3|""D""faf ""A""ede|""Bm""fdB ""A7""A2A|
+""D""dcd f2e|""G""d2B BdB|""D""ABA d2e|fdd d3||
+P:C
+""D""fdf a2f|""A7""ede ""D""f3|\
+M:4/4
+L:1/4
+""D""fa f2|""A""ed e2|""Bm""fd B2|\
+""A7""A3 A3 |
+""D""dcd f2e |""G""d2B BdB |""D""ABA d2e |fdd d3 ||
+how many bars are here",1001,ABC,0,0,True,0,1,1,1,True
+33,"how many bars are here
+what is the emotion here
+what is the signature key here",0111,SKIPPED,1,-1,,1,1,1,-1,
+34,"M:4/4
+L:1/8
+K:D
+ag|""D""f/2d3/2d2 A/2d3/2d2|""D""fdaf d2ef|""Em""g/2e3/2e2 c/2e3/2e2|""A7""cAec A2ag|
+""D""f/2d3/2d2 A/2d3/2d2|""D""fdaf d2(3fga|""G""bg""D""af ""A7""ge""D""fd|\
+""A7""ec(3ABc ""D""d2ag|
+""D""f/2a3/2a2 f/2a3/2a2|""D""fdaf d2ef|""Em""g/2b3/2b2 g/2b3/2b2|""A7""gebg e2ag|
+""D""f/2a3/2a2 f/2a3/2a2|""D""fdaf d2(3fga|""G""bg""D""af ""A7""ge""D""fd|\
+""A7""ec(3ABc ""D""d2||
+what is the emotion here
+how many bars are here",1101,BOTH,1,1,True,0,1,1,1,True
+35,what is the signature key here,0010,SKIPPED,0,-1,,1,0,1,-1,
+36,,0000,SKIPPED,0,-1,,0,0,0,-1,
+37,"M:4/4
+L:1/8
+K:D
+P:A
+A2|""D""(3ABAFA f2d2|""D""(3ABAFA f2da|""G""gfed ""A""c2cd|""E7""(3efe(3dcB ""A7""A4|
+""D""(3ABAFA f2d2|""D""(3ABAFA f2da|""G""gfed ""A7""cABc|""D""d2f2 d2:|
+P:B
+(3ABc|""D""dAdf a2f2|""D""dAdf a2fa|""G""gfed ""A""c2cd|""E7""(3efe(3dcB ""A7""A2(3ABc|
+""D""dAdf a2f2|""D""dAdf a2fa|""G""gfed ""A7""cABc|""D""d2f2 d2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+38,"M:4/4
+L:1/8
+K:A
+P:A
+ed|""A""c2Ac ""D""d2Bd|""A""c2Ac ""E7""BGEd|""A""c2Ac ""D""d2Bd|\
+""A""c/2A3/2""E7""B/2G3/2 ""A""A2:|
+P:B
+AB|""A""c/2e3/2ea ""D""f2ed|""A""c2Ac ""E7""BGEd|""A""c/2e3/2ea ""D""f2ed|\
+""A""c/2A3/2""E7""B/2G3/2 ""A""A2:|
+what is the emotion here
+how many bars are here
+what is the signature key here",1111,BOTH,1,1,True,1,1,1,1,True
+39,"how many bars are here
+what is the signature key here
+what is the emotion here",0111,SKIPPED,1,-1,,1,1,1,-1,
+40,"M:4/4
+L:1/8
+K:A
+(3efg|""A""a2g2 a2A2|""D""fedf ""A""e2cA|""E7""B2^A2 B2E2|""A""EA""E7""GB ""A""Aceg|
+""A""a2g2 a2A2|""D""fedf ""A""e2cA|""E7""B2^A2 B2E2|""A""EA""E7""GB ""A""A4|
+""A""c2a2 c2cd|""Bm""B2b2 B2Bc|""D""defg a2gf|""E7""edcB ""A""c2A2|
+""A""c2a2 c2cd|""Bm""B2b2 B2Bc|""D""dcde fgaf|""E7""(3efe(3dcB ""A""A2:|
+what is the signature key here
+how many bars are here
+what is the emotion here",1111,BOTH,1,1,True,1,1,1,1,True
+41,,0000,SKIPPED,0,-1,,0,0,0,-1,
+42,,0000,SKIPPED,0,-1,,0,0,0,-1,
+43,"M:4/4
+L:1/8
+K:Dm
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FA|""F""c2cd A2GF|""C""ECCC C2""A7""FE|
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FG|""F""ABcA ""A7""GFEF|""Dm""E2""Gm""D2 ""Dm""D2||",1000,SKIPPED,0,-1,,0,0,0,-1,
+44,,0000,SKIPPED,0,-1,,0,0,0,-1,
+45,"M:4/4
+L:1/8
+K:A
+AB|""A""c2^B2 c2B2|""A""c^Bcf ecAc|""Bm""B2^A2 B2A2|""Bm""Bagf ""E7""edcB|
+""A""c2^B2 c2B2|""A""c^Bcf ecAc|""Bm""B2^A2 B2=a2|""E7""(3gfe(3dcB ""A""A4|
+""A""c2a2 c2Bc|""Bm""d2b2 B2Bc|""D""defg agaf|""E7""(3efe(3dcB ""A""c2A2|
+""A""c2a2 c2Bc|""Bm""d2b2 B2Bc|""D""defg agaf|""E7""(3efe(3dcB ""A""A2:|
+what is the emotion here
+how many bars are here",1101,BOTH,1,1,True,0,1,1,1,True
+46,"what is the emotion here
+how many bars are here
+what is the signature key here",0111,SKIPPED,1,-1,,1,1,1,-1,
+47,"M:4/4
+L:1/8
+K:G
+|:""G""GABc d2d2|""C""cBcA ""D""d2d2|""C""cBAA ""G""BAGG|""Am""AGFG ""D""A2d2|
+""G""GABc d2d2|""C""cBcA ""D""d2d2|""C""cBAA ""G""BAGG|""D""AAdd ""G""G2G2:|
+|:""Em""gfeg ""D""f2f2|""C""cBcA ""D""d4|""C""edce ""G""d2B2|""Em""GABG ""D""A4|
+""Em""gfeg ""D""f2f2|""C""edce ""G""d4|""C""cBAc ""G""BAGB|""D""A2F2 ""G""G4:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+48,,0000,SKIPPED,0,-1,,0,0,0,-1,
+49,"what is the emotion here
+how many bars are here",0101,SKIPPED,1,-1,,0,1,1,-1,
+50,"what is the signature key here
+how many bars are here
+what is the emotion here",0111,SKIPPED,1,-1,,1,1,1,-1,
+51,,0000,SKIPPED,0,-1,,0,0,0,-1,
+52,"M:4/4
+L:1/4
+K:G
+P:A
+G/2A/2|""Em""B/2c/2B/2G/2 EF/2G/2|""D""A/2c/2A/2F/2 DG/2A/2|\
+""Em""B/2c/2B/2G/2 ""Am""EA/2F/2|""D7""DG ""G""G:|
+P:B
+G/2A/2|""G""BB dd|""C""e/2g/2f/2e/2 ""D7""d/2c/2B/2A/2|""G""G/2A/2B/2c/2 dd|\
+""C""e/2g/2f/2e/2 ""D""d3/2c/2|
+""G""""Em""BB/2c/2 dd|""C""e/2g/2f/2e/2 ""G""d/2B/2G|""Am""A/2B/2c/2A/2 ""D7""F/2G/2A/2F/2|""G""DG G:|
+how many bars are here",1001,ABC,0,0,True,0,1,1,1,True
+53,,0000,SKIPPED,0,-1,,0,0,0,-1,
+54,"N:A(AABB)(AACC)
+M:4/4
+L:1/4
+K:Gm
+P:A
+G/2A/2|""Gm""BB Gf|""Gm""dc/2B/2 ""F""cc|""Gm""""Bb""B/2A/2G ""F""FG/2A/2|""Gm""BG G:|
+P:B
+d|""Gm""gg ga|""Gm""gd ""C7""dd/2=e/2|""F""ff fg/2f/2|""C""=e/2f/2e/2d/2 c2|
+""Gm""B/2c/2B/2A/2 Gf|""Gm""dc/2B/2 ""F""cc|""Gm""""Bb""B/2A/2G ""F""FG/2A/2|""Gm""BG G:|
+P:C
+d|""D7""d2 ""Gm""g2|""Cm/g""g2 ""Gm""g2|""Gm""ag ""Dm""f2|""Gm/d""d2 ""Dm""d2|""C7""d=e ""F""f2|\
+""Bb/f""f2 ""F""fa/2g/2|""C""=e/2f/2e/2d/2 c2|
+""Gm""B/2c/2B/2A/2 Gf|""Gm""dc/2B/2 ""F""cc|""Gm""""Bb""B/2A/2G ""F""FG/2A/2|""Gm""BG G:|
+what is the signature key here
+what is the emotion here
+how many bars are here",1111,BOTH,1,1,True,1,1,1,1,True
+55,"N:A(AB)4
+M:4/4
+L:1/4
+K:G
+P:A
+D|""G""GG ""D7""G/2F/2E/2D/2|""G""GA/2B/2 ""C""cB/2c/2|""G""dd ""C""A/2c/2B/2A/2|\
+""Am""GF ""D7""D2|
+""G""GG ""D7""G/2F/2E/2D/2|""G""GA/2B/2 ""C""cB/2c/2|""G""dd ""D7""A/2c/2B/2A/2|""G""G2 G||
+P:B
+B/2c/2|""G""dd dc/2B/2|""C""cc cB/2c/2|""G""de d/2c/2B/2A/2|""Am""GF ""D7""D2|
+""G""GG ""D7""G/2F/2E/2D/2|""G""GA/2B/2 ""C""cB/2c/2|""G""dd ""D7""A/2c/2B/2A/2|""G""G2 G||
+how many bars are here
+what is the signature key here
+what is the emotion here",1111,BOTH,1,1,True,1,1,1,1,True
+56,"M:4/4
+L:1/8
+K:D
+(3ABc|""D""dcdf ""A7""ec(3ABc|""G""dBGB ""D""AFDF|
+""Em""EGFA GBgf|""E7""edcB ""A7""AB(3cBA|""D""dcdf ""Em""e^deg|
+""D""f^efg afdA|""G""(3BcdcB ""A7""(3ABA(3GFE|""D""DdAF D2 E2|
+|""A""A^GAc ecAc|""A""edcB ""D""Adfa|""G""gfeg ""D""fedf|
+""E7""(3efe(3dcB ""A7""(3ABA(3GFE|""D""DFAd ""Em""EGBe|
+""D""FAdf afdA|""G""(3BcdcB ""A7""(3ABA(3GFE|""D""DdAF D2||
+how many bars are here",1001,ABC,0,0,True,0,1,1,1,True
+57,what is the signature key here,0010,SKIPPED,0,-1,,1,0,1,-1,
+58,,0000,SKIPPED,0,-1,,0,0,0,-1,
+59,"what is the signature key here
+how many bars are here
+what is the emotion here",0111,SKIPPED,1,-1,,1,1,1,-1,
+60,what is the emotion here,0100,SKIPPED,1,-1,,0,0,0,-1,
+61,"how many bars are here
+what is the emotion here
+what is the signature key here",0111,SKIPPED,1,-1,,1,1,1,-1,
+62,"what is the signature key here
+what is the emotion here
+how many bars are here",0111,SKIPPED,1,-1,,1,1,1,-1,
+63,"what is the signature key here
+how many bars are here
+what is the emotion here",0111,SKIPPED,1,-1,,1,1,1,-1,
+64,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+65,"how many bars are here
+what is the signature key here",0011,SKIPPED,0,-1,,1,1,1,-1,
+66,"M:4/4
+L:1/8
+K:D
+ag|""D""f/2d3/2d2 A/2d3/2d2|""D""fdaf d2ef|""Em""g/2e3/2e2 c/2e3/2e2|""A7""cAec A2ag|
+""D""f/2d3/2d2 A/2d3/2d2|""D""fdaf d2(3fga|""G""bg""D""af ""A7""ge""D""fd|\
+""A7""ec(3ABc ""D""d2ag|
+""D""f/2a3/2a2 f/2a3/2a2|""D""fdaf d2ef|""Em""g/2b3/2b2 g/2b3/2b2|""A7""gebg e2ag|
+""D""f/2a3/2a2 f/2a3/2a2|""D""fdaf d2(3fga|""G""bg""D""af ""A7""ge""D""fd|\
+""A7""ec(3ABc ""D""d2||
+how many bars are here
+what is the emotion here
+what is the signature key here",1111,BOTH,1,1,True,1,1,1,1,True
+67,"M:4/4
+L:1/8
+K:A
+P:A
+ed|""A""c2Ac ""D""d2Bd|""A""c2Ac ""E7""BGEd|""A""c2Ac ""D""d2Bd|\
+""A""c/2A3/2""E7""B/2G3/2 ""A""A2:|
+P:B
+AB|""A""c/2e3/2ea ""D""f2ed|""A""c2Ac ""E7""BGEd|""A""c/2e3/2ea ""D""f2ed|\
+""A""c/2A3/2""E7""B/2G3/2 ""A""A2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+68,"what is the emotion here
+what is the signature key here
+how many bars are here",0111,SKIPPED,1,-1,,1,1,1,-1,
+69,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+70,,0000,SKIPPED,0,-1,,0,0,0,-1,
+71,"M:4/4
+L:1/8
+K:G
+P:A
+dc|""G""BgdB ""D7""AecA|""G""GdBG ""D7""FcAF|""G""GDEF GABc|""A7""^cded ""D7""fed=c|
+""G""BgdB ""D7""AecA|""G""GdBG ""D7""FcAF|""G""GDEF GABc|""D7""^cdef ""G""g2:|
+K:D
+P:B
+A2|""D""Adcd edcd|""Em""Be^de fede|""A7""gfed cBAG|""D""FA""E7""^GB ""A7""A2A2|
+""D""Adcd edcd|""Em""Be^de fede|""A7""gfed cABc|""D""d2f2 d2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+72,"M:4/4
+L:1/8
+K:Dm
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FA|""F""c2cd A2GF|""C""ECCC C2""A7""FE|
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FG|""F""ABcA ""A7""GFEF|""Dm""E2""Gm""D2 ""Dm""D2||
+what is the emotion here
+how many bars are here",1101,BOTH,1,1,True,0,1,1,1,True
+73,"what is the emotion here
+how many bars are here",0101,SKIPPED,1,-1,,0,1,1,-1,
+74,how many bars are here,0001,SKIPPED,0,-1,,0,1,1,-1,
+75,"N:/f2Play AABA last time/fP
+M:2/4
+L:1/4
+K:A
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2E/4F/4|\
+E/2C/2 ""E""B,/2^B,/2|
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2D/2|\
+""E""C/2B,/2 ""A""A,:||:
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2c/4e/4|\
+""A7""c/2=G/2 ""C7""=c|
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2A/2|\
+""A7""=G/2F/2 ""D""D:|
+what is the emotion here",1100,EMOTION,1,1,True,0,0,0,0,True
+76,"M:4/4
+L:1/4
+K:D
+""D""D/2d/4c/4d/2d/2 f/2d/2f|""D""a/2f/2a/4g/4f/4e/4 ""A""d/4c/4d/4e/4""D""d/2d/2|\
+""D""D/2d/4c/4d/2d/2 f/2d/2f|
+""A""a/2g/2f/2e/2 ""D""dd|""A""g/2g/2""D""f/2f/2 ""A""g/2g/2""D""f|\
+""D""D/2d/4c/4d/2d/2 f/2d/2f|""D""a/2f/2""A""a/4g/4f/4e/4 ""D""d""A""f|
+""D""a/2f/2""A""a/4g/4f/4e/4 ""D"" d ""D7"" D|""G""G3/4A/4B/2B/2 B/2d/2d|\
+""G""B/2d/2""C""e/4d/4c/4B/4 ""Am""A/4G/4A/4B/4""D""A/2A/2|
+""G""G3/4A/4B/2B/2 B/2d/2d|""G""d/2B/2""C""e/4d/4c/4B/4 ""A7""B""D""A|\
+""Am""A3/4B/4""D""c/2c/2 ""G""B/2d/2g/2B/2|
+""Am""A3/4B/4""D""c/2c/2 ""G""B/2d/4e/4""D""d/4c/4B/4A/4|""G""G3/4A/4B/2B/2 B/2d/2g/2B/2\
+|""D""d/2A/2d/4c/4B/4A/4 ""G""G2:|
+what is the emotion here
+how many bars are here
+what is the signature key here",1111,BOTH,1,1,True,1,1,1,1,True
+77,"M:4/4
+L:1/4
+K:G
+Q:1/4=180
+D|:""G""GB/2c/2 ""D7""de/2f/2|""G""ga ""Em""b2|""G""gd ""D7""d/2e/2d/2c/2|""G""B2 G2:||:
+""C""ec eg/2e/2|""G""dB d2|""D7""Ad d/2e/2d/2c/2|[1""G""B2 ""G7""d2:|[2""G""B2 G2||
+M:6/8
+L:1/8
+Q:1/4=135
+|:""D7""d2c""G""BAG |\
+""D7""d2c""G""BAG |""C""e2dcBc |""C""e3g3 :|
+""C""e2dcBc |""C""e3g3 |""Am""e2dcBc |""Am""e3gfe
+|:""D""d2ef2g |""D""a2gfed |""C""e2g""D7""f2a |[1""G""g3gfe :|[2""G""g3G3||
+M:4/4
+L:1/4
+Q:1/4=180
+|:""G""GG/2G/2 BB|""G""dd g2|""G""dB ""C""d/2c/2A/2B/2|""Am""cA ""D7""G/2F/2E/2D/2|
+M:4/4
+L:1/4
+""G""GG/2G/2 BB|""G""dd g2|""G""dB ""D7""d/2c/2A/2F/2|[1""G""G2 GD:|[2""G""G2 Gd/2c/2||
+|:""G""BG Bd|""D7""A3d/2c/2|""G""BG Bd|""D7""A3d/2c/2|""G""BG Bd|
+""D7""A3/2B/2 AB/2c/2|""G""dB/2c/2 ""D7""d/2c/2B/2A/2|[1""G""G2 Gd/2c/2:|[2""G""G3||
+how many bars are here
+what is the emotion here",1101,BOTH,1,1,True,0,1,1,1,True
+78,what is the signature key here,0010,SKIPPED,0,-1,,1,0,1,-1,
+79,"N:A(ABBB)(ACCC)A
+M:6/8
+K:G
+P:A
+g|""C""gfe ede|""C""edc cBc|""G""dBg dBG|""Am""FAA ""D""A2g|
+""C""gfe ede|""C""edc cBc|""G""dBG ""D7""DAF|""G""GAG G2||
+P:B
+B/2c/2|""G""ded dBd|""G""BGG G2A/2B/2|""C""cAc ""G""BGB|""Am""FAA ""D7""A2B/2c/2|
+""G""ded dBd|""G""BGG GBd|""C""efg ""G""dBd|""G""BGG G2||
+P:C
+B/2c/2|""G""ded dBd|""G""BGG G2A/2B/2|
+M:4/4
+L:1/4
+""C""cA ""D7""c2|""G""BG ""Em""B2|""Am""FA ""A7""A2|
+""D7""A2 -AB/2c/2|\
+M:6/8
+L:1/8
+""G""ded dBd |""G""BGGGBd |""C""efg""G""dBd |""G""BGG G2||",1000,SKIPPED,0,-1,,0,0,0,-1,
+80,,0000,SKIPPED,0,-1,,0,0,0,-1,
+81,"M:4/4
+L:1/8
+K:G
+(3DEF|""G""(3GGGG2 (3GGGG2|""G""BGBd gdBG|""D7""(3DDDD2 (3DDDD2|""D7""FDFA dAFD|
+""G""(3GGGG2 (3GGGG2|""G""BGBd g2ag|""D""fafd ""A7""ege^c|""D""d2d2 ""D7""d2 c2|
+""G""(3dddd2 (3dddd2|""C""efgf edcB|""Am""cded cBAG|""D7""FGAG FDEF|
+""G""(3GGGG2 ""G7""(3GGGG2|""C""(3GGGG2 ""Cm""(3GGGG2|""D7""F2fe dcBA|""G""G2g2 G2||",1000,SKIPPED,0,-1,,0,0,0,-1,
+82,"M:3/4
+L:1/4
+K:C
+P:A
+A/2B/2|cGE|C3/2D/2E|FAd|BGB|cGE|F3/2G/2A|GcB|c2:|
+P:B
+c/2d/2|ece|dBG|cAc|BGc/2d/2|ece|dBG|cBA|G2||
+how many bars are here
+what is the emotion here",1101,BOTH,1,1,True,0,1,1,1,True
+83,"N:/f2Play AABA last time/fP
+M:2/4
+L:1/4
+K:A
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2E/4F/4|\
+E/2C/2 ""E""B,/2^B,/2|
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2D/2|\
+""E""C/2B,/2 ""A""A,:||:
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2c/4e/4|\
+""A7""c/2=G/2 ""C7""=c|
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2A/2|\
+""A7""=G/2F/2 ""D""D:|
+what is the emotion here",1100,EMOTION,1,1,True,0,0,0,0,True
+84,"M:4/4
+L:1/4
+K:G
+P:A
+DE \
+P:B
+|:""G""G2 AG|ED EG|B3/2d/2 gB|""D""BA Bd|
+""C""e3/2f/2 ge|""G""dB ""D""cA|[1""G""G3/2A/2 BG|""D7""=F2DE:|[2""G""G3/2B/2 ""D""dD|""G""G3z||
+P:C
+|:""Bm""d^c ""C#""Bd|""F#""^cg fe|""Bm""d3/2^c/2 ""E""Bd|""A""^cA A2|\
+""Am""c3/2B/2 ""D""Ad|""G""Bd ""Em""eg|""A""ag fe|""D"" d2 DE:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+85,"N:""From A.Train's song""
+M:3/4
+L:1/4
+K:D
+P:A
+""D""a2f|d3/2e/2f|""G""B3/2c/2d|""A""A2g|""D""f3/2e/2d|a2A|""E""B3/2c/2d|
+""A""e3|""D""a2f|d3/2e/2f|""G""B3/2c/2d|""A""A2g|""D""f3/2e/2d|a2A|""A""B2c|""D""
+d3:|\
+P:B
+K:A
+""A""e2a|""E""g3/2a/2b|""A""a2e|""D""f3|""A""e2c|""E""d2B|""B""c3/2B/2A|
+""E""B3|\
+""A""e2a|""E""g3/2a/2b|""A""a2e|""D""f3|""A""ece|""B""a2f|""E""e3/2f/2g|""A7""
+a3||
+what is the signature key here
+how many bars are here",1011,ABC,0,0,True,1,1,1,1,True
+86,"M:4/4
+L:1/8
+K:Dm
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FA|""F""c2cd A2GF|""C""ECCC C2""A7""FE|
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FG|""F""ABcA ""A7""GFEF|""Dm""E2""Gm""D2 ""Dm""D2||
+what is the signature key here
+what is the emotion here",1110,BOTH,1,1,True,1,0,1,1,True
+87,what is the signature key here,0010,SKIPPED,0,-1,,1,0,1,-1,
+88,"M:4/4
+L:1/8
+K:G
+P:A
+(3def|""G""gdBd GB(3def|""G""gdBd G2AB|""Am""cAFA ""D""DFAc|""C""ed^cd ""D7""B2(3def|
+""G""gdBd GB(3def|""G""gdBd G2AB|""Am""cAFA ""D7""DFAB|""G""A2G2 G2:|
+P:B
+GA|""G""BGFG DGFG|""G""BGFG D2AB|""Am""cAFA ""D""DFAc|""C""ed^cd ""D7""B2GA|
+""G""BGFG DGFG|""G""BGFG D2AB|""Am""cAFA ""D7""DFAB|""G""A2G2 G2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+89,"M:4/4
+L:1/4
+K:A
+""A""EA/2B/2 E/2c/2B/2E/2|c/2B/2A c2|""A""EA/2B/2 E/2c/2B/2E/2|c/2B/2A A2|
+""A""EA/2B/2 E/2c/2B/2E/2|""A""c/2B/2A ""E""B2|""A""c/2e/2a a=G|""D""F/2A/2B ""A""A2:|
+""E""B/2^A/2B/2G/2 E/2G/2B/2c/2|d/2B/2c B2|""D""A/2G/2A/2F/2 D/2F/2A/2B/2|\
+""D""=c/2A/2B ""A""A2|
+""E""B/2^A/2B/2G/2 E/2G/2B/2c/2|d/2B/2c B2|""A""c/2e/2a a=G|""D""F/2A/2B ""A""A2|
+how many bars are here",1001,ABC,0,0,True,0,1,1,1,True
+90,"N:/f2Play AABA last time/fP
+M:2/4
+L:1/4
+K:A
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2E/4F/4|\
+E/2C/2 ""E""B,/2^B,/2|
+""A""C/2C/4D/4 E/2E/4F/4|E/2E/4F/4 E/4D/4C/4D/4|E/2E/4F/4 E/2D/2|\
+""E""C/2B,/2 ""A""A,:||:
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2c/4e/4|\
+""A7""c/2=G/2 ""C7""=c|
+""A7""=G/2G/4A/4 c/2c/4e/4|c/2c/4e/4 c/4A/4=G/4A/4|c/2c/4e/4 c/2A/2|\
+""A7""=G/2F/2 ""D""D:|
+what is the emotion here
+what is the signature key here
+how many bars are here",1111,BOTH,1,1,True,1,1,1,1,True
+91,"M:4/4
+L:1/8
+K:D
+P:A
+FG|""D""(3ABAFA dfaf|""G""gaba gfed|""Em""cded cdBc|""A7""ABGA FFG^G|
+""D""(3ABAFA dfaf|""G""gaba gfed|""A7""cbag fABc|""D""d2f2 d2:|
+P:B
+e2|""A""(3efece aec'e|""E7""be^ge ""A""aebe|""A""(3efece aec'e|""E7""be^ge ""A""a4|
+""A7""(3abaga eac2|""D""(3abafa daA2|""G""(3gagGg ""D""(3fgfAf|""A7""eABc ""D""d2:|
+what is the emotion here
+how many bars are here",1101,BOTH,1,1,True,0,1,1,1,True
+92,,0000,SKIPPED,0,-1,,0,0,0,-1,
+93,,0000,SKIPPED,0,-1,,0,0,0,-1,
+94,"M:4/4
+L:1/8
+K:G
+P:A
+(3def|""G""gdBd GB(3def|""G""gdBd G2AB|""Am""cAFA ""D""DFAc|""C""ed^cd ""D7""B2(3def|
+""G""gdBd GB(3def|""G""gdBd G2AB|""Am""cAFA ""D7""DFAB|""G""A2G2 G2:|
+P:B
+GA|""G""BGFG DGFG|""G""BGFG D2AB|""Am""cAFA ""D""DFAc|""C""ed^cd ""D7""B2GA|
+""G""BGFG DGFG|""G""BGFG D2AB|""Am""cAFA ""D7""DFAB|""G""A2G2 G2:|",1000,SKIPPED,0,-1,,0,0,0,-1,
+95,,0000,SKIPPED,0,-1,,0,0,0,-1,
+96,"M:4/4
+L:1/8
+K:G
+P:A
+D2|""G""GDGB ""D7""AGAB|""G""G2gf ""C""gedc|""G""(3BcdBG ""D7""(3ABcAF|""G""GFGA ""D7""GFED|
+""G""GDGB ""D7""AGAB|""G""G2gf ""C""gedc|""G""(3BcdBG ""D7""(3ABcAF|""G""G2G2 G2:|
+P:B
+Bc|""G""dedc ""Em""B2(3GAB|""Am""cdcB ""D7""A2Bc|""G""dedc ""Em""B2g2|""A7""agfe ""D7""dcBA|
+""G""GDGB ""D7""AGAB|""G""G2gf ""C""gedc|""G""(3BcdBG ""D7""(3ABcAF|""G""G2G2 G2:|
+how many bars are here
+what is the emotion here
+what is the signature key here",1111,BOTH,1,1,True,1,1,1,1,True
+97,,0000,SKIPPED,0,-1,,0,0,0,-1,
+98,"M:4/4
+L:1/8
+K:Dm
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FA|""F""c2cd A2GF|""C""ECCC C2""A7""FE|
+""Dm""D2DE DCA,C|""Dm""DCDE F2""C7""FG|""F""ABcA ""A7""GFEF|""Dm""E2""Gm""D2 ""Dm""D2||
+how many bars are here",1001,ABC,0,0,True,0,1,1,1,True
+99,"M:4/4
+L:1/4
+K:F
+P:A
+D/2E/2|""Dm""F/2G/2F/2E/2 Dd|""Dm""AA ""C""G""Dm""A|""C""E/2G/2E/2D/2 CD/2E/2|\
+""A7""FG ""Dm""D:|
+P:B
+A|""Dm""dd de/2d/2|""A""^cA AA/2=B/2|""Am""""C""cc cd/2c/2|""G""=BG G2|
+""Dm""F/2G/2F/2E/2 Dd|""Dm""AA ""C""G""Dm""A|""C""E/2G/2E/2D/2 CD/2E/2|""A7""FG ""Dm""D:|
+what is the signature key here
+what is the emotion here
+how many bars are here",1111,BOTH,1,1,True,1,1,1,1,True

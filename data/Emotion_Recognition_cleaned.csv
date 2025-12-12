@@ -1,0 +1,2387 @@
+solution,prompt
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+A3G,2DG2< d2[e2A,2] |EAf aB,0<[a0f0] A3[f3F3] |[F,3e3]E3C3[c2G,2] |DGB2c2A,2 EAd e |d0B,3f2 [A3e3][d3F3][F,3d3] |
+E3C3A2G,2 DGd3 |[e0A0A,0] EAf3a2[B,0a0]f2A3 |[A3F3f3][F,3e3]E3C3 |[c2G,2]D((3G2B6c0)[A,0A0]E |
+Ade [d0B,0] f2[A3e3][d3F3] [d3F,3] |E3C3 [G,2a2]>D2 | ((3G2e0G,,6) [A,2f2]>E2 A2a3 [B,3d3] |A3[e3F3A3] F,3 f3E3 |
+C3 [a2G,2]D G2e2 f3 A,2 |E A2a3 [d3B,3]A3 |[c3F3] [c3F,3][d3E3][e2C2]d3 [G,2f2] |DG2a3[A,0e0A0]EA |
+d3[d3B,3]A3 [e2F2]d0F,0f2 |[e0E0]d2< C2 e2d3[G,2f2]DG2 a3 |[e2A,2]>E2A2< d2[B,3d3] |A3 F3B48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Eb
+E,,4[E,0B,,0B,0F,0]E,2[g4B,4G4] |[g0G0B,0B,,0] F2[F0B,0B,,0] E,,2[B,2E2] B,,,2 |B,2[E,,,0E,,0][G0B,0]E,,7 |[B,0E,0E0]E,,4[G,0E0] |E,,4G,2E,,2 [G,0D0] E,,2 |
+[G,2B,2]E,,2G,2[gG,G] E,,2[g0G0G,0] E,,2 |F2G,2 [G,0F0G0]E,,2[G,0G0E0][E,,,2E,,2][G,0B,,0] | [B,,,3F3] B,,2E,3E,2B,,2 |E,2E2 B,,2E,2 [D0E,0]B,,2E,2 |
+B,,2F,2[B,0B,,0B,,,0] B,,2F,2 B,,2 |[B,2F,2][B,0G,0]B,,2[G0B,0B,,0] B,,2[F2B,2] | B,,2[F0B,0G,0]B,,2B,,2[G,,0E0]B,,,2[A,,,4C4E4A,,4] | A,,4 [G,0E,0]A,2[A4C4][C0A0G,0] |
+[G4C4][G4C4]F2B,,2 |[B,0F0D0B,,0B,,,0][B,,0B,0] [D,0B,0]< [D0B,0] | [F0B,0B,,0][G2B,2][G4B,4] | [F0B,0]F,,2 [B,2E2][E,,0E,,,0][B,2E2][E,,0E,,,0]B,2E,2 |
+E,3 F,2B,,,2 E,2F,2 B,2 |B,,,2 E2[E,,2E,,,2]F2F,2[E,,,2E,,2][E0B0][E,,0E,,,0] |E[E,,2B,2]F4E3 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bbm
+e_c2ae' a'4 [g0G,0] [dB] D,2<B,,2G,,3 | [f2F2B2] [d2G,,2G,,,2][G,,2f2G,,,2d2F2]B2 [f0F0B0] d2[G,,0e0F0d0]f [F2D2B,2][c0G,0]<d0e0[D0F0] [G,0B,0] f |ef0[d0B0G,,0D,0]gab0 [G,,2G,,,2c'2]G,2[DB,] [f0d0B0]G,[DB,]G, [g0G0] [F2B2D2d2B,2] |G,[DFB,] [a2d2B2][G,,2D,2][e0c0E0A0][F,,,0F,,0]F,,0F,[C0E0A,0] | F,C0[A,0c0A0]F,[C2E2] A,2[F,0e'0]d'E2[A,C]c'b a gF,,edc0[F,,2F,,,2] |
+F,[C2A,2] F,[c2E2C2A,2]d2[e0=E,,0_c0E,0A0_E0]C,2 |=E,,2[f2F2_E,,2B2]d2[E,,2f2][B2d2][F2f2B2d2]E,,0F0[Bd][f0B0d0][D2B,2] |[c0E,0]d[DB,e]G,fg2 a b[c'E,,]d'e'[f'E,,]E,,,e' d'c'0E0b[a0B,0G,0]gfe d | cB,BAE,[GG,]F0[D0B,0][G,0F,0] E,D[B,3G,3]e2 [E,,2d2][e2c2A2E2][F,,,2F,,2] |
+F,[CA,]e F, d A,CF,e0<[A0E0c0C0]A,2 F,[A,0F,0E0]a3 |[F,,0a0A0f0]d2[B,,2B,,,2] AB[A,,,2A,,2d2]Bd[D,0D,,0e0] | c2de[f0E,0E,,0]ga2 c' d'0e'[f'2d'2f2b2G,,2]D,2 [f'2G,2f2b2d'2] D,2[f'0d'0f0b0]< [e'0e0G,,0] |[d'0f'0f0b0][F2D2B,2] c0 G,d0e0[F0D0][G,0B,0f0]ef [G,G,,] D, g0 ab[c'0G,,0G,0D,0] G, |
+DB,[f'0d'0f0]bG, [DB,] G,[g'0d'0b0g0]D2[F2B,2]G, [DF]B,[a'2a2d'2]b2[G,2D,2G,,2] |[F,0e'0c'0C,0F,,0][e2a2] F,[C2A,2][F,A,]C0 [A,0c'0]< [c0a0e0] F,[C2E2A,2][e'0F,0] | d' C E[c'A,]b2agf2[F,F,,] ed[c0C,0F,,0]F, [C2A,2]F,c'2[c2C2F,2][E2A,2] |d'2d2[e'0_c'0a0e0=E,0E,,0]C,2E,,2[a'2a2d'2=A,,2E,2A,2D,2e'2][_a'2a2d'2=A,2][D,2e'2] |
+[a0a'0d'0]=e'2[g'0g0=A,,0]<[_a'0a0d'0]A2[D2E2][e0=A,0]<[g0_a0] A0< [=a0D0E0A,0]_a=aA,,A,_c'd' _e'0 | [=A,0=E,0A,,0e'0] D,d'_e'0<A,0=e'g'[DE] a'0 _a'=A,0a'[E0D0_c''0]<d''0A,0_e'' =e''0 _A2 [E2D2]=A,[_A0E0D0] [g'2g2] |[=e'2=A,2E,2]A,,2e2 [g'0_C,0G,0c'0G,,0g0_e'0]C[EG] g' gC=e'[G_E=e]C [g'0c0c'0_e'0g0G0] E2 |_C[E0G0c0][a'3a3][C0C,0a'0G,0a0]<C,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:A
+[B2E2]c2[c2F2]D,2 [E2B2]A2 [D,,0E0A0] |D,2[B0E0]C,2[A0F,,0] C,2F,2 | G,2[E2A,2] F,2[E2B2][c2A2][A2c2]F,2 | [E2B2][F,,0A0] [e2A2]F,2[c0E0]E,2A,,2 |E,2A,2 C2E2 A,2[A2E2][A0E0] |
+[B0E0]A,2 [c0E0]A,,2 [A,,0A0E0][E4B4] |E,,2B,,2E,2 B,2[E2G2] E,4 |E,,2[B0E0]E,2[c4E4] | [C,,0B0E0]A2 B4 [b0B0d0D,,0]A,,2D,2 |
+B2[d2b2] D,2A2 A,2[b0d0]D2 |[a0d0][f0A0] D2A2 [b4d4][b0c0F,,0] |C,2F,2c2[b2e2] F,2c2 C2 |[e0b0F0][e2a2c'2][c'0a0e0]F2F,2 |
+[c2a2][c0a0] A,,,2A,,2A2c2[A0e0] | A,,2E,2 [a2c2][c'0e0] A,2[e2A,2]A,,2 |[b2e2]A,2 [b4e4] [E,,2a2][B,,2g2][e0E,0] |B2A2G2[E,0E0] B,2C2 E,2 |
+A,2C2[C,,0B,0A,0E0]A,2A,,2 | [D,,0E0A,0]F2 A,,2D,2[F,0A,0]E,2[A,2F2] |D,0[A,2F2][A,0F0] D,,2A,2 [A,2E2][A,2E2]D,2 |E,2C2 [E,,0E,0G,0B,0]E,,2 E,2E,,2G,2 |
+B,,2B,2[E,0C0]D2 B,,2E,2 C2 |C2E,,2E,2B,2[A,0F,,,0]F,,2 | E,2F,,2 E,2C,2B,2C2D2 |[C,2E,2]A,2 [F,,2C2]C2 F,,,2E,2B,2 |
+[B,0C,,0E,0]C,2E,2B,2 C2C,2 E,2 |C,,2B,2C,2A,2 C,,2A,2 C,2 |E2A,,2[D,,0F,0A,0]A,,2F2D,2 | F,2D,2 [F2A,2][F2A,,2][D,,0F0A,0]A,,2D,2 |
+[A,2E2][A,2E2] A,,2E,2 C2[B,,0E,,0B,0G,0E,0]E,,2 |E,2E,,2 [E,,0E,0G,0]B,,2 B,2[B,,0C0] [B,2D2] |[B,,0E,0]G,2[C2G,2][C2G,2] E,,2E,2 | B,2[F,,,0A,0E,0] F,,2E,2F,,2E,2C,2 |
+B,2C2 D2E,2A,2[C2E,2][C0E,0] |C,2E,2 B,2[C,,0B,0E,0] A,,2C,2E,2 |C2C,2E,2C,,2 B,2A,,2 E,2 |C,2A,2C,2e0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bbm
+[f0B,0F0B,,0B0d0][B0b0D,0]< [A,0A,,0B0d0]f2[G,,0F0] |FB0[d0F,,0]f3 [D,2F2][F,0F,,0b0]B2[B0F,,0F,0f0d0] [G3g3] |[F,2a2A2][b0D,0B0][F,3c3F,,3]b3[E,0c0c'0E,,0] | E,3c2[f0B,,0][d0a0d'0f0]E,2 [B,,2d2][a0E,0A0] |[d0B,,0][a3E,3][A,,0A0A,,,0g0] A,,3A2[E,0a0A0e0A,,0]=A2 |
+A,0[g3G3] [=a2A2c2][e0_A,0]A,,3[E,,3E3=A,3] [_A,,3C3A,,,3] |[B,0G,,0G,,,0D0][G,,0G,,,0]G,2 B,2[G,0D,0D0] |G,2B,3[D2D,2] [B,G,,A][B,2A2][B,2F,,2A2] |[D,0D0]<[D0F0B,0] F,2[b0D0B0][c2D2] D, |
+[c2D2]F,2[E3e3F,,3] [E,0e0B0E,,0]E,3 |[B,0g0]G2E3[f0G0] [G3=e3] B,,2[f2_E,2] |[E,,2g2]df0[A,,,0A,,0] a2A,,3E,2G,3 |E2 G3g3b2gb c'0 |
+e'24 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+[E,,,0E,,0][G0g0B0][e0B0g0]E2G2[G,0G0B0]< [G0B0B,0][B0E0][G2B,2] |[B0G,0][G0E0] B,0<B0G2[G2G,2E2] [B,2B2][f3F3D3D,3] |B,3[A3a3] g0< [c0e0C,0G0C,,0] [C,0C0][e3E3] |[g3G3][d4d'4D4]g3 |[c'3c3]C3 [g3G3] [a0e0A0]< [c0F,,0F,,,0]A0C,2 |
+[g0G0c0C,0]A,2[c0g0F,,0][F,0G0][G2=E,,,2E,,2F,,,2F,,2] f2 [B2F2][_E,,,3f3F3E,,3e3] |[E,3B,,3] [D,,0D,,,0]< [B,,0D0][B,2B2][B0B,,0B,0B,,,0F0] |[f0D0B,0F0][F,2B2] [B,2D2F2] F,2[f0B,0B0][F,2D2F2][F0B,0F,0D0][B,0B0G0]g0[F,D]=A,[B,2G2A,2F,2]D2 | [F,0G0A,0g0D0B,0]<[a0A0][D2B,2F,2A,2] [B,0b0B0F,0D0A,0]<[c'0c0A,0][F,2B,2D2]d'0[B,0D0A,0F,0d0] [e'2A,2D2][B,2F,2e2][f'2f2] [b'2b2] |
+[E,,,3E,,3e'3a3]a'3[g'0g0]E2 [Ee]B,2[G2G,2] f2 |g2[D,,,0D,,0b0d0]d2 [D2D,2][D2d2][B,2B2] |[F,2f2]g2[e0c0C,,,0C,,0] E,3G,17 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bdor
+[C0e0c0E,0]^G,2[e0C0G0E,0c0][G,2G2=g2C2] a2A,,2 | A,2[c'2C2e2] E2[c2a2F2] F,,2[g0F,0] E,,2 |[g0d0E,0] [^G,2a2][=g0B,0]< [d0g0B,,0]eB,,2 [B,2d2] |[c0^G,0G0]< [a0B,0]A,,2 A,2[c'2e2C2] E2 |[c'2e2F2]F,,2F,2[c'0e0E,,0][d'2E,2f2]^G,2 |
+[c'0B,0e0][B,,0b0d0]B,,2[a2B,2c2][^g2B2G,2][a2B,2c2] |A,,2A,2c'2[e2C2]E2[c2a2F2]F,,2 |F,2[g0E,,0][a0E,0d0][g2^G,2]B,2[=g0d0B,,0] e |B,,2[B,2d2][c2^G,2][B,2e2][D,2c2][d2F,2] |
+A,2D2E2C, F3A,2A2B,,2 |[B2A,2]cD BA,2G,,2[G0D0D,0]B, G |[D2D,2][G,,0g0][^F,,0F,,,0][d0F,0] e[B0E0B,0][E0e0B,,0B0]B,,,2 |[^F,2E2F,,2][D,2D2D,,2B,2][A,2^D,2D,,2D2][E,,4^G,4E,4=D4][E,,0C0E,0E,,,0G,0] |
+[E,,0C0^G,0][F,,0E,,0F,,,0E,0][E,,0C0G0G,0]E,,,2 [E,,2E,,,2=g2G2][a2A2] | [c0A,,,0e0A,,0]<[c0c'0e0A,0] [a2c2C2][c2E2c'2e2] [F2f2][a0c0F,,,0] | [F,,2F,,,2]E,,,2 [E,,0c'0c0] ^g2[g0c0c'0]E,2 [a0G,0G0]<[B,0d'0d0g0] | [D2d2][e2E2B,2B2] [^G,2=g2^G2][E,2A2a2] [c0c'0A,,0A,,,0e0]<[A,0a0] [c2c'2e2C2] |
+[a2E2] [F0c0c'0e0][a2F,,,2] [c'2c2e2F,,2][E,,,2a2] [E,,2c2c'2] |[E,2d'2d2] [^G,2G2][B,2^d'2d2][=d'2d2D2][c'2c2B,2][G,2G2] |[E,2c'2][A,,,0A,,0^d'0] e'[A,2g'2]d'C =d'c'2E2[d'2F2] |[c'0F,,,0][a2F,,2]g0E,,,2[E,,0E,,,0c'0][E,0d'0][^G,2G2] |
+[B,0^d'0]=d'[c'2D2] a[g2B,2B2]^d[=d2^G,2G2] c2[E,2A2]=G[D,,2d2c2F2] |[c2e2F2][c2A2][f4c4F4e4] [e0F0D,,0c0D,,,0]_B2[A2^D,,2D,,,2] | [^G4c4E,,,4E,,4f4] =G2G2 G2[G0E,0] | [G0D,0][G2B,,2] [A4A,,,4A,,4] A,2C2 |
+[E2e2]F2 [C2E2A,2F,,2][F2F,2] [E0^G,0G0E,,0B,0]E,2 | [^g0G,0G0]<[a0A0B,0] [B,,0B0b0B,0][BB,,b][cc'] B,[Bb][G2G,2][aA] | B,0<[B0b0][A,,2A,,,2c'2c2] [a0A0A,0]<[a0A0]C2 [E2e2][F2f2] | [E2C2A,2F,,2e2] A2[F2F,2] [E0E,,0^G0G,0B,0][E,,2E,2] [G0B,0D0E,,0] E,,,2[E,,,2E,,2] |
+[B0E,,0E,,,0E0^G0] D2E,,3B,,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:F
+[F0F,0C,0F,,0][e0E0C,0]F,,3[f0F0F,0]F,,4 |[c0c'0C,0F,,0][F,4c4F,,4][c0g0B,,0]B,,,2B,,2 |[a0c0][g0c0] F,4 B,2c2 [g0c0C,0C,,0] |C,2[a0c0][c2g2]G,2[C2C,2]c2 |f2[a0c0][F,2F,,2] C,2[a0c'0c0] C,2[c0g0E,,0]C,2 |
+[e'4e4E,4E,,4][f0D,0D,,0a0f'0c'0]A,,2D,2[C2E2] | [C,,0F0C0]A,,2 C,2[c0C,,0]< [g0B,,0B,,,0]B,,2[a0c0] |[g2c2]F, [b2B2] B,2d f2[b0g0C,0B0C,,0]C,2 |[a0B0][g0B0]G,2[b0f0B0] C2[c2a2]e2a0 [c0e0] F,,2 |
+C,2A,2F,2B,2C,2[A,2F,2] C,2 |[F,0C0A,0F,,0][F,2B,2]C,2[c0F,0]C,2 |F,,2[c2g2C2][g0c0B,,0]B,,,2B,,2 [a0c0]<[g0B,,0c0] | F,2B,2 B,,2[B,,2c2][c0g0]C,,2C,2[a0c0] |
+[g0c0]G,4C2 c2[c2g2F,2] C2 |[a0F0][c'0c0]E,2C2[g4c4E4E,4] | [f0D,0c0D0]A,2 E2F2A,2 [c0C,0G0] A2A,2 | C2[c2C,2] [g0c0B,,0]F,2 [c2a2][g0c0] D3 |
+[B,,2B,2]c2[C0c0g0C,0^G,0][a0c0] |[g0c0][C0B,0C,0][f4c4][f0F,,0F,0c0] |[B,0F,0F,,0]<A,0[F,4F,,4][B,0F,0F,,0] |[A,48F,48]F,,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+E2A2B2[c0C0C,0E0A0]A,c[B,0A0] | [E0A0A,0]B,2 A,2[B,0c0E0A0][D2A2d2F2]D,,2A,,2 |F,2D,2 [D0d0A0A,0F0]D,2 [E2A2c2]E,2[A0B0E,,0E0] |B,,2G,2 [E,0B0E0]B,2 [A0B0]B2 [A,2A2E2c2] |A,,2E,2A,4 [B,0e0A0][E,2E2] [A2A,2] |
+B2[C0C,0c0A0E0]A,2B,2[A,2A2E2]B,2 | [A,0A0]<[C0c0E0A0] [D,0D0A0F0d0]D,,2A,,2[F,0A0]D,2 |[D0d0A,0A0F0]D,2 [A2c2E2]E,2 [A0E0B0E,,0]B,,2[E2B2] |E,2[E,0B0G0E0] A2G2 [E0A0C0A,0]A,,2 B,2 |
+C2[E2E,2][A4E4C4A,4] B2[A2A,2] [c0E0A0A,,0] |E,2A,2[B,0A0E0][A0A,0][c0A0E,0E0]A,2 | [D0F0A0d0]<[A,,0A,0] F,2A,2D2[D0A,0F0d0A0]D2 |[c0A,0E0A0]F,2 [B,0G0G,0B0A,,0]B,2 [G2E2][B,0B0E0G0]G,2 |
+[B,2A2]B2 [E2c2A2A,2]A,,2 E,2[E2A2A,2c2] [E,0e0] |[E0A0G,,0e0][G,2B2][E,2E2B2G,2]A2 [C0c0F,0E0F,,0A0]C,2 A,2 |[A2E2][A2A,2][c4E4C4A4][D0A0F0d0]_G,,2 | _G,2[E0B0] F2[G,,4F4G,4D4A4d4D,4]c2B,,2 |
+[B0E,,0A0E0B,0]B,,2 [E0B0]<[B,,0B,0] [B,0G0E,0E0]B,,2[E,,2B,2] |=B,,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+D2[d0G,,0]C,,2 G,,2E,2[D3d3] |[a0D0d0]< [A,,0A0]A,,2F,2 [D3d3] [a0D0d0] |[E,,A]B,,2 G,2B5E,, B,,2 |F,6[D0d0][C,,0d0]E2G,, E, |[d3D3] [dD]D,,0<[d0A0]A,,2[A2F,2][A0A,,0F,0]B A | GA2E,,0BB,,2G,2 D2>D2 |
+E,,B,,2 F,2[B,,3D3d3][B,,0D0d0][d0C,,0] G,,2 |E,2[D0d0G,,0][D2d2] [e2D,,2]A,,2F, |[A,,3D3d3] [A,,0D0] d2[E,,dA]B,,2 G,2B5 |E,, B,,2F,4EF2 |
+C,,0GG,,2 E,4 AGD,,2F | A,,2F,2<D2D2 [E,,0F0]B,,2G,2 |B,,2G,2 B,,2[E,,8B,,8] |[D0d0] d0< [G,,0C,,0E0]G,,2E,2[D3d3] [D0d0] |
+[D,,0A,,0][A0d0]A,,2 F,2[D3d3][D2d2][AE,,] B,,2 |G,2B5 E,,B,,2F,3 |B,2 D2[d2C,,2] G,,E,[c0G,,0]E,2 |E,2[D,,0A0] A,,[A0F,0][A,,0A0] BA0F,2G2A |
+E,,0 BB,,2G,2D3 D2E,,B,,2 |F,2[D3d3][B,,0D0d0]d0[G,,0C,,0] G,,E,2 [E,0D0] |[D2d2] [e2D,,2]A,,F,2[D0d0] D2 |[E,,A]B,,2 G,2B4E,, |
+B,,2F,4[E0e0]F2[C,,0G0]G,,2 E,3 |[G,,0A0][G2G,,2][D,,F] [E0A,,0]F,2[A0D0d0] |F,[d2D2][d0E,,0F0]B,,2G,2 B,,2G,2 B,,2 |E,,2 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[e0E0C,,0][C0c0C,0] [G,0C0C,,0]C,2[A,2F2F,,,2F,,2] F,[F,,2F,2]<[G2G,2C2G,,2G,,,2] |[A3C3A,3A,,3A,,,3][D0F0d0A0D,0]D,,3 D2[A,2F,2][D,0D0f0] |A[ADD,] [GA,F,][f2F2][G3G,,3][A0B,0]D2<G,2 |G,[B,0B0D0]A2[A0E0]<[C,0C,,0] [A0E0]<[c0G,0E,0][A0C,0C,,0] |E,[G2C,2]<[E,2G,2][A,2F,,,2F,,2C2] F,[F,,2F,,,2][G,3C3G3G,,3G,,,3] |
+[C3A3A,,3A,3]A,,,3[D,0A0D0D,,0d0F0] f[F,0A,0A0][D,0f0] | [AD,][D,A][GF,A,] [F2f2][G,,0G0]<[A0B,0D0]G,3 |[G,G][B,0D0B0] [dAa][^F,,0A0d0a0]<[A0a0d0][A,0b0F,0B0][a0A0D0D,0] |[d2D2D,2][A3^F,3A,3F3F,,3][g3G,,3B3G,,,3d3][G2G,2][c3a3A3][=F3F,3] |
+[G3c3C3C,3] [B0B,0D0]< [G,0G,,0G0][G,0B,0] D[B,0B0]((3D2G2B2) [d0D0] | GBdGB d2 g[B0G0g0G,0b0d0] [B0G0] g2[A3f3a3F3c3F,3] |[gGcC,C][gG] g2 C,[G,,,0G,,0G0B0F0][B2F2G2] [B0F0G0]<[c0d0D0] |[dB,BF]G,2 G[e0c0][C,0C,,0][G2c2e2][Gec][G0c0e0]E2 f |
+[g'0g0]C |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+[B0F0F,0]B,3D3 [B2F2]G0<B0[B,0e0E0]g2 |gB3BE,[E,0^f0e0F0C0] |B,2>E,2B [C0A0f0] D,2>f2 f3 A,2 |g[G,0B0D0F0]cd2D4 |d[C,0B,0c0E0]B B3d3 |
+[c0F0][F,E] B2>B2 C2<c2 c0 | d[B,0B,,0F,0] f5B,,3 [B,5E5C,5G,5] |[F3B,3D,3C3]B3[B,0E0E,0G0g0] |BB,0[B2G2] [B2G2][c0C0F0F,0A0C,0] |
+[c0a0f0F0] [g3E,3e3A3] c3[C5f5D,5A5] | d3[F5F,5=B5G,,5G,5] [A,,0A,0c0][d3F3B,,3G,3] |[e0G0] [B,4C,4] E4[B,0E0C,0G0] |[C,3G,3E3][B,3G3][C,3B3] |
+ff[CEF,] f[C0E0F,0f0] ff4 |F,,3 [b0F,0B0]ag f[B,,0B,0F,0] f3 |[F,3f3]C0[^F0=f0B0D,0]fedc | A,3B0D, [d0F0][G,,3F,3] [D,0d0][B,3d3] |
+[B,0d0C,0G0=E0] dcG,0B BB,2 g |f[B,2C,2e2E,2]>g2f2< G,2[EF,g] f4 |[f0C0]fE2<c'2b[B,B,,F,] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bbm
+[a'0d'0d0F0]< [D,0F,0D,,0][a'0a0f'0A,,0]fF0 [D,0F,0d'0] [F,A]d0[d'0D,0F,0]f[F0E,0]d' [a0A0] d[aA,,]fa'0<[D,0F0F,0]d'A a0< [d0f'0] [A,,E,] |f[a'0D,0A,,0F,0]A[a0f'0A,,0] f[d'0e'0D,0F0][Aa][F,0D,0a'0]f F0 [F,d'] [A,,D,]Ad0<[A,,0a'0][D,0F,0a0]C,f[F0F,0D,0a'0] a2 |f'2E,fF0F,0[D,0B,,0d'0]B0A d0< [D,0f0][F,,f'][D,0F,0f0][F,0e'0B,,0b0D,0]A [D,0F,0d'0]< [d0B,,0]f[E,0b0]<[D,0B,,0F,0F0]A[d'0B,,0d0]D, | f[b0D,0F,0]F,,AF,0<[f0B,,0F,,0D,0]d f0< [d'0B0] [D,0B,,0] F,A[f0f'0]<[D,0F,,0E,0d0]f[b0e'0][D,B,,F,]A[B,,0d'0b'0D,0F,,0]F,[f'0f0]<[E,0b0B,,0][F,0F0D,0] A | f0< [D,0D0F,,0]df0d'0<[a0b0a'0][D,0F,0]B,,[A0f0] df0G0d'0[a0a'0F0]A[d0d'0f'0]D,,0[E,,0E,0] f0< [g0e'0]G,,0D,0FA0<[b'0a0d'0][A,,0d0]F, f |
+[E,0F0] dA0[e0g0][D,,0D,0]df0[d'0D,0] F,0< [e'0F0]F,[a0A0]F,,0[d0E,0e0]f0<A,,0[d'0G0]a0F, [A0a0]< [d'0d0] f'0<[D,0D,,0E,0]f0<[e'0g0]G,,0<G,0FA0[b'0a0d'0] b0 | A,,f0[D,0F,,0]A,,0F,F[A0d0]D,0[G,0G,,0] f0<[d'0a0a'0]G,,[FF,][a0A0d0]D,,2d [d'0d0D,0] [FF,][A0a0][a0d0d'0f'0]<A,,0E,fd'0e'0 [D,FF,] |[A0A,0][a'0D,0F0]F,f[d'0E,0]F A a0<D,0D0df0<[a'0d'0]A,,0F,FA2 a2 E, [dA,,]d0a'0D,0<D,,0F,F[aA][E,0A,,0] d |[d'0f0]D,[F,0f0F0][A0a0]<a'0D,0F,0d [f0f'0]< d'0 [A,,0E,0]FA0a0<[e'0D,0]a'0df0[d'0A,,0] [D,F,] F[A2a2][E,A,,d][A0D0]a0[d'0d0D,0][F,F] [A0a0] |
+[a0d'0]<[E,0f'0A,,0]f0<[D,0d'0]a0<f'0[FF,][A0a0] [d''0d'0d0]< [F0F,0a'0a0]f[E,0d'0]f'0A,,FA0[D,0a0a'0]f'df0[A,,0D,0d'0][d''2F,2]F2[A,,2a'2a2f'2]d | [D,0D0d0D,,0d''0]< A0F[a0A,,0E,0a'0]<f'0d[f0f'0d'0D,0A,,0] [FF,][F,0d''0a0F0a'0A,,0]D,[d0a'0]<[E,0d'0D,0A,,0]f0f'0 F [A,,0a0]<D,0f'0dD,0<[F,0f''0][F0f'0d'0d''0]F E,0< [A,,0D,0F,,0] [a0a'0] | [f'0d0]<[B0D0b'0][B,,0D,0F0]d''d0[d'0D,0E,0f0f'0]F,, [f0f'0]<[f'0b'0b0D,0B,,0][F,F]A0<d''0[D,0F,0][F2f2] [b0b'0D,0F0F,0f'0]<A0[f0D,0B,,0]<[f'0d'0d0]f0[b0F0F,0][d'0d''0b'0] | A2[E,B,,][f'D,]f[D,0B0b'0B,,0D0d''0]f'0F f0< [E,0f'0D,0]f0<[b'0b0D,0f'0F,0]F [d''0B,,0D,0]< [F,0f0F0] d0 a'[b0b'0f'0D,0E,0]F[f'0D,0B,,0] |
+[b0b'0F,0F0f0d''0d'0f'0]F[f'2a2f2]E,d [G0G,0]< [D,0d''0D0] [e''0F0e'0]<d0[f'0D,,0d'0]<f0[g0f'0D,0G,,0]G,0 F [A0e'0]<[a0d'0d''0][a'0D,0A,,0][F0d0][g0A,,0G,0g'0f'0]F A | [D,0D,,0a0f'0] a' df0<[d'0D,0D,,0d''0][F,0F0]<a0g0[d'0f0][f'0E,0G,,0][D0d''0a'0][F0e''0]f'[d0a'0]d'0f'0[D,0E,,0]E, [A,,0g0g'0f0f'0]< [G,0G,,0D,0][FF,][d''0a0]d2[F2F,2] [f'0d''0d'0f0] |[FF,][d0d'0f'0]D,0D,,[d'0d''0f0][G,G,,][d0D,0][d'f'a'a]d[d0D0]<[d''0D,0]D,, [d'0d0a0a'0f'0] E,f0[d'0f'0]<[D0D,0a'0]F[e'0F0][d''0e''0] [D0d0D,0] |f'0d'0E,AA,[d'0f'0D,0a'0a0] f F2[F,2a2D,2d''2][d'0f'0][E,A,,] [F0A0D0]< d0 D,0 d''Aa0<[f'0A,,0E,0][f'0f0]<[d'0a'0f'0][D,F] |
+[e'0A0]<[e'0E0a'0A,0D0][e''0d''0]D,[f'f][f'0d'0][E,0F0] A [d'0f'0a'0D0D,0]f[F,0a0a'0]<[A,,0D0D,0d''0] [d0E,0d'0A,,0a'0f'0]<[D,0F,0F0][D0d''0][a2a'2]f' |d'0[a0f'0][D,0a'0F,0] [D,0F,0A0D0] D,8< F,8 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bbm
+B,0B2 ((3D2f0B,4) | D[e2B,2] D2<[e2B,2] d0 D[e2B,2] D |[e2B,2]f0 D[e0B,0][Dd]B3B,2[AD] |B0G,2((3D2f0G,4)D [G,3e3]D2 | [e2G,2][dD] [e2=A,2]C2 [A,2e2]C0f | [e0=A,0][Cd] [B2A,2][C_A] [B0B,0]((3D2d0B,4) |
+D [b'0b0B,0]D2 F,2[B,D]f'0[f0B,0] |DB,2[f0f'0D,0]D[B,0e0][d0D0][B2B,2] |AD[B0G,0]D[d0G,0]D[b'0b0]G,2 |DG,2D[=a'0a0]A,2CA,2 |
+C2=A,2C2A,2>C2[b0B0]B,3 | D[f'0f0B,0] D[e'0e0B,0] D[e'0F,0e0] [d'0d0] | D2<[e'2e2B,2] D2<[e'2e2]B,2 f'0< f0 D[e'2B,2e2][d'd] D |[b2B2]F,2[aAD][G,0b0B0]D [f'0f0G,0]<[f'0f0]D |
+[e'2e2] G,2D [G,0G0e0e'0][dd'D] [=A,2e'2e2]C2< [e'2A,2e2] |[f'0f0C0]< [e'0e0] =A,2[d'0d0]C[A,2b2][_aA]C[B,2B2b2] |D[d'0d0]B,3D[B,2b'2][=a'0D0]_a'F,2 =g' |[Dg'][f'0B,0]DB,2f0D[e2B,2] |
+[dD][F,2B2] A DB2 D[d0G,0] | D[b'0G,0] DG,2c''((3b'2=a'0A,4)C |F2=A2c48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+[a0F0c0^d0f0]A3 [b0c0e0]< [B0E0][c'0c0b0][B0e0E0F0]=d4[G0d0b0B0g0E0] |[c'0c0e0]G2[d'0e0c0]G4[g0e0G0C0c0] |C,2C,,9 | [C,0e0c0] G3[f0c0e0] [g0G,0E0e0C0]c4[A,,0g0A,0][e3c3]f2 |[A,,0A,0E0e0]C0c3 d2[D,0D0e0c0] [c2f2][A,,3A,3F,3]C3 |
+c2[G,,4G,4][G,4B,4B4][C,0G,0C0e0c0G0] |[f0e0]<[g0C,0G,0e0E0]C4c4 [A,,0g0A,0e0] c3[f0c0e0] | [A,0e0E0] C3 [A3c3]d2 [D,0C,0f0]< c0d2[c'0G,0c0E,0][F,0A,0b0C0][B3d3][g0c0G,0] E2 |[G,,4G,4][D4B,,4G,4B,4B4D,4][C,0C0G,0c0]e3 |
+[f0c0][g0C,0G,0E0e0C0]c4[A,,0g0A,0][c3e3][c0f0][A,,0A,0e0][E0C0][A0c0] |d2[D,0D0e0c0]f2 [A,3F,3] C3[c0G,0] | [G,,4G,4] [B,,0G,0D0B0B,0]<[C,0c0G,0C0] |[G,3C3C,3] G2[C,0C0A0] c2[A,,4A,4F,4]C4 |
+[C,4c4E,4G,4G4E4][C,4F,4c4A,,4A4F4][c9C,9G,9G9E9] | [F,0A0F0C0]B2 | c4 [G,9d9D9B9G9] |[G,0d0][E,0D0B0G0]c3 B2[A,,0A,0c0C0G0]<[E0E,0] |
+[A0F0F,0C0]B2c4 |[G,4d4B4D4G4] e4 | [A,0E0c0A0e0][c'2e2c2]E2[b3A,3E3e3B3][g0c0e0G0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:E
+B3[E,0g0]B,E F3[G0B0] |EF2GBa2E3g3 | [C,0a0]<[e0A0]A,2C B,2[E2C2]>A,2B,3 |[EC]Aa2A,3g2 [fD,] BB,((3D2C6D0) |F2>B,2C2 DFe2 |
+B,3d2[A,,0c0][EB] E,A,B,4[E8C8] |A,2B3 E,,0 | g0< [B0e0G0]B,,E,2<F,2[B,2G,2] E,F,2 [G,B,] |B[b0g0] [a2f2] E,g2e2[=D,,0a0] [e0f0^B0]A,,D,E,2 |
+[A,2F,2] =D,E,2F,2[c'2e2] A,2bd[ac] | =D,2g2B2[f0^D,,0B0]B,,2F,2 D,2F, B,2 |DF [e2B2][d3B,3][A,,0c0E0]BE, A, |B,2[C2E2]A,2<B,2[C7E7] |
+A,,E,A,5 B,4 | [C48E48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+[d3B,,3]F,2 B,2CD |F2[c2B,,2] F,2B,2C2B2D2F2 |[A2G,,2]D,2G,2A, B,D[G2G,,2] | D,G,A,2 [B,2F2]D2 [D,,0F0A,0]A,,((3D,2E,2F,2) |A,2 [G2D,,2]A,,2 D,2E,2[A2F,2] |
+A,2E0A,,2E,2A, B,((3C2E4A2) |A,2D E2A2 e2[d2B,,2] F,2 |B,C DF2[c2B,,2]F,B, C2 |[D2B2][D,2F2][G,,0A0]D,2G,2[A,2A2] B, |
+D[G,,2G2] D,G,A,2 [B,2F2]D2 [D,,0F0D0A0] |A,,((3D,2E,2F,2)A,2 [D,,0F0D0]A,,2[D,,0E0D,0G0] |E,2[F,2A2]F2 A,2[E0C0A,,0] E,2((3A,2B,2C2) |E2AA,2D EA2e2 |
+[d2G,,2]g2 [d'0D,0]d'[g'B,] d''[d''2A,2]((3g'2d'2d'2) |((3g2d4d2)F,,f [d'D,]d'[A,0f'0] | d''2[d''2G,2]f'd'd'f((3d2E,,2g2) |[d'B,,]d' [g'G,]d''2[d''2F,2]B,, g'((3d'2d'2g2) |
+d2[B,,0d0]f2[d'0F,0]d'[f'0D0]d''2 | [d''0C0]f'd'2d'2f d2[d0G,,0]g |[d'0D,0]d'[B,0g'0]d''[d''2A,2]f' ((3g'2d'4d'2) ((3g2d4d2) |F,, fd'0D,d' f'0 A,d''2d''((3G,2f'2d'2) |
+d' fdE,,0d g[d'0B,,0]d' |[g'0G,0]d''2 d''2 F,((3g'2d'2d'2)g2d2 | [A,,0d0]gd'd[g0E,0] d'2[e2A,2]g | e'2e2 [g0E0]e'2[e0A0]g2e'2 |
+e3 g4e'4 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+E,,2B,,2[E,0e0]B0G,B3 | E,2[E2B,2G,2] e2[B,,,0e0] F,,2fB,,2D,0 B2 |BB,,2 F,2 B,2D2FB2 e[g0G0C,0]B3 [a3G,3] |[g2B,2E2][f0d0F0B,,0]B3e [F,2D2B,2]f2 | [g0c0e0G0A,,0]a3E,3[A,0g0]C2 c2A,2[E2C2] |
+c2d[e0B,,0]G d2[e0F,0]<B,0d2[d2F2] |C2D2 ef[a3E,3][e3B3][g0B,0] | [D,0f0][C,2e2] [D2G,2]B,2E2g2g0[c0=A0D,0] | f0 =A,3=e0C2[F3f3] [gG]D,2[_a2A2] |
+[g0G,,0d0][=B2G2]D,2=A,2G,,D, [B,2G,2]G,,C2A,2[G,2D,2] |G,,[D2=B,2][G,2G,,2D,2] [A,2A,,2] [E,2E2C2]A,,,[E2C2] A,,E,DA,,[E,2A,2E2]C2 |[A,,,0A,,0][E0C0A,0] A,,E,2D2A,,[F2F,2D,2B,2G,,2][G,,G,,,][G,,0F0B,0D0]G,, | [D,E]G,,[C,2G,2D2B,2]G,,2 [C,0C,,0]C2C,, [D2C,2] G,2 C,,[E2E,2C2A,2C,2][F,,,0F,,0] |
+E2 [C2A,2]F,,[C,2D2] F,,[F0B,,0F,0D0B,0][B,,B,,,] D2B,,[C2F,2]B,, |[B,,,2B,2G,2]B,,2 [F,2G2B,2_D2] G,2=E,[_E,,0E,0] [A2E2C2]E,,2 [B,,2B2] |=A,,2[G,0e0G0E0E,0_A,,0][A,,,A,,][e2G2E2] A,,E,dA,,[G,2e2E,2G2A,,2c2] |[A,,A,,,][ec]G A,, E,((3d2A,,2B0)[F,2f2D,2G,,2F2][G,,0G,,,0][f2B2F2]G,, |
+D, eG,,[d2G,2C,2G,,2][B2F2] [C,0C,,0]e2C,E,2 f2 [C,,2F2] C,2[D,3D,,3g3G3] | [a3A3][C0g0F,0A,0G0][f2F2][D,D,,] e2< E2[C2F,2A,2][f2F2] | [g0d0G,,,0=B0G0G,,0]<[=A,,0B,,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+G5[g2G,2]D0G2B,2 |d3[G3B3] [G,2g2][D0G,0][G2b2] [a2B,2][G2g2]B2 |[a0C,0]ba[G,0C0]b a bE,aba[C0E0E,0] g2[a2C,2] | G,0< [b0C0][E,2c'2][C2E2][a2D,2]A,2D2 F,2 |[D2F2f2] [D,2a2][c'0A,0][D2d2][F,2b2][D2F2] a2 |
+[G0b0G,0]c'b0D0 G0 c'bc'0B,0bc' b2< G2 [B2a2][b2G,2] |D0c'0[G2g2][B,2d'2][g2G2B2] [g2G,2][D0G0] |B,2[G2d2]B2[g2G,2] [D0G0b0][B,2a2] | G2 [B2g2][a0C,0]b a [bCG,]abE,0a b a[C0E0]g2[a2C,2] |
+G,0<g0C2 [E,2f2]C2E2[f2D,2]A,2D2 |F,2[D2d2A,2F2]D,0f2 A,0< [a0D,0][F,2g2] | [F0D0d0] A,2f2[G,2g2]D0G2B,2G2B2 | G,2[D0G0]B,2[G2B2][g0G,0]D0 [g0G0] |
+B,2 [G2d2B2][G,0g0]< [D0G0]b2[a2B,2] |[G2B2g2]a0C,0 ba[G,0C0b0]ab0E,0 a ba[C2g2]E2 | a2 C,2G,0<[b0C0][E,2c'2][C0c0][E0e0][A,,0a0D,0] [A,0D0] |F,2 [f2d2D2F2][a0D,0]<[c'0A,0D0d0][b2F,2] |
+[F2D2][A,2a2][G0G,0b0] c'bD0G0c'bc'0B,0 bc'b3[Gg]B2a2 | [b2G,2]D0[G2c'2][d'2B,2][G2B2][g2G,2] D0 | G2B,2 [d2G2B2][g0G,0]<[D0G0b0][B,2a2D2] |[G2B2D2]g2[a0C,0] ba[G,0C0b0]ab E,0 a b2<a2[C2E2]g2 |
+a2 C,2[G,0g0]C2[E,2f2]C2[E2e2][D,2f2] A,2 D2 |F,2 [d2D2F,2A,2][f2D,2][A,0a0D0]d2[g2F,2] |[D3d3]f2 [g2G,2][D0G0] B,2[G2B2] |G,2[D0G0]B,2[G24B24] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+D,,2[c2C2A,,2][d0D0D,0][A0a0]F,2A,2[d2D2] |[A,2A2][F,2F2]C,,2 [C,0c'0c0]<[d0d'0]E,2 [a'0a0] A,2 |C2 A,2E,2 [d'2d''2][d'0B,,,0d''0B,,0] | [B,,2a'2]F,2 B,2[d2D2][d2d'2B,2][F,2d'2d2] |a2A,,,2A,,2E,2[g0c0A0][f0C0c0A,0] |
+[e2A,2][A0E,0]A2[B0G,,,0G0][G,,0D0] [B0G0D0G,0] |[A0D0]G,2 [D2B,2][G0G,0D0]< [D,0D0][GD]A [B0G,,,0G0] |G,,2 [D0E,0]<A0A,B2 [e2c2E2A2C2]A,2 | E,2A,G0B3 [f2G,,,2]f0<[B0G0G,,,0G,,0] [G0D,0]<e0[G,0G,,0] |
+B,2[d2G,2] [B2D,2]A2 G,,,2[d2d'2G,,2] | [d'0d0] E,2[a0A,0]b [a'0a0]C2A,2 E,2AB | G,,,2[e0B0G,,0A0G,0]<G,0D,2[A0G0e0B0]G,2[G0d0B,0G,0][G0G,0] | [D,2G2]A[B0G,,,0] G,,,2[G,,2f2] e0 E,2[d0A,0] |
+[d0A0C0]BA2A,2 E,2AB [F,,0F,,,0A0]de2f | [g0F,0]a[d'4D4]a2A,2[F,2F2]A B |[A0G,,0G,,,0]de2 f[G,,,G,,g]a[e'4A,,,4A,,4]F2G | AB2c2d e[D0D,0f0A0] [D,0D0e0]< G,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:C#m
+E,,2[C0G0E0A,,0A,,,0]< A,,0G,,[E2G2C2] E,2[E2G2C2]A,2 |[c2E2]A,2[d0F0B0A,,0]F,2 [f0F0]A,F,2 | [d0F0]A,2 [f0F0A0] A,,2F2[G,,,0f0F0B0]G,,2[F0B0G,,0] |D,2[c0F0]G,2 D,2[F0d0]G,,2 F2[C,,0B0e0] G,,2 |[G2d2]C,2G,,2[B,,,0e0B0]B,,2[f0B,,0B0]B,,,2 |
+[g0c0e0]E,,2c2A,,2 [g0c0]A,,2 [a0c0] |A,,2[A,,,0b0f0]F,,2[f2a2]A,,2g2 | A,,,2f A,,2[e0E,,,0E,,0]g2 E,,2e2B,,2 |[B0=d0]E,2B,,2[c0B,,0]E,2 [E,,0B0]B,,2 F0 |
+[E,0G0]B,,2 F0 E,2E,,2E2E,2[A,,0C0E0G0] |E,2C2A,2[C0G0E0] A,2[C2G2] A,2 |[A,,0B0D0F0] F,2F2A,2[B0F0][c0F0] |A,2[F2A,,2d2] [f0F0G,,0]D,2 [B,2F2]G,2 [B,0F0] |
+G,,2 [E0B,0]B,2[B,0C,,0E0C,0]C,2[G,0D0C,0C,,0] |C,,2[E2G,2][C,2C,,2]B,2 [B,,2B,,,2][B,0G0E0A,,0] | A,,2[B,0G0E0] A,,2[G0A,,0C0]A,,2[A,,0A0C0]A,,2 |[C0G0A,,,0]A,,2[A,,,0C0F0]F,,2 [E0B,0] A,,2A,,,2 [D0B,0A,,0] |
+B,2 E0< [E,,0E,,,0]E,,2[G,2D2][E,,2E,,,2][E,,0E,,,0G,0D0] |E,,2[E,,2G,2E,,,2] [E,,2E,,,2][=D0E,,0][E,,,2G,2] E,,2[C0E,,,0E,,0G,0] | [E,,,2E,,2][E,,0C0E,,,0G,0] [E,,2E,,,2][E,,,E,,G,][E,,,2E,,2]E,2A,, |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Db
+[D,0d0][f3F3G,,3] D,3[A0F0d0][D,0D,,0] |A,,3 [d0D0D,0][F,3D3d3][g0G0A,0] [F,2g2G2] |[f2F2D,2] [e2E2][c0A,,0A,,,0A0C0][E,,0E0] [c0A0A,,0] |[f0F0A0C,0c0]< [F0f0E,0c0A,,0][A0F0f0c0]A,2[A0E,0F0c0f0][A,3F3][c3f3] |[B,,0f0B,,,0F0B0B,0d0]<[F,,0e0B0E0]d2[e0E0B,,0d0][d2D,2D2] [d2D2B,2] |
+[F,0F,,0E0e0]< [e0E0B,0]d2F,0<[e0E0][G,,2G,2G2][d'0d0D,0] |[d'0d0G,0G0G,,0]< [d'0d0B,0b0][g'2g2]D2D,2B,0G,,2[f'2f2][G,2G,,2] |B,2 [D0d0A0D,,0D,0F0f0]A,,2[d'0d0D,0][F,0d'0d0] |[g0g'0A,,0]<[D,0A,0] F,2[f'2f2D,2]=e'2F,2[_e0A,,0A,,,0A0c0E0] |
+E,,2 [d'0d0A,,0][d'3C,3d3] [g'0g0A,,0A,0]E,2 |[f2f'2A,,2A,2]E,0[e'2e2][B,2B,,,2B,,2] [F,,0d'0b0] d2[d'0B,,0b0B,0d0] | [D,0D0d'0] [b2d2][a0a'0B,0]D,2[F,2a2a'2][f'2f2B,2][B,,2D,2][F,2F2] [G,0D0G0A0G,,0] |D,2[d'0d0G,0][d'0B,0d0D,0][g'2g2D2][B,0B0] |
+[f0f'0G,0] B,3 f2[d'0a0D,0D,,0][f0A,,0][d'0D0d0D,0] |[d'0F,0d0] [g0g'0A,0]<[F,0g0g'0] [f'2f2D,2][F,3F3][e'2e2] |[a0c'0A,,0A,,,0][E,0e0E,,0e'0][a0c'0A,,0]< [f0a0f'0c'0C,0E,0][a0f0f'0c'0]A,2 | [a0f0f'0E,0c'0][f2f'2A,,2A,2]E,3[f3f'3] [f0B,,,0d'0f'0B,,0b0]<[F,,0e'0][e2b2] |
+[B,,,0B,,0e'0b0e0][D,0D0d'0d0][B0d'0d0B,0]< [F,0e0e'0B,,0][e'0e0B,0] |F,0[e'0e0]d'2 [G,0G,,0G0]<[d'0D,0d0][b0G,0G0]g3 |d3B,3 [b0g0D0]<[B0B,0d0][b0G,0g0G,,0] |[B,48d48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+G,2[c0f0G0g0][C,0C0]C,,2[F0C0] |[C4G4G,,4G,,,4]B0<[C0F,,0F0F,,,0] F,,2[a0A0C0]F,2 | [a0A0C0] F2C,2 [G0C0]A,2 C2[C0A0]F,,2 |G,2C2[F,,2C,2G2]G,2 [^^C,2C,,2C2]^C2 D0 | [D,,2G2]D,2 [C2F,2][F0C0] A,2[E0C0]C2 |
+[D,2D2][F0C0]C,,2C,2F,2C2[F0F,0C,0C0] | C,2[C,,2F,2] C2[B,,0B0D0B,,,0] B,,B,,2[D2A2] A0 [B,,2D2] |[B,0B,,0][G2D2]B,,2F2C2[F0A,,0C0A,,,0]A,,2 |[C0A,0][C0F0][A,2F,2]G0C2 [A,,A,]C2 [G,,,0A0] F2 |
+G,,2[G2B,2][B,2G2]G,2F2B,2G,,2 | C2[G0D0C,0C,,0] C,3C2[D0C,0C,,0] G,2 |[G,,2C2G,,,2]D2[F,,0F,,,0]F,,2[B,2B2][A0C,0] |F,2[G0F,,0C0] [A0G0]C2 |
+^^C2E2A,,2A,,,2 F0DG2 [C,2C,,2] ^C2D2 [D,0D,,0G0] |D,2[F0C0F,0]F0CA,2[C2E2][D,2D,,2] | F2[F0C0C,,0]C,2 C,2C2 A,2[G0C0]C,2 | C2[C,0C,,0A0] D2[D0B,,0]B,,,4[B,,0D0] |
+[F0B,0D0A0][d4B,,4]D4A4[C0c0A,,0F0A,,,0] |A,,0[A0C0]G0C2F,2[F0C0] A,2C2 | [G,,0G,,,0D0]< G,,0 [E0B,0][B,2F2] G,3[G4C4G,,4G,,,4] |[a0A0C,,0C,0]C,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+B,,,0[ff']B,,,[B,,,B,,,,] B,,,4 [b'4b4][E,,2E,,,2]G[EB,] A |G,B2[G,G][c=B][Ed_B,BA]e2[e0E,,,0E,,0]G |[EB,]A[G0G,0] BcB2<[B,2B2E2][e0E,,,0E,,0] |G[B,0E0]A G,B2[cG,][B,d]e2 | [F,,,0F,,0f0]=A[CA,]BF,c dF,0c[c3A,3C3] |
+[B,,2B,,,2] [aAf] d[B,D][f0a0][Ad]F, [a0d0A0]<F,0[dg]G[B,D] | [d2g2G2]F,2[g2d2G2][F0B0f0][D0B,0B0][F2f2B2][E,,0e0B0E0]G3 |[E,,,3E,,3][e3g3][B3G3] [d0B0F0B,0] B,,2eB0[f0F0D0d0B,0]F,f d |B[fF][Dd] B,3F,2[_D,0D,,0D0A0A,0] [B,,,2B,,2] |
+[aA][df][DB,] [aA] dfF,f0[d2a2A2]F,0g[GB][B,D][g2B2G2] |[B,,,0g0B,,0][B2G2][BfF] [F,0B,0D0][f2B2][F2F,2] [E,,0E,0] [f'2f2][FBe][E,,,E,,] | [G2B2e2F2][A,,0A,,,0A0a0]e2[b0B0E,0][C0A,0c0]c'2d2 [E,2E2]>[E,2E2A,,2] | [A2C2A,2][a'a]b0 [F,,,F,,] c'ba[F,A,g] f2e[dA,,,A,,]c |
+B[c0A0C0A,0E0]E,3[B,,,0e0B0G0g0B,,0] [f0B0F0]< [d0B,0D0]F, [FfB,] |BF,2<[B,2F2f2D2][F,,2F,,,2][A0a0c0e0][F,,0F,0A0A,0][e2c2A2A,2a2] |[A,,0A,,,0c0a0A0][aAce] [CA,E,][e2a2A2c2] [B,,0B,,,0B0g0G0]<f0[F0B0B,0D0d0] |F,[F0f0] BF,[B3B,3F3D3][E0e0A0F,,0F,,,0] [e0A0E0] |
+F,0[A,0e0]A2[eE][B0F0f0] [B,,3B,,,3][B3F3B,3F,3D3][F,,0F,,,0e0A0]E2 |[AEe]F,0<[A,0E0][A0e0][e2E2][f0B,,0B,,,0F0]B2 [e0B0F0][dDF,B,][F2d2] | [E,,0e0E,,,0]G [EB,]AG,B2[G,c][B,BE]de2 |[e0E,,,0E,,0] G[EB,]AG,2=B,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[A,0D0F,0D,,0][B,,2B,,,2] [A,,,2A,,2][G,,,0G,,0]< [F,,0F,,,0d0d'0][E,,E,,,ee']F,, | [D,,,0D,,0]<[a0d'0f'0f0]A,,2 F,D,2 [A,0e0e'0]D,2[f'2f2][C,,0g'0C,,,0g0]c'2 |G,,2[f'0f0] E,C,2[g'G,g] C,2[F,,2F,,,2c'2a'2a2] | C,[A,2g'2g2]F,2[C2f'2f2]F,2 [d'0d0f0B,,0] B,,,2D, | B,F,2[d'2D2d2][F,2e'2e2][B,,,0f'0f0]d'2 D,B,2[g'g]F,2 |
+[B,,,0B,,0a'0a0]^f'A,,2 [G,,,0G,,0g'0d'0b'0] b2D,2 B,2 [d'2d2]G,2[g2g'2G,,,2] G,, |[^G,,2G,,,2][f'0A,,,0a0A,,0f0d'0]E,2[D2d2]A,2[=g0E0F0] A,2 | [f'2f2][e0e'0A,,,0]< [B,,0^c'0c0B,,,0][d0A,,,0A,,0D0] [e2E2G,,2G,,,2d2G2][F,,2F,,,2F2f2][E,,2g2A,,,2G2E,,,2] |[D,,,3D,,3][A,0D0D,0F,0]F2[D2A,2F2][F3F,3A,3D3D,3] B4 |
+d4 [B,,3B,,,3f3b3] [B,2F,2D,2D2][F,2D,2D2]B,2[F,2B,2D2D,2]Ac[a0f0F,,0]F,,,3 |[G,,0A0G,,,0c0a0f0]<[a0A,,,0c0A,,0A0f0][B,,,2A,,,2] [C,,0a0C,0c0A0e0][g2e2G2] [G,2E,2C2] |[C0E,0G,0][B,,,2B,,2]G,=B,,G0_B4[G,,,3g3d3][D,2B,2G,2] [B,2G,2] D,2 |[B,2G,2D,2]F A [d0f0D,,,0D,,0]< [D,0D0A,0F,0][F,2D2A,2][F,2D2A,2D,2] |
+E[^c3A,,,3E3A,,3e3][A0=B,,0f0B,,,0][C,3A3C,,3e3E3] | [D,0D0D,,0]<[d0D0F0A0] [F,A,F][F,0F0A,0][F,2B2F2] c2def4[D,4D,,4A4][a3g3] |[A,2F,2] [A,0F,0][F,2B2]cd e0< [B,,,0B,,0B0b0] [B,D,F,D] |[F,0D0B,,0B,0][F,2B2D2B,2] c ((3d2e2f0)A0<[F,,0F,,,0E,,0a0][G,,0G,,,0f0a0e0c0] |
+[c'2f2c2a2G,,2G,,,2A,,,2][B,,2B,,,2] [C,0C,,0]< [c0e0] a2[g0C0e0G0][G,E,][C2E,2G,2][B,,B,,,] | [A,,,A,,][G0B0][d4G,,,4g4][D,2G,2]B,[D,2B,2G,2][G,2B,2D,2]F0A | [d0D,,0D,,,0f0] [F,2D,2A,2A2][F,0D,0A,0A0D0][F2F,2]D,,2EA[^c0E0e0A,,,0A0A,,0] |[A3F,,3f3F,,,3c3][E,,0A0E,,,0] D0 F[D,,4D,,,4] |
+[D0A,0D,0F,0][D,0D0F0A,0] [D4D,4F,4A,4] [D,,,0D,,0]D,,2 [D,0D0] |F,[DA,]D[A,,,0D,,,0D,,0]A,,0[D,,0A,,,0] D,,[D,,0A,,0]D,,[D,,,D,,] |[D,,,A,,,D,,][D,,,0^F,,,0A,,,0D,,0]<[A,,0D,,0] [D,,,0D,,0]< D,,0A,,[A,,,2D,,2D,,,2][D,,A,,][F,,,0A,,,0D,,,0D,,0] D,,[D,,,A,,,D,,]A,,[A,,,D,,][D,,,A,,,F,,,D,,]A,,0 [A,,,D,,D,,,] | [D,,,A,,,D,,][A,,D,,][D,,,0A,,,0D,,0][D,,A,,] [D,,,27D,,27] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+[D2B,2]B,,2[A,,,0E0C0]A,,2[C0F0]E,2 | [G,0G0]< [C0A,,0] A,,2G,2[G,2E2]E,,2[F0G,0G0] | A,,2[G,2G2]A,,2[G,E]A,,2 [A,,,0D0] | [=B,,,0E0]E,,2F3[_b0B0]^F,,3 | =B,,2E,2B,2[^F,E]E,2 F2=F,,2 [E,,0E0E,,,0] |
+[F0E,,0][E,0G0B,0]E,,B,2 |[B,2E2]B,,,2[F0B,0]E,,2 [E,,,0E,,0G0B,0]E,,2[EB,E,] |[E,,,0E,,0][D0B,,0B,0][B,0E0][B,3F3] |D,,3 F,,0< [B,0B0] [B,0F0B,,0][B,3E3D,3] |
+[D3F,3][A,,,0E0]<[F0E,,0C0] |[G0C0] G,,3[E0C0A,,0][C0F0]G,,3 |[C2A,,2G2]>[E2C2]A,,2[E3B,,,3] | [F0F,,0D0]<F0 [D3B,,3][b0D0B0F,,0]B,,3[D3d3B,,3] |
+[E3e3F,,3] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+[^^G,,2F2] [=E0E,0]<[^G0^^G,0] [F,0G,,0F0]G,,2 |[G0G,0=E,0]^^G,,2[G0G,0E,0G,,0][b4G,,,4B4f4G,,4] |[F,,0F,,,0][f0a0c0A0][f0a0c0F,,0][C,0a0] c2a2 [F,,2a2] |[g0F,,0]< [C,0a0g0][b0f0d0]F,,2 D,2[c'0f0]D,3 | F,2[b0F,,0d0] [F,,2a2c2][g2B2D,2F,2][f0A0][E,0B,,0g0B0E,,0]B,,2 |
+E,2[g0D0B,,0B0G,0D,0d0]D2g2d2[g0E,,0][f0B0d0][E,2E,,2] |[g0D,0D,,0]d2 [^^C,,0a0c0A,,0][A,,2C,2] [b0c0A,,0C,0C,,0][A,,2C,2C,,2] | [A,,2^^C,,2a2c2]g2 [f2A,,2A2A,,,2]e2<[B,,2f2B2d2B,,,2][B,,0f0B,,,0] |[f0F,0B0][B,,0B,0f0][g0c0G0C,0G,0][C,0g0]((3G,2C,2G0)[c0f0C,0][e0C,0C,,0] |
+c[A,,,0A,,0] A,,c2[C,2c'2][b0A,,0D,,0f0d0A,,,0] a d |[bA,,][D,,2D,,,2] g2[G,,0G,,,0f0]d3G,,2D,2 | [f0F,0D,0]<[c'0d0][f0G,,0][f0D,0F,0]f[c'e][C,0C,,0] |[d0C,0] f[C,0C,,0]C,,2 [C,,0a0] |
+[C,,,2C,,2] [F,,0g0B,,,0] [B2d2][B,,,f]g B,,2[f2B,,,2] | [B,,,0f0][B,,,2g2] [a0B0B,,0]<[d0B,,,0][B,,,f][gc][C,,2G,,2]C,,2 |[C,,0G,,0C,0][C,,2g2][C,,2g2][C,,0a0][G,,2C,2b2][c'0e0A,,0] ^^C,,3 |^^C,, [A,,2^c'2][A,,0^^C,0^c'0]< [^^c'0e0E,0] |
+[a2G,2][E,2g2] [A,,0f0A0d0]D,,2 [A,,2D,2]D,,2 |[A,,2D,2]D,, [A,,0D,0]<[A,,0D,,0a0d0A0][g0D,0A,,0][f0D,0]A4 |a2 [g0F,,0]< [B,,0d0B0B,,,0][f0d0]f3[D0a0A0d0F,0] | a2[g0^^c0B,0B,,0]F,4[B,,2f2] [B,,2f2]B,,0^c'2 |
+[B,,2B,,,2][B,,,0B,,0a0^^c0][B,,,0B,,0g0][C,,0f0]D,,2A,,2 |[D,0A0d0][aA,,d] [B0g0d0G,,0]D,2 a0 gD,gf [e0D,,0] |d[c0C,,0] G,, f2e2c[C,,2C,2] G,,2<[C,2F,,2f2A2] |[F,a]g[C,fE,,] g[E,e]f[dD,,] eA,,df[D,2A2D,,2A,,2d2] |
+[A,,ad][g0D,0B0d0G,,0]D,2D,0a0gD,g D,2 f2eD,,d[C,,2C,2c2] |[C,,0G,,0C,0c0G0][c0C,,0] [C,,2G,,2][C,,G,,C,][Af] [C,,0C,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+FGABc d[e0G0][C,,,0C,,0] [e0C0E0]<[g0c'0e'0C0]E[e'0g0c'0]G,3 |[C2E2] [c''0e''0] [g'3c''3C,,3] [C2E2][E0C0G,0][G3c3e3]G,3 |[C2E2][AD,] c0< d0 [C,,3C,,,3f3] [D2F2][D0F0f'0a0]d'[f'0d'0]A,3 |[F2D2][a'f''d''] [f''3a'3] d''3 [C,,,3C,,3][F2D2][DF][a0c0A0f0A,0] |[A2D2F2]GB d0< [B,,,0g0][D0B,0]G,2[B,0D0g'0g0d'0b0][d'0g0b0g'0] |
+[B0B,0D0G0][g''0b'0d''0g'0] [d''0b'0g'0G,,,0] G,,3[D2B,2][B0B,0D0][b'3b3]G,3 | [G,,3B,3D3][F,,0c''0c'0F,,,0]a'2f'[c'0E,,0E,0]a f2<[F,,2c2F,,,2] | [^F,,2F,,,2][Gg][G,,,2c2G,,2e2g2][G0c0g0e0][E2C2] [g0E0e0C0]<c'0e'0[g'0G,0][g0c'0g'0e'0] | [E2C2][gG][c0e0g0G,,0G,,,0][c0g0G0e0][E2C2] [g'gEC][c'0e'0]g'0G,2[g'gc'e'] [E2C2] |
+[gG][G,,0G,,,0g'0g0] [G0g0B0d0]<[B,0G,0][B,Bg] [D2D,2b2d'2]g'2[Dg'd'bD,][B,2B2G2G,2] |g'ab'0d''[g'0G,,0G,,,0]g2a4d ^d2 |[d2A,,2] c[a0C0A,0][C2A,2]< a2 E,3[A,3C3] |G0E,,3A2 [A,2C2c2]cF,,2A[c0A,0C0] |
+[^F,,3d3] [A,2F,2][D,0d'0]f'2[g'e'][F,2D,2]A,2 | [f'2^g'2]<[a'2D,,2^f'2] [A,2F,2][F,A,][=G0g0e0F,0D,0][g3G3e3F,3] |[f0F0G,,,0G,,0][c0e0E0] [G,2C2][ceG,C]G0E, c e[g0E0C0G,0]c'e' | [G,,0G,,,0g0g'0]e'[c'0E,0]<g0 [G,0C0] ec[G3C3E,3][G3g3G,3e3C3] |
+[G0G,,,0G,,0g0e0][f2G,2B,2F2d2][B,0G,0f0F0d0]D,F [d'_b]=b0[B,0B0G,,0G,0]g [G,,3G,,,3] |[B,2B2G,2F2]c[^d0^G,,,0a0G,,0]e2 [a2G,2=d2]e[A,,,2d2A,,2] |c[C2A,2] [A,C]E,2d' [A,2C2e'2]c'2<E,,2 |[E,2G,2] c^d0[a3F,,3]e2 [A,2F,2=d2]c[G,,0e0] |
+d[G,2B,2B2][B,G,] [D,2e'2]f'[B,BG,] ^f'2[g'3G,,3] |[B,2B2G,2]c [^d0a0] ^G,,3 e2[G,2=d2]a2e[A,,0A,,,0a0d0] c | [C2A,2][A,C] E,2c'[A,2a2C2] bc'F,,2c' | [F,2a2A,2][A,2F,2]<C,2[A,3F,3c'3c3][G,,0G,,,0c''0c'0] [G3G,3C3D3] |
+_b' a'2g'2f'2^d'=d' c'2>c'2 |A,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Eb
+B4FBf0E,3B,2 | [e2E2]B,2 d0< [E0e0][B,2e2] E2B2f2 | G,2[E0e0]G,2G2d4de2 | E2c0eb2A,2E2^f0g2[e0E0] |f2A2e2[E2A,2]c2d0[A,0A0e0]F2 |
+[A0d0]e4c'2[A,2A2]e[f0b0] |G,2E2G2B4[E0e0] |B[B,2d2]e2C,2[G,2=e2]C2f4 |e0[C0g0]C2 [c0C,0A0]F,2 C2 |
+F2 [e0A0c0] C2[A,2A2] F,2 |F0B0B,,2 [F2F,2]B,2 [B0f0F0] | [F0F,0]B,,2 B[f0F0]B[f0E,,0]B,,2[e0E,0] |B,,2[B2d2G,2]e2E,2G,0[F0B0]f2G,,2 |
+[E,0e0]G,2d3de2E,2 |[e0c0]b2A,,2E,2^fg2[A,2A2]=f2 |e2B,2c2E,2d0[A,,0e0]F,2d2 |[A,0A0e0][c'2e2]A,2F,2A,,0b0f2G,,2 |
+E,2G,2B3 E,2B0<[d0G,0] | e2C,2 =e2 G,2C2 f4 | [g0e0C0]E,4 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:A#m
+[F,0F0]<[A0A,0][C0c0] F3C11 |[A,0C0C,0] | [G2E,2][G3G,3][C0G0c0G,0] |D,3F,3 [A,0D,0] |D3A,8 |
+[A,0E0]E,2 [C,0C0]E,3[G0G,0] [C15G15] |[F,0F0C0]A,3[F2C2]F3 |C9G,2 C,3 |E,3G,3C14 |
+[D,0D,,0A,0] | F,3A,3D3 A,20 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+D,0<[F,0G0]A2A2D2G,0[D,2G2]A2 |A2D2[G0D,0]A,2A2A2[D0D,0] |A,,2G2[A2D,,2][A0D,,0] D2A0A,,,c0<E,,0[c'0A,,0] | c2B2 [B2B,2][E,0E0]A, [b0E,0A,0B0] A2[B2B,2] [B,2B2] |[E0E,0] [a0C,0] [A,2A2][B2B,2] [B0B,0]<[E0A,,0][A,0f0F0] A2 |
+[A,,2B2][A,,0B0A,0]A,,,0E2[g0E,,0] [E,,,0A0G0]B2 [E,,0B0] |E,2[a0A0F,0]B2 [E,,0B0]E2[b2G,2A2] |B2 [E,,0B0]E2A2[E,,,0B0][B2E,,2] |E2b0[B0G,,,0][G,,0A0]G,,2B2[B0G,,0][D,0G,,0e0E0][a0G,0]A2 |
+B2G,0[B2D2]E2g0[A2G2]B2[B2G,2] |E2e0[E0A0][B0D,0][G,,2B2]E2[D,,0f0]F2G2 |A2[D,,2A2]D2g0[G2E,2]A2[D,,0D,0]A2 |D2e0[G0E0] [G,0A0][A2D,,2] D2F,0[D2G2] |
+D,,2 A2[D,,2A2] DA[c0A,,,0]<[A,,0c'0][B,2B2][B2B,2] | [E,0E0]A,,b0[B0E,0A,0]B2B,2[B,2B2] [E,0E0]<C,0[a0A,0]A2 | B2B,2[B,0B0]< [E0A,,0][f0A0]<[A,0F0] [B2A,,2][B2A,,2A,2] | [A,,,2E2]g0[G0A0C,,0]B2[C,,0B0][C,0C,,0E0][C0a0A0F,0] |
+B2[C,,0B0]E2[G,0b0]A2B2C,,0B2 |E2A0B2[B0C,,,0C,,0][B0C,,,0]C,,2 [C,,0E0]<[b0B0G,,0]A2 |B2[G,,0B0] [E0D,0]<[a0G,0A0] B2[G,0D0]B2 | E2g2[A2G2] B2[B2G,2] [G,,2E2]e0<[A0E0G,,0] B2 |
+[G,,,2B2]E2[D,,,0D,,0f0]<[F0G0] A2[A0D,,0] D2 |g0<[G0E,0] A0 G2[A0D,,0]D2[a2F,2G2]A2 |[D,,2A2]D2[D2D,,2]A,3[E,0E,,0] |C0[A,0C,0] ((3D,2D,2D,2) |
+E,E,E, [F,0A,,0]F,F, G,G,G,A, | A,A,[A,,0B,0] B,B,CC C2G0<B,0[E,,0G,0E,,,0] |A,A, A,G,G,G, [E,,0E,,,0A,0]A,A, G, |G,G,F, F,F,[E,,0E,0] E,E,[D,4D,,4] |
+B,4B,,3G,,2>C,2C, C,D,[D,C,]D, | [G,,0E,0]F, F,F,G, G,G,[A,G,,]A, | A,B,B,B,24 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+[G,0G0]E,3 C,3E,3 |G,3 E,3C,3E,3 | G,3E,3C,3 E,3G,3 |E,3 [C,g]f[E,e] d[G,c]d | [E,e]f[C,0g0] ((3f2e2d2) [cG,]d[eE,c] |
+f[d=B,,]e2 [D,0d0]d3[D,3d3] | [=B,,3d3]D,3[G,3d3] D,2>[g2B,,2] | f[D,e]d [G,=B]d[D,e] f[B,,g]f [D,e] |d[G,=B] d[D,e]f [C,d]e2[E,3d3] |
+[e3c3G,3] [d0E,0]<[C,0e0]E,3 | [cG,]d[eE,] f[a0A,,,0]A,,3 E,,3[g0A,,0] |[C,3f3] e3E,,3[E,0B0]A,,d | e C,2f[B,,,3g3][F,,3f3] [B,,,3d3B,,3][D,2B2]B,2 |
+B0d3 F,,2>[F,2d2B,,2] e[D,0f0]e | [d3C,,3][c0G,,0]G,2C,3 [c0E,0]C,3 |[G,,3c3G,3] [cC,,]d[G,,eG,] e[=B,,,0B,,0d0]e2 [d0G,,0] |=B,,3D,43 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+[g2e2e'2] [g4e4e'4] [g0E,0e'0e0E,,0][e2g2e'2] |[g0E,0e'0e0]E,,2[=f'0a0f0E0B,0]E,2 [g2e2e'2]E,2 [g0e'0e0E,,0]E,2[e2g2e'2] |[g2e2e'2][E,0e0g0e'0E,,0] [a2B,2E2=f2f'2][e2e'2] [^d'2d2E,2][B,,2e'2e2][C,0g0C,,0e0e'0] |[g2e'2e2] [C0g0e'0C,0e0]<[B0G0=f'0b0a0f0] [g0C0e'0e0]C2[C,0g0e'0C,,0] | C2[g0e'0C,0e0] [g2e2e'2][C,0g0e'0e0C,,0][C0G,0C,0=f0]f'e'2[C,2^d'2d2C,,2] |
+[G,2e2e'2][A,,,0A,,0e0]B,,,[^d0d'0][e2e'2][f0f'0A,,0A,,,0] [g0E,0g'0A,0] A,,2[f2f'2] [g'0g0A,,0A,,,0] |[a2a'2][^a2a'2] [=a'2a2][^a0a'0]=A,, [b2b'2][E,0A,0c'0c''0A,,0][b'2b2] |[A,,2A,,,2c'2c''2][E,2^c'2c''2] [B,,0^d'0B,,,0d''0][c''2c'2][d'2d''2][B,,0e'0e''0B,,,0][f'0f''0F,0]A,2 | [e''2e'2][f'2B,,2f''2B,,,2][g'g''][B,,0A,0B,0]g''=f''0e''0d''0c''[b'a']g'f'e'd'c'bag f0< [e0d0] c B AG[EF]DCB,4[A,4G,4]F,4 |
+[g2e2e'2] [g4e4e'4][E,0e0g0e'0E,,0][e2g2e'2] | [g0E,0e0e'0b0E,,0]<[E0B,0a0=f0f'0]E,2 [g2e'2e2]E,2[g0e0e'0E,,0]E,2[e2g2e'2] | [g2e2e'2][E,0g0e0e'0]<[E0a0B,0=f'0E,0][e2e'2][E,2^d'2d2] [e'2e2B,,2][C,0g0C,,0e'0e0] |[g0C,0e0C,,0e'0]<[C,0g0e'0e0][B,0G,0a0=f'0f0][g0e'0C0e0C,0] C,2[C,,gee']C,2 |
+[g0e'0C,0C,,0e0][g2e2e'2] [C,0g0e'0C,,0e0][B,2G,2][=f2a2f'2] [e2e'2][^d'2C,2d2C,,2][e2e'2G,,2] |[A,,3A,,,3] ^d'e'2d'c'[A,0a0E,0] c'ag[e0A,,0] g | a2ge^d e2 d[c0A,,0A,,,0]Ac A [E,0G0A,0]EGA2 [A,,,2A,,2G2] | E^D2C[B,,0B,,,0] B,EFEF BF[B0F,0]A,eB |
+e[B,,0f0]ef b fbe'b [B,,0e'0]f'e'f'b'0[F,A,] f' |e'f'[B,,b']f' e'f'[b'0^d'0b0B,,0B,,,0] |[g7B7] | [f48A48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bdor
+[C0E,0][A,,,0A,,0]A,,5 B,,5 |C,5[C0A,0F,,0F,,,0] |CF,,2A,,5B,,5 |C,5[C0E0C,,0G,0]C,,,3E3 |[C,,5C,5][c5E,5C5E5G5]G,5 |
+[B,0D0][G,,0G,,,0] G,,2[D,5G,,,5] | C,5G,,3 G,,3 |[A0C0E0A,,0A,,,0]A,,2 [E,0A,,,0A,,0]A,,A,,3 |G,5A,3A,3 [F0A0F,,,0F,,0C0] |
+[F,,0F0F,,,0][F,,5F,5F,,,5]G,5 | A,5[A0^F0D0D,,0D,,,0] |^F,6 ^G,5 |[^F0D0A0A,0] A,3[^G0B,0E,,0E,,,0]G3 A,5 |
+^G,3 G,2B,,5 | [C11A11E11] |[D0B,0G0B0] |[F0C0A,0A0] [G0D0B,0] |
+E0[C0A0] |E8[D0G0]B,3 D8 | [C0A,,0F0] A,3[C0A,0] |C5[B0B,0D0G0]B,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+[F,,,0F,,0^A,0][^C,,2F,2F,,,2][D,2B,,,2B,2][B,,,0D,0F,0B,0][D,0B,,,0B,0]B,,,2 | [B,,,0B,,0]<[D,0F,,0]B,,0 [F,0D,0]<[F,,0D,0][B,,0B,,,0E,0][B,,2F,,2^C,2][B,,,2B,,2E,2] | [^C,2F,,2][B,,2G,2B,,,2] [E,0F,,0]<[B,,0G,0B,,,0]E,2[F,,2E,2B,,2][B,,0B,,,0F,0F,,0][F,,0D,0B,,,0] | [B,,2F,2B,,,2][F,,2D,2][A,2B,,2B,,,2][F,,2F,2][B,,,2B,,2A,2] [F,2F,,2][B,,0B,,,0G,0] [B,,2F,,2E,2] |[G,0B,,,0B,,0]E,2[E,2F,,2][B,,2B,,,2B,2][F,,2G,2] [F,,,0^A,0]<[F,0^C,,0] [B,,,2B,2D,2] |
+[B,,,2D,2B,2F,2][B,,,0B,,0D,0B,0F,0] [B,,,2B,2][F,0B,0B,,0B,,,0] [F,2D2D,2B,2]B,[D,0B,,,0B,,0]<[B,0F,0D0F,,0] [F,,0D,0D0B,0] |[D,B,,,][B,,,0B,,0][E,2E2][F,,0^C,0C0B,,,0B,,0]B,2[B,,0B,,,0E,0E0][F,,0C0C,0]B,,2 [B,,0G0G,0]<[E0B,,0F,,0E,0] [B,,2B,,,2G2G,2] |[F,,2E,2F,2E2]B,2[B,,0B,,,0F0B,0F,0][F,,0B,,,0B,,0][D,2D2][B,,,0B,,0D,0D0F0B,0][F,,0B,,,0][D,0D0F0][B,,0B,,,0A0A,0] | [F,,0F,0F,,,0F0][A2B,,,2A,2] [F,,2F,2F2][B,,0G,0G0B,,,0][F,,0B,,0E,0E0]E,,2[G0G,0B,0B,,,0B,,0G,,0][B,,,0F,,0E0E,0]B,2 |
+[B0B,,0B,0B,,,0]<[B,0G0][F,,2G,2][F,,0^A,0A0F0F,,,0][F,0F0F,,0F,,,0^C,,0][B2B,2B,,2D2B,,,2F2][B,0B,,,0B0B,,0D0F0][B,,,0D0d0B0]F2 [B,,,2e2E2F2] B2 |[d0f0B,,0F0B,,,0B0]<[B,,0d0D0B,,,0F0]B2[B,,0f0F0]B2[F,,0B,,0B,,,0d0][D0F0] [B,,0B,,,0E0e0]<[B,,0F,,0B,,,0^c0C0] [B,,0B,,,0E0e0] |[F0F,0^C0c0F,,0]<[B,,0g0B,,,0G0]B2F,,0[B0E0e0B,,,0]G[B,,0B,,,0g0][B0G0] [F,,0E0e0B,,,0F0] B2[B,,0f0B,,,0F0]B2 [d0F,,0F0D0B,,,0B0] |[B,,0f0B,,,0F0]B[B,,,0F,,0][d0D0F0B0][a0B,,,0B,,0A0][A0F,,0a0B,,,0F0B0f0] [B,,,0a0B,,0A0]B[F,,0A0B0F0f0B,,,0]< [B,,0B,,,0g0G0] |
+[F,,0B,,,0F0e0E0][B,,0g0B,,,0G0][F0E0e0F,,0B,,,0B0][b0B,,0B0B,,,0] [F,,0g0G0F,,,0] B2[^a0F,,,0F,,0A0]< [f0F0^C,,0] F,,,2 |[b2B2B,,,2d2][b2d2B2B,,,2][B3b3B,,,3d3] [b2B2B,,,2][B2b2d2B,,,2] [B0B,,,0d0b0] |[d2b2B2B,,,2][b0B0d0B,,,0]B,,,2 |B,,,2 B,,,2B,,,2B,,,2[b0B0d0B,,,0]B,,,2 |
+[C,,0c0c'0^d0C,,,0][C,,C,,,] [C,,,C,,] [C,,0C,,,0][C,,,2C,,2][C,,,C,,][C,,C,,,][C,,0C,,,0] |[^C,,0C,,,0][=C,,C,,,] [C,,,C,,][C,,,2C,,2][C,,C,,,] [C,,2C,,,2] |[^D,,0D,,,0][^C,,2C,,,2][E,,7E,,,7] |[C,,C,,,][C,,,C,,][C,,C,,,]C,,[C,,,2C,,2][C,,,C,,] [C,,,C,,][C,,,2C,,2][^C,,0C,,,0] |
+C,,,4[C,,C,,,][C,,,C,,][C,,,C,,] [C,,,C,,][C,,0C,,,0][^D,,,2D,,2] |[^C,,0C,,,0][E,,3E,,,3] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+F,,,2F,,[F,,,0F,,0]<[f0c0A0F0][A,,2F,,2] F,2 [F,,2C,2A,,2][f0A0]<[F,0F,,0C,0c0A,,0] |[F,2A,,2][F,,2C,2][A0f0F0c0][F,0A,,0][F,,0C,0] |[F,2A,,2C,2][f0A0c0F,0][F,,2A,,2C,2] [F,,2F,2][B,2B,,2] [A,2A,,2][G,0G,,0B,,0E,0F0] |[G,2E,2B,,2]G,,2 [E,2G,2B,,2G,,2][F0E,0G,0B,,0G,,0] | [E,2G,2B,,2G,,2][f0F0]<[B,,0G,0E,0G,,0e0B0] [G,4E,4G,,4B,,4] [G,2G,,2E,2B,,2][f0B0e0]<[G,0E,0G,,0B,,0] [G,2G,,2] |
+[C2C,2][B,2B,,2]A,0[A,,0F,0f0]<[F0D,0d0][A,2A,,2][D,2F,2][A,2A,,2][F,2D,2] |[A,0F,0f0A,,0d0][F6D,6]A,0[A,,0F,0D,0][f0F0A0A,0d0A,,0]F,2[A,4A,,4][D,4F,4] |[A,2A,,2][D,2F,2][f0A,0d0F0A0][F,0A,,0D,0][A,2A,,2][D2D,2][C0C,0] |[B,0e0][B,,4B4G,4E,4][B,2B,,2]G,2E,2[B,2B,,2]G,2E,2 [B,0f0]<[B,,0G,0e0G0E,0B0] |
+[B,0B,,0G,0]E,2 [G,0f0e0B,,0B0][B,4B,,4][G,4E,4]B,2[G,2B,,2E,2] [B,0f0B0] | [B,,0E,0e0G,0]< [B,0B,,0][F,,,2F,,2][a0c0F,,0A0f0F,,,0][F,2A,,2F,,2] |[F,2C,2A,,2F,,2][A0F,0f0F,,0C,0c0] A,,4>F,4[F,,2C,2A,,2][f2A2c2] |[F,4A,,4C,4F,,4][F,2A,,2F,,2]C,2[f0A0c0][F,2A,,2C,2F,,2][F,0C,0A,,0F,,0][B,2B,,2] |
+[A,2A,,2]G,0[G,,0B,,0E,0F0]B4[E,2G,,2B,,2] [G,4E,4G,,4B,,4]<[G,4f4G,,4E,4B4][B,,6e6] |[G,0E,0G,,0B,,0][f0B,,0e0B0]<[F0E,0] [E,4G,4][G,,4B,,4] | [G,2E,2] [G,,2B,,2][f0B0G,0G,,0B,,0E,0]e2 [G,2G,,2]C2C,2 [B,2B,,2]A,0<[A,,0F,0D,0A0][f4F4d4] |[A,,2A,2][D,2F,2] [A,,2A,2] [D,2F,2][A,0f0F0F,0d0]<[A,,0D,0A0] [A,0A,,0]< [D,0F,0] |
+[a0d0f0A,,0F0A0]F,2A,4 [A,,3D,3F,3]A,2[F,2A,,2]D,2[F0A,0A0f0d0F,0A,,0]D,2[A,2A,,2F,2] |[D2D,2]C2[B,0f0][e0B,,0F0][B0E,0G,0] [B,0B,,0][E,2G,2][G,2B,,2]E,2 | [B,0B,,0][e6f6B6G,6E,6][B,0G,0B,,0]E,2 [B,,0f0B0e0]B,4[B,,4G,4]E,3 |B,2[B,,2G,2E,2] B,0< [f0B0B,,0e0G,0E,0]B,2B,,2[F,,2F,,,2][a0f0A0c0][F,,0F,,,0] |
+[A,,2C,2][F,2F,,2A,,2C,2]F,0[f0F,,0C,0A,,0A0c0] |F,0[A,,2C,2F,,2][F0f0A0c0][A,,4F,4F,,4C,4][F,0A,,0][C,2F,,2][f0A0A,0c0F,0A,,0C,0] |[F,,2F,2][B,2B,,2] [A,2A,,2][G,4G,,4E,4B,,4][G,2E,2G,,2B,,2] | [G,4E,4G,,4B,,4]<[f4G,4E,4][G,,6B,,6e6B6] [G,0E,0B,,0G,,0]<[B,,0f0B0e0] |
+[G,4E,4B,,4G,,4] [E,2G,2G,,2B,,2][f0G,0E,0G,,0B,,0B0]e2 [G,,2G,2]C2C,2E, B,2 |A,0<A,,0[D,0d0][f4F4][A,2A,,2][D,2F,2][A,2A,,2] [F,2D,2]A,0[A,,0F,0D,0A0][f6d6F6] |[A,2A,,2] [D,2F,2][d2f2A2F2][A,4A,,4] [D,4F,4][A,,2A,2] [F,2D,2] |[f0A0F0d0][F,0A,,0D,0][A,,0A,0][D2D,2][C0A,,0][B,0E,0B,,0F0]G,4 |
+B,2[B,,2G,2]E,2[B,0B,,0][G,48E,48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+[G,0G,,,0G,,0] ^F,6 |G,6 | ^F,6G,6 |^F,6[G,7G,,7G,,,7] |^F,7[B,0G,,0G,,,0G,0] |G,6 B,6 |
+G,6 B,6 |G,5[B,6E,6E6G,,6] |G,6[B,0D0G,,0D,0G,,,0] |G,5[B,5D5]G,5 |
+[D6B,6]G,5 |[C6C,6G,,6]G,5 |B,0<[D,0G,,,0G,0B,,0G,,0]G,5 B,5 |G,5B,5 |
+G,6[D,,0A,0A,,0] |B,3A,4 D,4 | [G,0G,,0] G,,,4D,4[G,,0G,0] |[G,,0D,0G,,,0]<[G,0G,,0][G,,5D,5] |
+[B,0F,,0C,0G,0] [G,5C,5] F,,5 |[E,,0B,,0B,0D0B,,,0]G,4[E,,5B,,5B,5D5] |G,4[B,5D5B,,5E,,5] | G,4 [B,0G,0]D6[G5B,,5D,,5]G,5 |
+[G0C0G,0C,0E0C,,0]G,4 |[E,0E,,0][G4E4C4]C,0G,4[G0C0C,0E0C,,0] |G,4[E,4E,,4G4][C4E4][C,0C,,0G,0] |[B,0D0] [G0B,,0B,,,0] G,4 |
+[D,0D,,0B,0G0G,0D0] [B,,4G,4][B,,0B,0G0B,,,0D0G,0]D48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+[=E,2E,,2=a2][c2F,,2B2_A2F,2b'2][B,,,df]B,,[Bf'B,,,]B,,_g'[B,,0B,,,0] [E0e'0d0e0D,0]< [B0d'0D,,0] bD,[D,,0D,0]D, [_E,,0=g0E,0e0g'0e'0B0] b | d'[E,,E,]E,,2[BEE,][=E,2_G2E,,2A2=D2][F0F,0A0F,,0a0] B[B,,,B,,][B,,,B,BB,,][_D,B,D,,B] [D,0D,,0B0] _E |[D,,0D,0][D,0D0][E,,0E0B0G0E,0]D[E,BEE,,E,,,] [E,,,E,,][E,,BE,E][=E,0E0E,,0]B2 [F,,2F2F,2][C,2C2c2C,,2G,2_E2E,,2E,2][EBc] | [E3G,3c3B,3B3C,3E,,3] E,3[c0F,0=A,0=D,0D0C0A0C,0][A4d4a4F4][A,0A0d0F0D,,,0D,,0] [c2C2] | [G2C,2E2C,,2E,,2B2][cc'][C2C,2e2][G,,0B,0E,0G,0E0B0]B[C0F,0=A0c0F,,0=D,0A,0]<[D,,0F0f0]A2[C0g0c0A,0A0]D,2 |
+[=A,fcA][cf][C,0C,,0E,,0E,,,0G0B0g0]e3[E,,0E,,,0][=d'3d3e3][c0C0D,0][A,0D,,0d0A0F0][F,2f2][c4f4D,4A,4A4C4F,4] |[f0c0=A0] C,,0 =E,,[f0F,,0c0F,,,0_e0C,,0]FEf[dD] C B,[_A,0e0c0A0F0]_G,F,E,D, | C,[a0B,,0A0][=Af]_A,,_G,,F,,fG,, F,, E,,0< [f0a0]D,,E,,[D,D,,][bb']C,, [B,,,0B,,0f'0d'0] b2B,,,B,,[D,D,,] |D,[D,,0f0a0]bD,[E,,0g0f'0e'0e0] [E,,E,][E,,2E,2][=E,2E,,2] [b2f2b'2f'2F,,2d'2a2][B0f0f'0d'0d0a0] |
+[f0f'0B,,0d'0B,,,0][fD,f'ad'D,,b]b[bf'f]a2 D,,[g0e0e'0E,0E,,0B0]b2[F,,F,][=E,E,,] [E,E,,][_e2e'2g2g'2E,2E,,2]b'2[D,D,,] [D,D,,] |[f0B,,0f'0B,,,0d0][B,,B,,,][B,,B,,,][B,,B,,,] [D,,0D,0F0A0d0B0]D,[D,,fD,f'][b'ba'a]D, [E,,0f'0g0e'0e0] bE,[E,,E,][E,E,,EB] [=E,2E,,2e''2] |[F,2b2F,,2b'2f2f'2]a2[dBd''fd'Ae''e'] [BdA][Bf'fB,,B,,,d]d[D,BD,,f'fd']b [f''a]D,,[e0G0E,0E0][E,,B][E,,E,] [F,,F,] | [=EE,E,,]E,[g'2g2_E,2f'2E,,2e2e'2] [D,2D,,2][B,,,0f'0f0d'0]bB,, B,,,[B,,fFdB][B0A0d0a0f0D,0D,,0]<[D,,0f0b0a0] |
+D,[G0f'0E,0e0]E,,2E,, [EE,][=E,,2E,2][F,,2F,2b2b'2f2f'2][a2a'2][A0d0a0f'0f0][d'2_e'2][d0b0B,,0f'0f0][B,,,d'][d'dB,,] | [D,D,,ff'ad'][a'0a0d'0f'0A,,0f0][E,0G0g0e0E,,0B0] E,,[F,,F,][=E,E,,]E,[f'0g'0_e0g0E,0]E,,2D,D,,D,[B,,,0f0f'0a0]b | B,,B,,,0bB,,D,0[D,,0b'0b0] D,[f'0f0]D,0a'[E,E,,][E,,0E,0e''0a0a'0] b'[E,,E,][=E,,2E,2b'2b2] [F,0F,,0f0f'0] |[a2a'2][B,,2B,,,2b'2b2][D0D,0D,,0b'0b0]B,,2=A,,8 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:B
+A,,,,3^^F,,,2 B,,,^B,,,E,,^E,,,0E,,0F,,=A,,=B,,^B,,0^^C, =E, ^E, F, F,,A,A,,3=B,B,,2[^B,2B,,2]C2=E2E,,0[E,0E0=B,0] |[B2B,2][E,,,2E,,2][^B0B,0]<[E,,0E,,,0A0] [E,,0^^c0E,,,0C0]<[e0E,,,0E,,0E0]G4 |[B2B,2][E,,,2E,,2][D0D,0d0^B0A0D,,0][^^c2C2][D0D,0d0][D,2D,,2] |[B0B,0D,0D,,0][D,2D,,2][^B0B,0D0][D,2D,,2][^^C0c0D,0D,,0] [D3d3D,3D,,3]^c3=B,,, | [B,0E,,,0E,,0e0E,0E0]< [B0G0] [^B,2B2][E,,0E,,,0^^c0C0]< [e0E,,0E0] ^E,,2[=E,,2E,,,2][=B0B,0E,,0E,,,0] |
+[E,,2^B2B,2E,,,2] [^^C2c2][D0D,0A0d0D,,0][=B2B,2] [D,0D,,0] | A2[^B0B,0][D,2D,,2] [^^c0C0] [D,2D,,2][D0D,0d0D,,0][=B,3B3D3D,3D,,3] | B,,,[E0B0][E,0E,,0E,,,0^B,0B0][^^C2c2][e2E2][E,,,2E,,2] [=B0E,,,0B,0E,,0][E,,2E,,,2] | [^B,0B0E,,0E,,,0][^^c2C2] [E,,,4E,,4D4] [d3=B3G3][D0d0A0D,0D,,0B0][^B2B,2] |
+D,0[D,,0^^c0C0][d0D0D,0D,,0][D,2D,,2][B0B,0D,0D,,0][D,0^B,0B0D,,0]A2 [c0C0D,0] |[D0D,0d0D,,0]c4[E,2D,,2E,,2][D,2D2][^^C,,0E,,,0E,,0C,,,0C,0C0][^C,0C0E,,0]E,,,2 |^B,,2E,,2[E,2E,,2]E,,,2[D,0E,,0]^^C,2 ^C,2[E,,,0E,,0B,,0] | [E,,0E,0]D,2 ^^C,2[E,,2^C,2] [^B,,0E,0E,,0E,,,0]E,2[D,0E,0E,,0] |
+[^^C,,2C,2E,,2][^C,0E,,0]^B,,2E,2[D,2E,2E,,2][E,0E,,0E,,,0^^C,0] | C,2^B,,2 [E,0E,,0E,,,0]<[E,,0E,,,0D,0]^^C,2^C,2[E,,2B,,2] |[E,,,2E,2E,,2]D,2[E,0^^C,0E,,,0E,,0][^C2C,2E,,2] [^B,,0E,0E,,0]<[E,0E,,0] | [D,2D2][E,,0E,,,0^^C,0C0C,,0]< [^C,0C0E,,0][^B,,2B,2][E0E,0E,,0][D0D,0E,,0E,,,0][^^C0C,0E,,,0E,,0] |
+[C2C,2][^B,,2B,2] [E,0E,,,0E,,0E0][D2D,2] [^^C0C,0]< [E,,0E,,,0][^C0E,,0C,0E,0] [B,,2B,2E,,2] E,,,2 |[E,,,0E,,0E0e0]<[B,0B0B,,0][E,,0E,,,0][^B,2E,2B2][^^c2C2] |[e0E0]E,,2[B0B,0E,,,0]E,,2 [^B,0B0E,,0]<[^^c0C0E,,0]=B,, | [D4E,4d4] [D,0D,,0] [B4B,4][E,,,0E,,0] [^B,2B2][^^c2C2][D2d2] |
+E,,2[E,0E,,0][B2B,2]E,,2[^B,2B2] E,,,0 [^^C2c2][E,,,0E,,0E0e0] | [E,,,0E,,0][B2B,2] E,,B,,E,0[^B,2B2] [^^c2C2][D0d0]^cE,, | B,,,[B0B,0][E,,,2E,,2][^B,2B2][E,,,0E,,0][^^C2c2] [E,,0E,,,0D0d0] =B2E,,2 | [B,2B2]E,,,2 [^B0B,0E,,0] E,,,2[^^c2C2][E0e0]E,,=B,,E,0[B0B,0]G3 |
+D,0[^B,0B0D,,0F,,0] [^^C2c2][E,,,0E,,0D0d0G0]=B4[B2B,2] E,,,2 |[^B,0B0E,,0]<[E,,,0E,,0^^C0G0c0][E,,0E,,,0][D2d2] =B,,,[E,,,0E,,0][B0B,0] |[^B,2B2][E,,,0E,,0^^C0c0]< [d0E,,,0E,,0D0G0]=B,,, E,,0< E,0 E5 |B,,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:B
+dcB cdgd cBcdg | dcBc d gdcB cdgdc | Bcdgd cBcdg dcBc d | gdcB c dgd2c [B0E,,0]cdE,g [dG,] | ((3c2B,0B2)[c0G,0]d E, gdB,,c[E,,0B0]<c0 B,,0 dE,g[G,d]c0B,0 B |
+[G,0c0]d0E,gd0B,, c[E,,0B0][c0B,,0]<d0E,g [G,d]cB,0B[G,0c0] d | [E,0g0]dB,,c[B0E,0]E,, c0 B,,dE,0g[F,0d0]c0 G,0 Bc0B,0d[G,0g0] d G, | cB0G,,c[d0D,0]<b0 G,dG,c[BB,]c0 G,0 dG,0bd0D,c[G,0G,,0] B |[c0G,0]dG,0b[G,d] c0< B,0B[G,c]dG,0b [dD,]c0G,0<[G,,0B0]c0D,0d |
+[b0G,0]dc[B,0B0] c0< G,0d[G,0b0]dD,c [G,0G,,0B0]<c0D,0dG,0b | d G,cB,BcG,0d [F,b][dC,]cF,0<F,,0B [cC,]dF,0aF,dc A,0 | [C,0B0]<[F,0c0]dF,0a [dC,] ((3c2F,0B2)F,,[cC,]d F,0 aF,dcA,0<[C,0B0] [F,c] | dF,0a[dC,]c F,0< [F,,0B0]c0C,dF,0a [dF,] cA,0B[c0F,0]dF,0 a |
+[dC,][c0B0]F,0<[F,,0B0][B0c0C,0] dF,0a[F,0d0]<B0cA,B[F,c]d0C,a[dG,,] c | C,0< [C,,0B0]cG,,dC,0[e0G0] [d0C,0G,,0]c[E,0B0]c0C,d [e0C,0]<d0G,,0c[C,0B0C,,0] c E,0 | d[C,0e0][dC,]c E,0 Bc0C,dC,0e[d0B0G,,0] cC,0[C,,0B0]Gcd[C,0c0e0] |[d0C,0G0]C,,cE,0Bc0C, d [C,0G,,0]e[d0B0]G,,c[C,0B0C,,0] c0<G,,0d[C,0C,,0]<[e0c0]d0E,0c |
+G,,0< [E,0B0]cC,d[E,e] d B,, [cC,]E,0[E,,0B0]<c0B,,d0 E, g[G,d]c[B,0B0] [G0c0] G, | dE,0gd0B,,c E,0< B0 E,,c0B,,0dE,g [d0G,0]< B0 c[B,0B0]c0G,dE,0 g |d0B,,c[E,0B0]<[E,,0e0]c0B,, d[G,0E,0]g[dG,]c[B,0B0B,,0] c0 G,d[g0E,0]dB,,c | [E,0B0E,,0G0]<c0B,,0<[G,,0B0]dE,0[E,,0g0] [dG,]((3c2B,0B2)E,cG, d48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Eb
+((3G,2A,2C,,2) C,G,A, [C,0C0C,,0]G,A, | [C,C,,]G,A, [C0B,0G,,,0G,,0]C,2G, [A,0G,,0]C,F, | [C0G,0G,,0]C,E, [G,,F,]C,D, [C,0F,,0F,,,0C0]G,A, | [C,F,,]G,A, [F,,0C,0C0]G,A, [F,,C,]G,A, | [B,0E,,,0E,,0C0]C,2G, [E,,0A,0]C,F, [E,,0C0G,0]C,E, [F,0E,,0] |
+C,D,2 C,0< [c0C0]GA [E0C0]G((3G,2A2c0) [C0C,0] |GG,A [CE]GG,2A [c0B0] B,,CG,0G A0 | ECG,0F [cG] B,,CG,0E F ECG,2D2 | [F,,0c0C0][GC,]A A,0 CG((3C,2A2F,,0) [c0C0]GC,A A,2 |
+CGC,2A [cBE,,]CC,0G A G,CC,2F [D,,0c0] G |C=B,,E [F,F]CB,,2D C,0 [cc']G,E | EG,C, [C,0c0c'0]G,E EG,C, | [B,,0c'0c0]G,E [E0b0B0]G,B,, B,,0 [aA]G,E |
+[E0G0g0]G,B,, [F,,cc']C,A, A,C,F,, | [F,,0c'0] ((3c2C,2A,2) A,C,F,, [c'0c0] E,,C,G, G, | [=bB]C,E,, [=a0A0D,,0]B,,F, F,2 [gG]B,,D,,2 | [c'0c0C,0]((3G,2E2E2)G,C, C,0 [cc']G,((3E2E2G,2) |
+C,2 [B,,0c'0c0]G,E [bB]G,B,, B,,0 | [aA]G,E [EGg]G,B,,2 [F,,0c0c'0]C,A, | A,C,F,, F,,0< [c'0c0]C,A, A,C,F,,2 [G,,0G0] |E,0CG,0G C0 A[C0G,0][A0E0E,0] G,,0 GE,0CG0G, [C0A0] |
+[G,C][AE,] [A,,0G0]<[E,0C0]A,G C0 AG0C0A,A0E, [B0A,,0] |[E,0E0][B0A,0]< [C0c0]EA,cE, [c0G,,0]<G0E,[c0G,0] | [C0d0]<[G0G,0]d0E, [G,,0c0]<[E,0G0][c0G,0] [C0d0][GG,][E,d] | [A,,0e0][AE,][A,0e0] C0 f[A0A,0]f0E, [gA,,][c0E,0][A,0g0] [C0f0] |
+[A,B][E,f] [gG][Cc][gG] [Ff]B,[fF] [Gg] |Cc[Gg] F fB,B[Ff] [Gg]Cc[Gg] F | fB,B[Ff] [Gg]C2c[Gg] [Ff]B,B[F2f2] | [CC,][e0E0G,0][CG] [EA][C0C,0]G[G,E] [C,C][E0G,0][C,0C0G0] [E0A0] |
+C0GG,0E [G,,0C0][EE,][GG,] [A0C0]<[G0G,0][E0E,0]< C0 | G,,B,0E,C0G, [E,0A,0][G,,C][G,E,] [F,,0C0][C,E][GF,] [A,A] |[F,,0F,0G0][C,2E2] [F,,0C0][C,E][F,,0F,0G0] [A,,A,A]F,G[C,2E2] | [E,,C][C,E][E,0G0E,,0] [A0G,0][GE,][C,E] [C0D,,0]<[B,0=B,,0][CD,] [F,A,] |
+CD,[=B,,G,] [C,C][E0G,0][GC,C] [A0E0]<[C0C,0G0][G,2E2] [C,0C0] |[G,0E0][C,0G0] [EA][C0G0]G,2E [B,,0C0]<[E0G,0]GC | [A0E0]<[C0G0][G,0E0] [B,,C][B,0E,0B,,0][G,0C0] [E,0A,0][B,,C][G,2E,2] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[A0E,0A,0]E2 [A,,Ee]A((3E,2A,0C6)c3[d0D0F0A0D,,0]D,,,D,, D |A,2[D,,,0D,,0F0] A,[D,,0D,,,0D0]A, [D,,0D,,,0F0]<[D,,0A,0]D A, |[D,,0D,,,0]FA, D,, DA,[F,,0F,,,0F0]< [F,,0A,0F,,,0]DA, [F,,,0F,,0F0] |A,[F,,F,,,D] A,[E,,0E,,,0D0]F[E,,0E,,,0A,0] DA,[E,,0^G0E,,,0F0] A,2 |[E,,D]A,2 [D,,0F0D,,,0]A,A,D A,[D,,0F0]A,2 |
+[D,,0D0]A,2[D,,0D,,,0F0] [D,,,0D,,0A,0]DA, [D,,,0D,,0] FA,D,,D | A,[F,,0F,,,0F0][F,,,0F,,0A,0] DA,[F,,,0F,,0F0] A,[F,,,F,,]DA, [E,,0E,,,0F0] |[E,,0A,0]D A,E,,0FA, [E,,D]((3A,2D,,,0D,,6)[F3A3D3] |[A0D,,0D0F0]D,, [F0D0A,,0]D,,2[D,,0F0D0] A,,[A,,FD]D,, [A,,0F0D0] |
+[A,0D,0][D,,0F0D0] A,,[A0D,0F0D0]A,, [AFD,,][D0A,,0][F0A0D,,0] [D0D,,0] |[F0A0A,,0][DD,] [D,,0A0F0]<[A,,0D0]D,,0[Ad] F2 D,,[d0A0A,,0][F0D,,0A0] | [D,,Ad][F0A,,0]D,0[A0d0] F2[F0B0B,,,0]D [B,,0B,0B0F0]<[D0B,,0][F0B0B,0D0] | [B,0D0]<[B,,0F0B0][D0F,0] [BB,F][D0B,,0][F,0F0B0] [B,0D0]B,,[BF][F,0D0] |
+[B,0D0F0B0] B,,[DF,][B,B,,BF] [D0F,0]<[B,0D0F0B0B,,0][DB,,] [B,0D0F0B0F,0B,,0]<B,0DB,,0[B,FB] | [DF,][B,0F0B0D0][D0B,,0] [B0D0F0B,0F,0]<[B,0D0]C,0[FB] [DF,][B,0F0B0]D | [D,,0F0D,,,0D0]A,[A0F0D0D,0] [D,,0A,0][FA,,D][A,D,] [D,,0F0D0]<[A,,0A,0][F0F,0D0] | [A,0D,0]<A,,0[FD][F,0A,0] [D,0F0D0]<A,,0A,F,0[F0D0] [A,0D,0]<[E,0F0A0]D0D, A,,0 |
+[FA][D0E,0][D,0F0A0] A,,0 D[E,0A0F0][D0D,0D,,0] [D,0d0A0]<F0A,,[d0A0D,,0] | [F0D,0]<[d0A0A,,0][D,,0F0] [D,0F0A0d0]F[C,,0C,,,0c0e0] G[eC,c]G [e0c0G,,0] |[G0C,0][c0e0C,,0] [G,,0G0]<C,0[ce][G0C,,0]< [G,,0c0e0][C,0G0][e0c0C,,0] [GG,,] |[C,0e0c0]G [c0C,,0f0C,,,0]<[G0C,,0]C,,0[fc] [G0C,,,0C,,0]<[C,,,0C,,0][fc][C,,,GC,,] |
+[C,,,0C,,0f0c0]<[C,,,0C,,0G0][D,,0C,,0c0g0] [C,,,0C,,0G0]<[C,,0g0c0][C,,,0C,,0G0] C,,0 [cg][G0C,,,0C,,0][C,,,0C,,0g0c0] [C,,,2C,,2] [Ge] |[d0g0B0G,,,0]G,,G [dBg]G0[G,,G,,,][dgB] G[G,,0G,,,0][B0d0g0]G | [d0b0g0]<[d0B0G,,0G,,,0b0][b0g0d0]D,,8 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+E,G, [C,,0A,0]G,E,2 [C,0C0C,,0]E,G, | [C,,0C,,,0A,0]G,E, C,,0 ((3C,2E,2G,2) [C,,A,]G,E, | [C,0C,,0] G,((3B,,2C,2A,,2) [C,,A,,,]C,2[D,2D2] [C,0D,,0C0]E,G, | A,G,E, [=B,,B,]E,G, [D,,0A,0]G,E, | C,E,G, A,G,E, C,0 D,,B,,C, [A,,D,,] |
+C,2[E2E,2] [E,,,0E,,0C,0C0]E,G, [A,0E,0]G,E, | [C,E,,]E,G, [E,A,]G,E, [C,0C0E,,0]E,G, [B,,0B,0] |G,E,2 [A,A,,]B,,C, [G,,G,]C,[G,,2G,2] [C,0D,,0C0D,,,0] |E,G, ((3A,2G,2E,2) [=B,B,,]((3E,2G,2A,2) |
+G,E,2 ((3C,2E,2G,2) A,0 D,,G,E, [C,0D,,0] |B,,C, A,, ((3D,,2C,2E,2) [C,0F,,0F,,,0C0]((3G,2C2F,,2) | DCG, [C,0C0]G,C [F,,D]CG,2 | [F,,E,]G,C [F,,0D0]CG, [F,0F,,0]((3G,2E,2G,2) |
+((3F,,2D,2D,2)D [C,0C0] ((3D,,2G,2C2) ((3D2C2G,2) | [=B,0B,,0] D,,G,C [D0D,,0]CG, [C,0C0]G,C [_B,,0B,0D,,0] |CG,2 [A,,A,]G,E, [D,,0G,,0G,0]D,G, [E,,0C,0] | CG,C DCG, [=B,,0B,0E,,0]G,C2 |
+D0 E,,CG, [E,0E,,0]G,C2 [D0E,,0]CG, [F,0E,,0] |G,E, G, E,,D,[D,2D2] [CC,]((3^F,2C2D2) |C^F, [F,,0=B,,0B,0]((3F,2C2D2)CF,2 [C0F,,0F,0] |DC [B,^F,]_DC [=F,,0A,0F,,,0]CA, [G,F,] |
+A,C [C,0C0]G,C G,((3B,2F,2A,4) |((3E,2G,2D,2)F,C,45 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:C#m
+[E,,0E,,,0E,0]E,, B,,2E,,B,,2 | E,,B,0[E,,2B,,2]E,, B,,2 E,,2E,,((3B,,2E,,2E0) [E,,,0E,,0B,0]E,,B,,2 |E,,B,,E,, ^^F0< [B,0B,,0]E,,B,,2 E,,B,,2E,,^F0[F,0E,,0B,,0] B,2 |E,,B,,3[B,0F,0B,,0]E,, B,,E,,2B,,2 | E,,2[E,,,0E,,0] E,,B,,2E,, B,,2[E,,0B,0]B,, E,, |E0[E,,0B,0B,,0]E,,2^^F0[E0F,0^B,0E,,0]E,,B,,2E,,^F0<[B,0^^F,0E,,0B,,0] E,, |
+^B,,E,,2[E2B,,2][^^F,2B,2]E,,2[^F0E,,0][A,2=D2]E,,D,2E,, |^^F0[A,0E,,0]=D2E,,2<D,2 E,,2[A0A,0D0D,0]<[^F0E,,0]E,,2B0[F0B,,0B,0E,,0E0] | B,,3^^F0[E,,0B,,0B,0E0]E,,B,,E,,2 [B,,2^F2B,2] E2E,,2 [E,,,0E,,0E0B,0] |B,,2 E,,B,,2[E0B,0E,,0] B,,E,,[B0B,0E0]B,, E3 |
+[G2E,,2][e0E0A0F0]F,,,2 F,,[F,,2F,2][D,,D,,,] [d0A0D0F0] D,,F,,[D,A]D,,2 |[F2C2c2A2D,2]D,,2 [^B0G,,,0G0]<[D0F0B,0]G,,G,2[G,0G,,,0][c0C0F0]G,,2 G, | G,G,,2[G,,0d0F0^B0D0]G,,2[c0C0E0][C,,2G2] C,E,G,E, | G,C0EC [G,0c0] G E,CG,2[dB]E,2C,[e0A,,0E0A0c0]E,,A,, C, |
+E,C,E,A, CA,[E,0e0]cC,A, E,2 [af]C,2A,,[g0B0E,,0G0]e | B,,E,G,B,G, B,EGE [f0d0B,0]G,EB,2ecG,2 E, |[B,,0f0B,,,0][F0B0d0]F,,B,, D,F,D,F,B, DB,[F,0f0d0]D,B, | F, [ge]D,2B,,[a0=D,,0d0A0f0] A,,2F,A,F, A,DFD A,0 [ge] |
+F,=DA,2[fd]F,2 D,[a0e0A,,,0A0E0]cE,,0A,, C,E,^B,,E,A, | [Cac] [eA][A,0A,,0]E,C, A,2 E,2C,2A,,[g0G,,,0][Gdc] D,,G,,C,D, G, |CD[c'gGdc]D2 CG,2D,2C, G,,2D,,[G,,,0d'0^b0g0d0]D,,G,,2 | ^B,,2D,2G,B, D48 ^^F,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[D,0d0F0D,,0][dF][dF] [d2F2][D,0c0][d0D0A,0F0][d2F2][d0F0] | [c2F2][c0B,,0B,,,0F0][cF] [cF][c2F2][F0c0B,0B,,0][C0F0c0]B,0<[c0F0] | [A,0d0F0][c2F2] [G,,0C,,0c0] G2[c2G2]d2[C,5c5G,5G5] |C3[A,,,0A,,0][A0A,0e0][A2e2] [e2A2][e0A0A,,,0A,,0]< [e0E,0A,0] |[d2G2][A,,2A,,,2e2]A2Ac[D,,0d0A,,0] d2d2 [c2D,2] |
+[d0A,0D0A0][G2c2][D,0A0d0]d2 [B,,,0B,,0]< [B0f0]f2 [f0F,0] |f2[B,0B0f0]g2[D0f0] f2[C,0C,,0G0e0][e2G2] |e2[G2C,2][C,0e0G0C,,0] [e2G2C2]G,2c2 [C,0c0]c2[A,,,0A,,0a0]^c2 |[^c0g0][c2a2] [A,,0c0g0]<[A,0a0c0E,0][c0g0]f2 |
+[D,,7A,,7] [d0A0] [D,2D,,2A,,2]d2 d |de[f0B,,0B0B,,,0]f2f2 [f2B,,2][f0B0B,0F,0B,,0] g2 |[B,,0f0]f2[C,0C,,0][e2G2][e2G2] [e2G2][e2C,2G2][e0G0C0G,0] |[eG][C,0C,,0e0G0] [eG]e[A,,,0A,,0]<[e0A0] e2e2[e0A,,0] |
+[e2A2A,2E,2]c2 [c0A,,0]c2 [f0D,,0A0A,,0][A2A,2f2][A0A,0f0] |[D,0A0f0][A0f0A,0D0] [A2f2]D,2d2 d2[B,,2B,,,2][d0B,0F0] |[d2F2][B,,0d0F0]< [d0B,0F0F,0][c0F0] B,,[d2F2][E0c0C,,0] [cE] |[Ec][c2E2G,2] [c0E0G,0]<C0[E2c2][cE]=B,0D2[c36E36] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+[g2=B2d2G,2G2]D,2G,,2[c'0g0c0e0]C,,2 G,,2 |C,2 E,2G,[g0d'0c'0d0] C2[e'0e0g0c'0E0] |C[c'0c0e0g0]((3G,2g'0g6) [G0c'0e'0]E [e2e'2g2c'2][_A,,0A,,,0c''0c'0a'0]e'2 | C,2E,2 _A,2C2 E2[c'0c0e0a0A0] E2 |C2 [_A,2e'2e2][d2d'2E,2][A,,2c'2c2][g'0e'0c'0g0]<[G,,0G,,,0] |
+E,2G,2 [C2g'2g2][E2e'2e2] [G2c2c'2][g2d2c2G2D2] G,2 |D,2[g0=B0G0d0][G,,,0G,,0] [g2G2][C,,,0C,,0c0c'0g0e0] | C,,G,,C, E,G,CE,G, CE2Gc |e2gc' [^F,,6d'6d6F,,,6a6f6][G,,,G,,g'g]e' [D,d'] |
+b[gG,]e B, deG,gb [D,0d'0] e'[a'0G,,0a0]g' d'0 E, |ag0G,a2[d'2A,2] g'[G,2b'2b2][c''2E,2c'2][b'0G,,0b0]g'[D,0e'0] | d'G,0bg[eB,] ((3d2G,0e2)gbD, a[d'0G,,0d0]a g0 E, | dA0G,GA A,dG,g[d'3d3]E,2[g'0g0G,,0]d' b0 D, |
+gd0G,g [b0B,0] d'g'0D[a'a] [G0g'0]d'[b'0b0]Bg' d'0 | G[d'd][b0D0]g [b'0B0b0]<[g'0G0g0] [d'2d''2d2][c''0c'0c0]=e' | [g'0G0]c'[=e'0E0]g [c'0C0]eg0G,c [E,e]G[C,c]E | [G,,2G2]C[=E2C,,2]G, [d6A6^F6] [D6F,,,6F,,6][G,,0G,,,0g0d0]<[G0B0] D,2 |
+G,B, DB,[a0d0g0A0G,0] D,2[B0g0d0b0G,,0G,,,0] D, |G,[G2g2d2B2] [F,,0F,,,0d'0b0g0d0]D,B, [d2F,,2B2b2g2][E,,,0E,,0g'0]<[g0b0e'0] B,, |E,G, B,2E2G2 B2[g0G0E,,0B0e0] | [B,0B0b0e0g0B,,0]<[g0a0e0A0A,0A,,0] [g2G2B2G,2e2][d0g0D,,,0b0D,,0d'0] D, |
+G,B, D2[B0d0g0B,0b0] [G,2g2G2d2B2][G2d2D,,2B2D2]D,,,2 | D,G,D,2B,2D, G,D,2[D,,2D2A2G2] | D,2G,D,2A,D,G,D,2[D,,0D0A0]^F D, |^F,2D,2 A,D,F, |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+[C0F0F,0]f d |fdf df2 g2F7[B,7D7] |fd fdfd |f2a2[g0B0B,0][D7E,7] | gf[gG] fgf [g2D2]f2 |
+A,0< [G0^^c0C0e0]b2E2[G2a2c2] [gE] |f^^C e A,e[^C2D,2]d2 A,2 |[cC]c [d2F2]D,0e2[A,2f2][D,a] |e[a0^B0G,,0G,0] g2[B,0f0]<[g0B0]F7 |
+d2d3[G,0c0F0][B0D0] | [AD]B[F2c2]B0G,[A2F2] | BG,c [B,5C,5][C2F2]G,2 |[C,0B,0E0]C2 d2[G,2e2] [C,2f2]G,,0[f0B0] |
+D,2[B,4b4]^^c f0 [A,,2a2][E,2g2] |[A,2f2]e2[C0D,0]e2 [f0A,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+[E,E,,] [E,E,,][E,2E,,2][E0^C0A,0A0][A,,2A,,,2][C,2C,,2][A,,2A,,,2] |[f0A0a0F,,0][F,,,4^c4][F,,F,,,]F,,,F,, [F,,F,,,][A0f0F,,0a0F,,,0=c0] [F,,2F,,,2] |[F,,3F,,,3][_B,,0B,,,0f0B0]^c3 F,,3[B,2B,,2B,,,2] |[_B,,3^C3F3B,,,3] [B3B,3C3B,,3] B,,,2[C3c3B,,3B,,,3B3][^G0e0E,0E,,0=B0]G3 |B,,2[E,E,,] [E,E,,][B0E0^G0][E,,3E,3] [G,,G,]G,,2[E,3E,,3] |
+[c0F0^G0F,,0]F,,,5C,,2 [F,,2F,,,2][F,,,0F,,0=g0][c4^G4] |[F,,,5F,,5][^C,0^G0C,,0g0]c3C,C, | ^C,,[C,^g][C,,0c0]C,0<g0[G,,0G0]c2 [C,0C,,0g0G0c0][C,3C,,3][C,4C,,4] |[F,,0a0F,,,0A0][f2c2]>F,,,2[fF,,]F,,,f [F,,A]fF,,,A0F,,2f[F,,,A]f0 [a3A3] [c3F,,3] |
+F,,,3[F,,0F,,,0a0][A3c3][F,,4F,,,4][B,,0B,,,0b0B0][^f4^d4] |B,,,B,, B0 B,,,^f^d0[B,,B][fB,,,b]dBB,,0[F,,0b0] [d2f2]< [f2b2B2d2] [B,,3B,,,3] [d4b4f4B4] [B,,3B,,,3] |[^f2^d2b2B,,2B2B,,,2]E,,2[A,,0A,,,0A0a0=d0][A,A,,]D, E,0 | [A,,A,,,]A,0A,,0D[A,,,0E0]<A0A,,0d ea0E,,0d'e'[a'0A,,0A,,,0]e'd' aedAED |
+A,A,,,0[E,D,]A,,D,2 E,A,DEA,,Ad e [aA,,,]d'E,,e'[A,,0a0a'0A,,,0e'0^c'0]A,, |A,,,a0A,,e'A,,,a[e'0A,,0] a A,,,a'A,,a0A,,,a'[aA,,][A,,,a'] a A,, a'A,,,0[^c'a]A,,a'A,,,aA,,0[a'0c'0][A,,,a] | [A,,0a'0]<a0A,,,0a'[^c'0a0]E,,2A,,,45 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ddor
+G,6[G,,,3C3G,,3A,3] | G3[d0C,,0G0E0][C,2d2] C,,2[C,3c3] |[C,,0e0] [E,0C,,0G,0]E,2C,,2[C0E,0C,0G,0] |[C,3C,,3G3][d0B,,,0A0^F0] [B,,0d0]B,,,2[c3B,,3] |[B,,,3^g3e3][E,,0E,0G,0B,0][G,3E,3E,,3] |
+[^G,3d3B3G,,3][c0E,0][A,,0A,0C0]<[A,,0A,0E0][A,,0A,0] |[A,0A0C0E0]E,2 [B2C2]A,,2[A,,,0c0C0][A,,0d0] | E,2[A,,0A,0c0e0][A,,3a3c3] [_B0G,,0G,0e0]<[G,0B0G,,0] |G,,2[G,,0_B,0G,0D0][g2G,,2]g2C,,3 |
+C,3[C3G3E3]c2 C,[g0A0c0F,,,0] |[F,,0g0]F,,2 [F,3a3]e2C,2[F,3F,,3^G,3] |d3[F,,0F,0^G,0]C,2 [c3F,,3][=G0E,,0E,0B0] |[c0E,0E,,0] E,,2[G,0d0B0]B,,2[E,,3B3] |
+[A,,,0E0C0]<[A,,0c0][A,,0E,0][A,,0A,0C0E0][A,3A,,3C3] |[C0A,0D,,0] [D,0c0]D,,2[c3F,3][D,0F,,0B0] | A,,2[D,,3c3][D,,0D,0B0]D,,2 [D,3c3][D,,3g3] |[F,,,3C3^G,3][F,,3c3][F,,0c0F,0] |
+[F,,,3F,,3B3][c0F,,0^G0][F,2B2] F,,2[c2F,2]C,2 |[g3F,,3] [d0C,,0G0]<[C,0d0]C,2[c0C0] | G,2[C,3e3][C,,0C0E0] [C,2C2]C,2[G,3C3E3G3] |[C,,0G0G,0E0][A48B,,,48^F48d48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[B5d5D5]B,2A2C,0c2E2 F,2 |G,2 C2C,2 E,2G,2 C3 |D,,2 A,,2[D,0D,,0F0d0f0A0]F,2[A0d0F0f0A,0] | F,2[D,2F2d2A2f2] A,,2[^C,,0g0G0e0]c2 C,2[E,0c0g0G0e0] | A,2[E,0b0^c0B0]e2 C,2[A,,0A,,,0]<[a0e0A0c0] C,,2=C,,2 C,2 |
+[A2c2f2a2F,2] A,2[a0C0c0A0f0]< [A,0A0][F,2g2G2][a2A2][=B,,2B,,,2f2F2]d2 |=B,,,0[d'dbg]B,,0[b2d'2d2g'2g2][b0b'0d0d'0D,0g0g'0][G,0e'0e0e''0]b'2 [d'0B,0d0B0][A2a'2a2G,2] [D,2d'2g2] [G2g'2] |B,,2=b'2_B,,,2[B,,2B,,,2][d0f0F0F,0B0][d0D,0F0f0B0B,0][B,,2B,,,2d2f2F2B2] | B,2[F,eE]D,2[f0F,,,0F0A0_e0c0]F,,2C,0[A2c2f2F2]F,,2 |
+[F,0F,,0][g2G2]A,2 [C2c2F2] [fA]F,2 A,,,2A,,2[E,0A,,,0][e2g2G2^c2] |A,,2[^c2G2][g2e2][g0e0A,0A0G0c0A,,0] E,2[C,0a0c0]<[e0A0][A,2A2a2][A,,0a0A0A,0c0e0]E,[g0c0G0]A, | ^C,0< [g0G0c0e0]E,[A,0g0G0c0A0]A,, [Gegc] E,A,0[A,,0G0][C,0c0e0g0]=B,0<C0[A2a2c2][Ee] C [B,0^f0_b0B0]G,[G,,0D,0]<[A0a0=b0d0=f0] G, | B,,[a0d0f0A0]G,,D,,[df]G,,, D,,0[aAfd]G,,B,,[D,0a0][Adf]G,0 B,0< [A0a0d0f0][D0d0][B,gG]dG,0D, [a0A0d0A,,0] |
+D,,A,,[dD,A][a0d0A0f0]E,F, [A0f0d0a0A,0]D[d2a2F2A2f2][aAfd] A, F,[a0d0A0f0]E,2D,B,,[gGd] B,,, | [aAdf]F,,D,F,0[daAf] B,[A0f0a0d0]DF[A0a0d0f0] [B,0g0G0]<F,0D,[aA]F, [c'0c0] | C,F,,[A0a0]C,2F, G, [A,0A0a0c0f0]C[A0c0f0a0F0]G [F0a0A0c0f0]<C0[g0G0]A,G,[FfA] | D,[gG]A,,D,,0<[a0A0d0]A,, D,E,[aF,dfA]A,[Aafd]D0 E[A0a0d0f0F0][D0a0A0d0D,0f0]A, |
+[a0F,0d0A0f0]E,D,2[gG]B,,[F,,0F,,,0B,,,0][daA][F,,0B,,0]D,F,0<[F0f0A0d0a0]B, [Aadf][E0e0][F0A0f0a0d0]ED[g0G0] B, |[g2F,2G2]D,[FfC,]A B,,0 G,, [C,0C,,0e'0]< [g0g'0G0e0][C,0c'0c0g0]<E,,0[a0A0] G,,[a0C,,0A0]G,,[C,,0b0B0] G,, | [C,0b0B0]<E,0G,0[cc']E,C,0 [c0c'0] A,,E,,[d'0d0]E,,A,,0[d0d'0] ^C, E,0[e'e][A,0A,,0][C0e'0e0][E=C] [a0A0] | [f'f][^c'0C0][f'0f0][A,c'][E,0C,0][g0g'0] f'G,,0[gg'][G,,,0G,,0D,,0]<[a0=b0]d'0f'0a'[B,,,0B,,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+c2d[E,0e0B0E,,0] B,,E,G,B,E F[g0e'0e0G0]F2E2 [fB,f'] |G,E,[g2g'2B,,2] [C,0C,,0c'0] [a2a'2]G,,C, E,G,CD[a0a'0c'0E0] D2 |C2[b'2b2d'2G,2]E,2C, [G,,c''c']C,,[A,,0a0a'0c'0A,,,0] E,, A,,C,E,A, B, |[a'ac']E,A,[E,bb'd'] C,2B,,[E,,2c'2a'2]a2A,,,[B,,0B,,,0g'0g0]F,,B,,[f0f'0^D,0] F, |B,^C[=f'f][^D,0C0] B,2^F,2[f'2f2D,2]B,,2 F,,B,,,[E,0g0b0g'0E,,0] B,, |
+E,G,B,E F[b0g0g'0G0]E2 [aa'B,]G,2E,2[b'2b2B,,2]E,, | [C,0C,,0c'0c''0] e'C,G,,C, E,G,CD[c''0e'0c'0E0] D2C2[G,d''d']E,C, | [G,,2e''2e'2]C,,[A,,0f'0A,,,0f''0] E,,A,,C,2E,2 A,C2E2Ac2 | e2[C,2A,2E,2]c'2e'2 f'[B,,0b0b'0B,,,0]f'2e' b[fA,]e[B,,0B0] e |
+[b0A,0] B,,f2eB [A,B,,F]E[A,0B,0B,,0F0]F [B,0^D0B0B,,0F0B,,,0] B,,,2 |B,,2[B,0B0^D0B,,,0B,,0F0]B,,,2B,,2[e0B,,,0E0^c0C0] | B,,,2B,,,2B,,2[B,,,0^d0D0F0]B,,2B,,,2B,,2 | [E0C,0C,,0B0G0]C,2 [E0B0C,,0]<[A0C,,0]G0C,,2 |
+[E0C,0][C,,0A0D0] C,,C,C,,2 C,C,,C,,2C,2 |[C,,2G2][C,2A2][D,,0D0B0F0][D0B0D,,0] D,,2[D,,0D0B0F0] D,,2 |[A0D0D,,0]F2[A0D0D,,0][B0F0D,,0D0D,0][c0F0D0D,,0] D,[cDF]D,,2 [D,0D0D,,0c0F0] |[D,,0D0c0]F3[D4B4C,4F4C,,4] [B,0B,,0D0B0B,,,0F0] B,,,2 |
+B,,2[D0B,,,0B0]A2[B,,,2G2] [E0B,,0]<[B,,,0A0D0] |B,,,2B,,2B,,,2B,,2 [B,,,2G2][B,,2A2] [D0B0E,,0F0] |[DB]E,,2[D0B0F0E,,0]E,,2 [D0A0E0E,,0]<[A0E,,0D0][D0B0E,0F0E,,0] |[G,,0D0]G, [c0D0G0]G,,[DdG,] G,,B,,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[C,0C,,0A0C0][C,2C,,2=B2] [C0c0E0C,,0C,,,0]<[C,0C,,0G0F0D0d0]C,2[e0C,0G0C,,0E0] | [C,,0C,0]<[C,0c0C0E0][C,0C,,0f0] [A2F2]C,2[C,0f0C,,0F0A0] C,2[C,0C,,0e0G0E0] C,2 |[C,0c0C0E0][C,0C,,0f0F0A0]C,2[C,0C,,0g0=B0G0] C,2[C,0e0E0C,,0G0]C,2 |[C,2E2c2C2][F0d0D0B,,0B,,,0]F,2[GeE] B,,2F,2[f2A2F2][B,,2E2G2e2] |B,,0[c0C0]E2[F,,0F,,,0A0f0]F2 C,2[g0F,,0=B0G0F,0] F,,2[C,2a2c2A2]F, |
+F,,2 [=b2d2B2][C,,0C,,,0c0g0c'0]e2 G,,2[C,0g0d0d'0]bG,2[g2c'2e'2C2e2]G,2 | [c'0C0c0C,0e0g0]<C,0[f'afc']G,2[C0f'0f0][c'2a2]=B,2 [C0g0c'0e'0e0]G,2 [c'0g0c0C0e0] |C,0[f'0c'0f0a0]G,2[g'0=b0g0d'0]B,2 [g0c'0e'0C,0C0e0]G,2[C2c2c'2][g2e2] |[d'0f0d0b0B,,,0B,,0]F, [b0e'0B,0d'0e0]F2[f'2B2b2f2d'2][e'2e2][c2c'2] |
+[F,,0F,,,0A0f0F0]c2C,2 [g0c0F,0G0f0]C2[a3A3c3f3F3][=b2B2] | [c0c'0C,,,0g0C,,0e0]< [=B0G0D0b0d0g0][E3c3e'3g3c'3G3e3][C0E0c0G0e0g0c'0] [a3f'3f3c'3F3c3A3] |[c0F0A0f'0a0c'0f0][e3c'3e'3E3c3g3G3C3][G0C0c0g0E0e0c'0]< [a0f'0c0c'0f0F0A0] |[g'0=B0G0g0b0d0]d'3[c0E0e'0c'0G0e0g0][C2G2E2][c2e2g2c'2][d0f0d'0_b0][B,,3B,,,3] |
+[e'0e0b0c0B0c'0E0]<[f0f'0F0d0b0d'0B0B,0][e'2e2][c2c'2][f'0f0F0B,0b0d'0] |[B,,0B,0f'0d'0f0]b3[b0B,,0e'0e0][B,,,3d'3][c2c'2]b[f0F,,0c0F,,,0A0F0] | C,2[F,0f'0f0]C[F0e0e'0]C2 [F,0c0c'0]<F,,0[f0F0]C,2 |[F,0f'0f0]C2 [e'2F2e2]C2[F,2c'2c2][f0^G0F0c0][G,,0G,,,0] |
+[F,0f'0f0]C2 [e'2F2e2]CF,2[c2c'2][F0B0B,,0B,,,0f0d0] [F,0f'0F0f0] |B,2[e'2F2e2]B,F,0[c2c'2] [c0g0G0e0] [C,,,2C,,2]G,, [f'0C,0f0] |G,2[C2e'2e2] G,2[C,0c'0c0]< [C,,0G0g0]G,,2[C,0f'0f0] |G,2[C0e'0e0] G,2C,0[c2c'2][C,0C,,0c0][G2E2][C,2=B2][c2C2C,,2G2E2] |
+[=B0C,0]<[C,0C,,0c0E0G0][C,0B0][D,0D,,0B,,,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+C2[e2E2F,2G2c2]C,2[c0A0f0F0F,,0F,,,0]C,2F,2 | A,2C2 F2[c'0c0a0f0A0] F2C2A,2 |[a2c'2c2f2C2]F2[e0b0g0B0]E2B,2 [a0A0B0e0F,,0] F,2B,2 | [g2B2G2e2E2]B,2 [f0d0B0F0D0]B,2 F,2B,2[D4e4B4E4d4] |[f0c0F0A0F,,,0F,,0]C,2F,2A,2[f0F0c0A0C0] |
+F2[c'0A0f0a0c0] F2C2 A,2[e'0e0a0c'0]C2F2 |[g0c'0c0e0]E2C2G,2C2 E2C2 | G2C2 [g0c'0c0e0E0]C2[g2e'2c'2e2G,2]C2[b4f'4f4][F,,4F,,,4] |F,2B,2D2B,2[g0e'0c'0e0]E2 |
+C2G,2 C2[f'2G2f2] [C2g'2g2][f'0a'0c'0a0]D2F2 |[f'0g'0A0g0c'0]F2[f'0c0c'0f0a0]F2 C2E2 | [g0c'0e0c0G0]E2 [g0e'0c'0c0e0] [b4f'4f4F,,,4F,,4]F,2 |B,2D2B,2[e'0g0c'0e0]E2C2G,2 |
+C2G2 C2[a0c'0F,0c0f0] C2[g0G0c0f0]C2 |[f0A0a0c0]C2[f0B0c0b0]C2 [A0c'0c0f0a0]C2 [e'4e4c'4g4G4] | [f'2B,,2B,,,2f2b2d'2]F,2 B,2D2 F3 |[C,0e'0g0C,,0c'0e0]G,2C2E2[G2f'2f2] |
+[g'2g2][c'0a'0a0D,,,0D,,0][g'2g2b2] D,2[f'0a0f0F,0] A,2 |D2F2A2d2f2a2 | d'12 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+F,,,F=A[F,,,0c0]f a[F,,F,,,c']f'2a'[f'0d'0b'0b0f0d0B0] [b0d0B0f0] B,,,2 |[d'2d2b2] [f'0F0c'0c0f0=a0]A4[e'2e2c'2F,,2][F,,,2a2][d'2d2] |[e'0d0d'0e0A0a0E0] [f0f'0a0d'0d0F0A0]< [f'0e'0f0b0] [E,,,2E,,2][e'2e2] |[B,,2d'2d2][G,2c'2c2][B,,0d'0d0][b2f2] [B,,3B,,,3][b0F,0d0B0f0] | D2F,0<[f'0f0]b2[g0e'0e0b0][E,,,2E,,2][d'2d2B,,2][c2c'2G,2] B,,0< [d'0d0b0f0] |
+[B,,,2B,,2] [B0b0d0f0F,0]B,2[C0a0A0][b0D0B0] |[C0d'0]d2 B,2F,3 [B,,2B,,,2]F,2 |[d0B0b0f0D0][F,2d'2]d2[f'0c'0f0=a0F,,0F,,,0] C,2[c'2e2e'2a2A,2] [C,0d'0d0] |[e0a0d'0e'0D,,0][f'2f2d'2a2A,,2]F,2[f'0e'0f0E,,0b0E,,,0]d'2 [a2a'2] |
+[B,,2f'2f2] [e'2G,2e2]B,,0[f'2f2][F,,,2F,,2][f'0c'0=a0f0]C,2 |=A,2C,2[F0F,0D,,,0D0D,,0_A,0] A,,A,2D2[FF,]A d2 | A,, fad'2f'[F,,,2F,,2][=a'2a2c'2f'2][f'2a'2a2c'2F,,2]F,,,2 [a'3a3f'3c'3F,,3F,,,3][a'3a3f'3F,,3c'3F,,,3] |[F,,3F,,,3=a'3a3c'3]f'3 [a'3a3F,,3f'3F,,,3c'3][a'4F,,4F,,,4a4c'4f'4][a'0F,,0f'0a0c'0F,,,0] |
+[b'0f'0d'0b0B,,,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[A,A,,][D,0D0]A, [D,,0F,0F0]A,DA, [D,,0A,0A0]D[D,,0F0]<[d0D0]A,, | [Dd]F[AA,] F[B,,,0d0D0]B, [DD,]B,,B,,,[FF,] B, |DB,[B,,B,,,F] B,[D,0D0B,,0B,,,0][B,B,,B,,,] [B,,FB,,,F,][B,,B,,,B,][A,,DA,,,][B,B,,,] | [G0G,0C,0C,,0][CC,][E,E][C,C] [G,GC,,]CC,[E2E,2][C,C][G,GC,,]C[EE,] [C,C] |[C,,0C,0c0C0][E,0E0][CG] [C,E][c0A,,,0C0][C,C] E2[CC,][A,,,AA,][CC,] |
+[E2E,2][CA,,,][A,,A,AA,,,]C [A,,EA,,,E,][A,,CA,,,][A,,A,AA,,,][C0A,,,0A,,0] [E,EG,,,] G,,[CA,,A,,,A,][B,,0B,,,0B,0B0] [DB,,] |[FF,]D,[dDB,,][B,,B,,,][B,B] D0< [D,0D,,0][FF,][DB,,]B,[B,,,D] [B,,B,,,][B,,FB,,,][B,,B,,,D][A,,0A,,,0]d | [G,,DG,,,][F,,F,,,F][E,,E,,,Dd][D,,0D,,,0d0D0][d0D0][F,,0F0F,0]<[D0D,0D,,0] [A,0D,0A0D,,0][DF,,]D,[FF,,F,][DD,]D,, | [A,0A0D,,0][DD,][FF,][DD,] D,,[A,0A0D,,0][DD,]D,,2[A,F] [DF,][GG,C,,][CC,][EE,] [CC,] |
+[G,0C,,0G0]C0C,[C,0E0] [C,C][C,0C0C,,0c0][CC,c][EE,] [CcC,][G,0G0C,,0]C,CC,[EC,] | C((3G,2D,,0d4)D[G,2E,2^C,2] [C,D,,][F,D,][D,F,][A,C,E,C] [E,C,G,][F,D,][A,F,D,,] [G,D,E,] |[E,G,D,,][A,F,][A,0F,0]D,, G, E,[G,E,]D,A, [F,DA,D,,]^C[G,E,D,A,]A,,C[E,G,A,D,][DA,]F, | [A,0D0F,0] [D,,A,,]^C[G,E,][C0G,0E,0]D2 E, D,, A,,[D,,0D,0A0A,0]D[F0D,,0D,0] D D,,[d0D0A0=C,0C,,0][C,C,,]F A0 [C,,C,] |
+[C,0C,,0F0][D0B,,0B,,,0]B, [DD,] F,B,,2B,[FF,B,,,] B,D[B,,B,][B,,0F,0F0D0B,,,0] | [B,,B,]DB,,2B,[d0D0A,,0A,,,0] [A,,A,,,][A,,A,,,][A,,A,,,] [G,,0g0G0G,,,0][B,B,,][d0D0G0D,0]<[G,,,0D,,0][B,B,,] | [G,,0G,0G0]<[B,,0B,0][D0G,,0][B,G,,][G,,0G,0G,,,0G0][B,G,,][G,G,,DG,,,] [B,G,,G,,,][G,,0G,,,0e0E0][G0B0][G,,G,,,][G,,G,,,] | [G,,G,,,][A0f0F0][d0D,0D,,0][A,0A,,0]G,, D D,[A,A,,][D,0D,,0F0F,0][A,,A,] [D,D][A,A,,][d0D0D,0][A,A,,] |
+D,0D[D,A,,]A,[D,0D,,0][F,F] [D0A,0D,,0][D,D,,D][A,D,,D,][D,0D,,0F,0F0] [A,A,,][D,D]A,,A,[F,FD,,] | [A,A,,][DD,][A,,A,] [A,0A0D,0D,,0]D[D,,0D,0F0][D,D,,] [d0D0C,0C,,0][C,C,,F][C,AC,,] [C,0C,,0A0F0] |[B,,0D0B,,,0][B,B,,][DD,] B,, B,[B,,,FF,]B,0B,, DB,[B,,0F0F,0D0B,,,0]<[B,0B,,0] | [B,,0D0B,,,0][B,B,,]B,,,[d0A,,0D0A,,,0][A,,,A,,A,] [A,,A,,,][A,,A,,,][g0G,,0G0G,,,0]< G,,0 [B,B,,][D,0D0]G[GB,,B,][G,,G,G] |
+[B,B,,][G,,0D0G,,,0][G,,B,][G,,0G0G,0G,,,0][B,G,,][G,,G,,,]D2B,[B,G,,G,,,] [eG,,GG,,,EB][G,,G,,,][G,,G,,,][G,,G,,,] [F0D,0A0d0D,,0] |[A,A,,]D0<D,0A,,[A,F][F0F,0D,,0][A,A,,][DD,] [A,A,,][d0D,0D0]D,,A,A,,[D,D,,D] | A,A,,[D,F,]F[A,D,D,,][D,D,,] D[A,D,,][D,0D,,0F,0F0][A,A,,] D, D[A,,A,][D,,0F0F,0D,0][A,A,,] | D0 D,A,0A,,[a0D,,0A0D,0] [d0A,,0A0][fF]dD,,0[d'2d2][fA,]A,,[aD,D,,]f D, |
+[d'0d0B,,,0][B,,0B0F,0]<[d0D,0][B0B,0B,,0][f0F0B,,0]B,,,[B0B,,0B,0] [Dd]B[B,,B,,,fF]BB, | [B,,0B,,,0D0d0][B,,B,,,B][B,,fB,,,F] B [B,,B,,,][A,,dA,,,]B[B,,B,,,][g0G0C,0C,,0] cC,E,[eE][C,Cc] [g0G0C,,0] |c0[C,0C,,0][eE,E][C0C,0]c [g0C,,0G0]<[c0C0C,0]C,,2e2C,2c [c'0C,,0c0]< [C,0e0][E,e][G,g] e |[c'0A,,,0c0]e[c0A,,,0]e c[A,,A,,,aA]cC,[eE]E, cC,[a0A,,,0A,,0A0]c [A,,0A,,,0E0e0c0] |
+[A,,,A,,c][A,,0A,,,0a0A0][A,,cA,,,] [G,,0G,,,0c0e0E0][A,,cA,,,][B,,B,,,bB]d [F,fF]d[B,,B,,,b]Bd0 [DD,] |[F,B,Ff]dB[d0D0]B,,, [B,,B,,,][B,,B,,,][B,,B,,,][A,,0A,,,0][d'2d2][=B,,,0A,,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+[a3A3][g3G3][f2F2] [E3e3c3][D,,,0D,,0c0][E0e0] |[ADd] [F,0D,0A,0]<[d0A0D0] [D,2D,,2]<[a2A2] [g3G3] |[f2F2A,2d2D,2]D2[g3G3c3][G0g0c0C,,0][e4C,4][Gec] |[G,0E,0C0C,0][G0c0C0][C,,0C,0][G0g0c0e0]< [f0c0F0][e0c0C0E,0][C,0E0G,0] |[f3F3C,3c3C,,3] [A,,0g0A,,,0G0c0][G3c3g3] [G0G,0A,,0][ecE][A,A,,][E0e0A,,0A,0c0] [A,0A,,0] |
+E,,2[A,,0A,,,0C0c0][A0c0C0][A,,0G,0] [A2A,2][g3A,,3G3A,,,3] |[B,,0f0B,,,0F0][FdB]F,0<[D,0B,0]B,,2[F0B0][B,,0B,,,0][a3A3] |[g2G2] [F,3B,3] B,,3 [f2F2][e3c3E3][C,2C,,2C2][D,,,0D,,0][c0E0e0] |[d0D,,0A0D,0D0][A,0D,0F,0D,,0][A0D0]d[D,D,,] [a0A0][g3G3] |
+[f2F2A,2][D,2A2][G3g3] [C,3C,,3c3][C,,0C,0G0g0][e4c4][e0G0]c2<[G,2E,2C2] |Gc[C,0C,,0] [c0g0G0] e2[F0f0c0][c0E0e0C0G,0][C,0E,0] [F3f3C,3c3] [d3C,,3] |[G0g0A,,0c0A,,,0]< [c0g0G0][A,G,A,,] [ceE][c0e0E0A,0]A,,E,, |[A,,0c0A,,,0C0G0][C0c0G0]<[A,0A,,0G,0]G[A,0A0A,,0]< [g0G0A,,0^^c0A,,,0][B,,0B,,,0f0F0] |
+[F0B0] F,0< [B,0D,0] B,,2F [B,,2B,,,2]<A2 G2 |[F,3B,3]F3[D0d0D,0][dD]D,0A,0 [d'd][d'd][d2d'2] | [cc'][c'c][c2c'2][Aa][Aa] [a3A3][G3g3D,3]A,2e2 |[f3F3] [G0g0e0c0]< [C,0C,,0] [G,0C0E,0F0] c[g0G0c0G,0][a0C,,0C,0A0e0]c |
+G,,[C,0C,,0A0D0d0]<[C0E,0G,0C,0][D2G2]G,2[C,,3C,3C3] | [d0d'0A,,0A,,,0][d'd][d'd] [A,0A,,0G,0E,0][cc'eg][gc'ce] [A,,0A,,,0]< [c0c'0e0g0][A,,0A,,,0a0A0]e[Aea] g |[e0A0a0]g[G,0A,,0][g2G2][a3A,,3A,,,3A3] [a0f0A0][B,,4B,,,4] | [B,0D,0B,,0F,0]<[a0A0f0d0] [B,,B,][F,,0A0]dB,,, [A0d0a0]<[D0D,0F,0B,0]B,, A0 [d2f2] |
+[B,,0D,,0a0A0B,,,0]d[Aa][D,0d0D,,0d'0]A,,[d'd][d'0d0] [D,0C0F,0]A,[c'ae']e[eac'e'] | [D,0D,,0]< [c'0e'0a0e0]A,,2[D,0D,,0f0f'0][ac'] [faf'c'][f0f'0c'0]a[C0A,0D,0]F, [g0g'0] f'2[g'0g0D,0][c'3D,,3e'3]=e'2 |[a'0C,,0C,0c'0a0] [E,0C0]< G,0 [c'ff'][f0f'0c'0C,,0]C,2 [C,0g0c'0g'0e'0C,,0]G,,2[e'0C,,0c'0C,0]e4 |[C2G,2E,2]<c'2e3[C,0C,,0D0d0C0][Dd] [A,,,0d'0A,,0d0]<[d'0d0]c'[d'0d0] |
+[A,,G,][c0c'0d0][cc'] A,,0 [c2c'2] E,2E,,2[a0A,,0A,,,0A0][aA][A,,G,][g2G2] |[a3A,,3A,,,3A3] [A0a0d0f0]<[B,,0B,,,0] [D,0B,0F,0B,,0][A2f2d2] [B,,0B,0] |[d0A0f0F,,0]B,,, [A0d0] f2[F,0B,0D,0][A2d2][B,3B,,3] |B,,,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+c2 G2AB8[d'2d2] | [c'2c2][d'2d2] [e'2e2]B,,,0<[f'0d'0f0b0]B,, D,B,,0b0B2[d'0F0f0d0B,,,0b0D0] |[B,B,,][F0f0]D[B,0d0]d'2[B,,2B,,,2]F,,0<[f'0d'0f0b0] [G,,,0G,,0]<[b0B0]g[DB,] | G,2[d'0b0G0d0D0][G,2B,2] [G,G,,][DB,][G,0G,,0]<[g0d'0d0] [G,,2G,2]D,0[a'0a0d'0]f'2[D,,0D,,,0] |D,0[g'0g0d'0]F,[g'0g0D,0][g'0a0D0F0][d'0g0][A0A,0A,,0] F[A,0A,,0][f'2f2][D,D,,D] A,,0 |
+[f'0f0d'0] b2[E,,0E,,,0]< E,0 [e'0e0] G,B,E,2[E0d'0b0d0B,0g0]E,E3[E,2d'2d2] |[E,,2c'2c2]B,,2[e'2e2][B,,0f'0f0B,,,0][b0d'0]B,,D,0 F, B,,0< [b0B0][d2d'2b2f2D2]F2 | B,[F0f0]d0DB,0<[d'0d0] [B,,2B,,,2]F,,0[f'0d'0b0f0][A,,2A,,,2][A,,0A,,,0b0]BF,[A,,0A,0] |[d'0b0f0d0][D2F2]A, [F0D0]< [A,0A0][d'2d2][A,,0A,,,0]< E,,0 [d'0E,,,0]< [d0g0b0][G,,,2G,,2] [G0G,0e'0e0] g2 |
+DB,G,2 [G0b0d0d'0g0G,0D0B,0]G,DB,[d2d'2][G,,,0G,,0][d0d'0]gD,[d'0d0f0b0] |[A,,2A,,,2]A,,0[f'0f0][E,0E0] CA,2[e'0e0a0c'0]<[A0E0]C A,ECA,2B2 [A,,2d2] |[E,2e2][f0d0B0G,,0] D,G,[B,2G,2][B2D2] [GD,][G,,d]D,2G,B, | [d0D0]G2G,,D, G,0< [f0d0] B0B,A,,E,2 [A,B]D2EA[dA,,] |
+E,2A,D[Ed] AA,,E,A,0<[a0d0f0]D B,,F,[B,0g0]B D2 | g FB[B,,0g0]F,2 B,Df0FBB,,2 F,[f0B,0][d0B0]DB,, | ((3F,2e0B2)B,[Dd]F B[d0B,,0]F,2B, D d F2B[B,,c]F,B,2 e2 | =C[f0d0B0G,,0]D,2G,B,2[DB]G[G,,0d0] D,G,B,[Dd] G |
+G,,2D,G,0<[f0d0B0]B, E,,B,,E,BG,2 B,D[d0E,,0]B,, E, |G,[B,2B,,2d2]DE,, B,,E,0[d2B2]B,,, B,,2[eD,]F,B,2D | [dB,,,]B,,D,2F, B,2 d2D[B,,0d0]D, F,0< d0 B,A,,2E,A, f2 | CEA[A,,0e0] E,A,CE A48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+A,,E,,[A,,0A,,,0C0A,0][E,0A,,,0] A,,2C4 |E,2A,,2[C0B,0] E,2A,,2 [C3A,3] |E,2E,,B,,,[E,,0E,,,0G0E0]B, E,,2 |G3B,2E,,2 [G0F0] B,2 |E,,2[G3E3]B,2 G,,D,,[G,,,0B,0G,0] |
+D,2G,,2B,3 D,2G,,2 [B,0A,0] |D,2G,,2[B,3G,3]D,2 D,, | A,,,[D,,,0D,,0F0D0]A,2D,,2 F3 A,2 |D,,2[A,,0F0E0]A,2 D,,2[F3D3] |
+A,2A,, E,,[A,,,0A,,0C0] E,2A,,2 C3 |E,2A,,2[C0B,0]E,2 A,,2 |[A,3C3]E,C,,G,,, [B0C,,,0G0] C,,3 C,2 |C,,2B3C2 C,,2[G,,0B0A0] |
+C[C,,0G,0][B3G3] C2G,,D,, G,,,0< [B,0G,0] |D,2G,,2B,3D,2G,,2 |[B,0A,0]D,2G,,2 [B,3G,3] D,2 |D,,2A,,,[D,,,0D,,0F0D0]A,2 D,,2F3 |
+A,2D,,2[F0E0] A,2D,,2 [F3D3] |A,3[E0c0C0A0]<[A,,,0=F0][A,,2A,,,2] [A,,,2A,,2] |[B0C0A,,0A,,,0E0]A3[A,,0A,,,0] [A0C0A,,0A,0E0] [A,,,3A,,3] |[F0C0A,,0F,0A,,,0][A,,3A,,,3][G0g0E,,0B0e0E,,,0] |
+[E,,,E,,][E,,,2E,,2][G0E,,0E,,,0B0e0] [E,,,4E,,4] [e3B3G3E3] |[E,,4E,,,4][E,,,0E,,0B0][G3E3][E,,,4E,,4] |[G0G,,,0B,0G,,0B0D0]D,,32 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+G2((3B2G4d'2)[Dd]B,2[G,e'e]D,2 [f'0B,,,0B,,0f0d'0b0] |F,((3B,2D4f'2)[d'fbB,]F,2 [a'0a0c'0] [A,,,3A,,3e'3][c'3e'3a3e3A,,,3A,,3] |[e0c'0a0A,,,0c0A,,0]A,,,3 A,,,6 |[A,,,0E,0]A,,C, E,[A,,,A,][CC,]EA0 G,,,0 c((3e2a2c'2)[D,,,0D,,0][d'd] | f0 A,,[aD,][F,0f0] [d'0d0A,0][Df][Fdd'][f0D0][A,0a0]< [F,0f0] |
+[D,f'f][A,,2a2] [F,,0F,,,0a'0a0]<[c'0C,0][F,0f'0] [A,0c'0]<[C0a'0a0][F2c'2] |[A0a'0a0][F0c'0]C f'[A,0c'0][F,a'a] C,2 c'[G,,0G,,,0g'0g0]b0D, | d'0 G,[a'0a0B,0]<[g'0D0g0][G0b0][B0d0d'0]< [G0g0B0][b0D0d0][B,0g0] [G,g'g] |D,2b2[D,,0D,,,0f'0f0][a0A,,0][D,0d'0]f[aF,]A,0[dd'][D2f2] [F0d0d'0] |
+[D0f0][A,a] [fF,][dD,d'][A,,2f2] [B,,0f'0B,,,0f0]<[b0F,0][B,0d'0] |[b0D0][d0F0d'0] [B2f2][dd'][B0f0] [Fb]D0f[d'dB,] | F,2 f[A,,0A,,,0c'0c0]<e0 E,a0A,[d'0C0d0]< [A,0e0e'0][a2E,2][A,,Aa] | [cE,][A,0A,,0e0][C0c0] [cc'A,][E,0e0]<[D,,,0D,,0][d2d'2][a0A,,0][D,0f0]< [d0F,0] |
+[AD,][F0A,,0]< [d0D,,0F0D0A0][G,,0A0G,,,0F0]G3[A,,A,,,F][AD][C,,2C,2] |[D,,,0D,,0]F2[c2C,2C2] [D,,A,D,,,A][G0G,0][A,0A0D,,,0D,,0] [c2C2][D,,0D,,,0D0] |[D,,0A,0A0][D,,,0D,,0]<[D,,0D,0][cC] [D,,,0D,,0]<D,,0[d0D0F0A0] A,,[A,,AD,]A,,2 | [F,0F,,0F0d0D0A0]A,,[E,0d0D0F0A0] A,,2D,,A,,2D,[fFAd]A,, [F,,0F,,,0a0c0] [A2f2] |
+C,F, C,[A,0a0A0c0f0]C,[G,0c0a0][Af]C,((3F,,2C,4F,2) |[F,,aA][fc]C,2[G,,0G,,,0g0d0G0B0]D, G,D,0[aA][B,G,,gBG] | D,2[GDdB]B,D,((3G,,2D,2G,2) [DGdBB,]D,2[f0d0F0B,,0B0B,,,0] | F,B,F,2 [B,dDFB]F,2[B,0d0D0B0F0B,,0]F,2B, F,2 |
+[dB,,BDFB,,,][A,,,2A,,2] [G,,0g0G,,,0d0B0G0]D,G, D,0[aA][G,,0B,0g0G0]D,2 |[d0G,,0D0B0G0D,0]D, G, [gG]D,2[aA][G,,,0G,,0B0b0] [A,,,2c2A,,2G,,,2c'2][d0d'0b0f0][B,,0B,,,0]F, |B,F,[B,0d'0d0f0b0]F,2[f'0d'0B,,0f0b0]F,2[B,0d'0f0b0d0]F,2 f |=B,,0 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+[^F,,0^c0] [B0F,0F,,0][C,A][F,^G][D,,2F2]D,2 [A,,2A2] |[^cD,][E,,2e2^G2] E,2B,,[E,2B2][A,0A,,0A0c0E,0] [G,3G,,3E,3] |[^F,,0F0] [^G0F,0F,,0][^C,A][c2F,2][B2D,,2][D,A] [G2A,,2] |[^FD,][E,,0B0e0] [f0E,0][B,,2B2e2]E,2 B[^c0C,,0^G,,0C,0F0G0] [C,,3G,,3=F3] |[e2A,,2] [A,2d2][cE,][A,2B2A,,2][A0F,,0][B2F,2] [C,2c2] |
+[eF,][d0G,,0] [c2G,2][dD,]G, g[g0G,0C,0C0] [B,3G,3B,,3] |[e2A,,2] [A,2d2][cE,][A,2A,,2B2][A0F,,0][F,2F,,2B2] [c2C,2] |[eF,][d3B,,3A3E,,3E,3][B,,0A0E,0A,,0E,,0]c[B,,0^G0e0E,,0E,0] [B,,3E,3G3E,,3] |[e0C,0F,,0] d[C,2c2F,,2]B2[A0C,0F,0F,,0]Bc2 [F,,C,E,,] |
+ee[d2B,,2E,,2E,2] c[B,,0E,0B0E,,0]c[d3B,,3E,,3E,3] [B,,3g3E,,3E,3] |[A,,,0e0A,,0] d2[A,,2c2E,2]B[A0B,,,0B,,0]B2 [B,,0c0^F,0] |e[g0c0C,0C,,0][G,C,]d[^C,0C,,0c0e0] |ee[D,,0D,0f0][A,2e2D,2D,,2] f[^f2^D,,2D,2]d2 [A,0f0D,0A,,0] |
+a[a0B,,0E,,0e0E,0][B,,3E,,3E,3][^g0B,,0e0E,0E,,0] [B,,2E,2E,,2] |B[A,,5E,5c5A,5]d[G,5D,5d5G,,5] |f[C5G,5C,5f5]e[C6G,6C,6e6] |[c0C,0F,,0]c[G,0d0D,0G,,0]c2 B |
+A[G,0C0C,0A0]G[G,27C27C,27G27] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+E,4E,4 |E,4E,4[E4E,4] |E,4[E2E,2] B,2[E,0E0] [g2G2] |[f2F2]G2E,0E4E,4 |E,3 E,2^D,2 E,2[G,2G2]F,2 |[G,2G2]E,4[E,0E0]E,4 |
+[E,2E2] B,2[E,0E0] B2[E,0a0]A2B2 |E,4E3[E,4E4]E,4 | E,2^D,2 E,2[G,2G2]F,2[G,0G0]E,4 |[E,0E0]E,4[E,0E0]< F,0 |
+B,2G,0E2[G2E,2][F,2F2][G2G,2]E,2E[F,2F2] |[G,2G2][E,2E2] F,2[G,2G2] E,2 E2F,0B,2G,0 E2 |[B0E,0][F,2A2][B0G,0]E,0E F,2[G,2G2] | E,2F,2 [G2G,2][E,0E0] ^D,2E,2G,0[g0G0] |
+F,2[G,2G2] E,0E2^D,2 E,2B0B,2 A,2 |B,2[E0E,0]^D,2E,2[G,0g0G0]F,2 | [G,0G0]<[E,0B0] ^D,2E,2 [e0G,0]F,2[G,0G0] |[g2C,2C,,2]f2eA6 |
+[E22G,22]C21 |[A,,,0A,,0f0] e2 |d4< A4[C18E18A,,18A,18] | G2A2 [F,,,0F,,0] c2e2d2 |
+[f18F18] | F,0< [^D,0B,,0F0B,0] D24 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+[A,,9D9] | [G13E,13] |A,,4D4[F,17A17] |A,,0D4 |[G,,0B0G,,,0G,0G0]D35 |
+[A,,0G,,0A,0]<[C,0c0e0G,0][E,13E13] |A4 [D0B0] G,9 | G9 |[F,22d22][A22D22] |
+D,17 | [G,0E,,0D,0E,0] |[F,,0F,,,0D,0A,0] |[G,,44D,44B,44] |
+[E,0A,,,0C,0A,,0] |[A,,,0A,,0F,0D,0] |[G,48G,,,48D,48G,,48B,,48B,,,48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+E2E,2[F,,0B0][C,0A0][F,,0F,0]C,2[C,2A2]F,2 |[C,2A2][F,,2B2][C,2A2][F,0C,0][C,2A2]F,2 |C,2A2[D,,2B2] A2A,,2D,2 [A2A,,2]D,2 | [A,,2A2][D,,2B2] [A,,2A2]D,2 [A,,2A2]D,2 [A,,2A2] |[d0A,,0]< [E,0c0E0]A,,2 [A,,0E,0c0]A,2 [E,2c2] |
+[d2A,,2] [E,0c0E0]<[c0A,0] [E,2c2]A,2[c0E,0]E2 |[E,,2c2][B,,2B2]E,2[B,,0B0]E,2B,,2E2 |[d0E,,0][c0B,,0]E,2[B,,0B0][E,,0B,,0][B,,2E2] |[F,,2B2][C,2A2]F,2[C,2A2]F,2[C,2A2] |
+[F,,2B2][C,2A2] F,2[C,0A0]< [F,0C,0][C,2A2] | [D,,2G2][F2A,,2] D,2[F2A,,2] D,2F2A,,2 [G0D,,0] |[A,,2F2]D,2[F2A,,2]D,2[A,,2F2][A,,2E2] |[E,2c2]A,2[A,,0c0E,0]A,0c2[E,2c2][E0d0A,,0] |
+[E,2c2]A,2 A,,0[E,2c2]A,,2 [E,0E0][c2E,,2] | [B,,2B2]E,2 [B,,2B2]E,2 [B,,0E0][d2E,,2] | [B,,0c0]<[c0E,0] [B0B,,0]E,2 [B,,0E0]<[F,,0A0] C,2 |F,0C,2 [C,0A,0]<[F,0C,0]C,4[C,0E0] |
+B2c2B2A2D,,2A,,0A,, |D,2[D,,2F,2]D,2A,,4E2 |B2c2 B2A2 [A,,0c0]E,2 | A,2[E0C0]< [A,0A,,0]E,4E2 |
+B2c2 B2A2 [E,,2B2]B,,2[E,0E,,0] |[G,0E0]BB,,2B,,10 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bbm
+[D3G,,3][F0B,,0]D[F,0F,,0] |[D0D,0] B,,D2D5 | F,3D3[B0A,,0]E,3 | F3D0[A,,0A,0] |F3[G,,0F0][D,3G3D,,3] [A,0D,0] |
+[F0A,0] G3G2GG4 |F2>E2F2 F2DE0G | FD2 E4 D4 A,3G,3 |[F,3D,3][B,,,0B,,0D0] [F,,0F,0]F,B,2 |
+F,D9[F,,6C6] | [C3A,,3][F,,3F,3]A,3 |[E0C0A,0]A,2EC8 |[G0G,0D0]D,,3A,2 G0 A,15 |
+[A3A,,3]E,3[A3A,3] B6 |c3 [E,6E6] |[B,,0d0]F,3 D3c3 |c2c2A2A6 |
+[G,,3B3]D,3 A,18 |[A3A,,3] [E3E,3][A,0A0][C0E0] |E3A,4E | [E0D,0]<[A,,0F0]D3E4 |
+E2D3A,3[D3d3] B,,2 |D[F,,0F,0]D3d0e2e | DedB, e0 d[f0b0B,0][D0F,0] =ef2[G,,0d0] |D,2d0[A,D,]d13 |
+d3[A,,3c3] |[A,,2E,2]c[A,3A3] d6 |e3 A,3[A,0f0]=eD,2 | D,2<[A,2A,,2] [D,0D0]A,A,33 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+F2E2D2 |G,,3D,2B,2D,2A,2D,2 |G,2D,2G,,2 D,2B,2 D,2 |A,2 [F0D,0]E2G,2 [D,0D0]F,,3 |C,2A,2C,2G,2C,2[F,,2F,2] |C,2F,,2C,2 A,2C,2 G,2 |
+[C,,2C,2F2] [F,,2E2][C,2D2] C,,3G,,2 |[E,0G,,0]G,, G,,D,2G,,2C,5 |C,,2G,,2E,2G,,2D,2[G,,2F2] |E2C,2D0G,,2G,,3 D,2B,4 |
+A,2 D,2G,2 D,2G,,2 |D,2B,2D,2A,2[F0D,0][E2G,2] |[D,0D0]B,,3F,2 B,2F,2 | C2 B,,2F,2 B,2F,2B,,3 F,2 |
+B,2 F,2C2 F2[E2B,2] C2 |F,,3C,2A, CC,2G,2 |C,2F,2C,2F,,3C,2 | A,2C,2 G,2F2 [d2D2][C,,0E0] |
+C,,2G,,2E,4D,4 |[C,0C,,0]G,,2C,,2G,,2E,2 G,,2 |D,2 [F2G,,2][E,0E0]C,2 D5 |A,,2F,4E,2A,,2D,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:G
+[G,0g0^A,,0A,0]g0G,2D6 |[a0^A0]A8 |[f0F,0^A,,0]f fff0<f0D Ff4 |g0[^A,,0A0]f2g0D2F,2gf0f3 |[c'0^D,0][C0^a0C,0] D,a4 |
+[a0G0] a2[^a0C0] | F,0 a2F, F, F,2CF, C3C2 | [^A,,0f0] FD,2D,2CD D D4 | [g2G,2]g2 g0 Dg0G,D0gg ggg2 [a0^A0] |
+dd ^AA[D0d0]d d4 [F,0f0A0] |d((3f2f0d2) ((3f2f2f2)D0ff ((3f2d0f2)f2[g0^A0d0] | d ^A((3d2A2g2)g [fA]f[D0A0]gg Ag2 [c'0^D,0] g4 | c2[^a0C0]^d4[G0=a0] |
+C4[^a0C0]c FC2[F,0=a0] | aa0Faa2C0aaF,3[F0A,,0C,0f0]C,0 f | CFFF FC2C4[g0G,0]d2 |ggg gDG,2>g2g^A6 |
+A3A4G | GGGG G4 G14 |[^A0G,,0d0] G,, | G,,G,,G,,2[G,,D,]^AD,0<[G,,0d0]D,[G,,2D,2][A,0G,,0^d0]=D,2 |
+G,,D,^A,2 [D,0=f0]D,D,D,0G,, D,2[d0^F,,0A0]D, | D,0 G,,dD,F,,D, [F,,0D,0c0]D,D,F,, D,2[A,d][D,0A,0] [D,d] |D,[d0A,,0]D,c0d0 ((3D,2d0A,,2)D,d0cD,0 c2 D,[^A0^D,,0]G2 D,, | D,^D,0D,,D, [c0C,0]D,C,0D,D,,0C,C, c0 D,[D,0=d0C,0]^D,0C, |
+d0^D,0cD,[d0C,0]C,=d2C,2F,,0[d0A0]C,((3F,,2A0F,,2) |[d0A0]d0F,,0F,dd0D, d0 F,,F,,D,D,0D, F,,[f0A,0]A,,D,F,, A,0 | A,[D,0A,0]A,[C,0G,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+Bc df2B,,0c'3 |F,5[C4D4][b0C0] |c'b0 B,,2< ^a2F,4 b2>[C2D2] |c'3d'2B,,2<^e2F,5 |[C0D0][f0C0] |B,,^e2 F,f2 [C0D0]^g3 |
+[C2a2]B,, c2F,0B,5 | [C6D6]d3A,,2c2 | F,2<d2 C2[e3C3]f2G,,2 |^A2E,4[B,4G,4] B4 |
+D,0 c5[B,5d5] |[G,6^d6][e6=D,6] |C,b3G,4C0E5 |G,3[E2g2] C,2f2 G,2 |
+g2 [C2E2]^a2 G,2b3 | G,A,,2f'2E,3 [C0A,,0G,0]A,2 |e'0CG,,2^d'2E, e'2[C0G,0] f'2 |[G,,2A,2][g'0C0]F,,2b'2D,2 |
+f'2F, a'2d'2[f'0D0] b2d'0B,2 | f2[b0F,0]d2[f0B,0]B2D,2d2F2 |[F,2B2] D3B,,3F3B,4 |F,,2[F,,0E,0^A,0] g3 |
+f2^e2f2c3 |d3 ^A3B3F3 |G3 ^E4 F4 C6 |D11 |
+^A,24 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:F
+E0<[A,0A,,0][E,0D0][A,,5E5] |A2 A,2[A,,5A,5]E4[E,0^C0] |[A,,0A,0A0] [E,5a5] | [f0A,,0][D,5d5][A,0A0] |[F4D4][A,0e0]f4 |
+[g0A,0A0][c0C,0]A,5 | [A,0E0]< [A,0A0]e | [a0A,0E0] C3 f0< [A,0C0] B,,0 d4 F,4 | D4e0F,4f0 D4 |
+g4F,4c4A,,4F,4 |C4[d0F,0]e0C4 |[F,4f4]e [G,,5B5] |D,2D,2 B,3 f0< F,0 e0< c0D,4 |
+d4 e0 D,4[F,,0A0]A2 | D,2D D[A,0D,0][D,0G0D0] |[F4A,4] A0 D,4 [G0E,,0]G2 | C,4 [c0G,0]< [G0C,0] |
+G,4C,4 [A,,0G0] | E,4 ^C0 A4 [A0E,0] |[a4^C4]f0E,5[D,0d0] |A,5 F2 D2d [A,4e4] |
+f3 F3[A,0g0][C,4c4] |A,4g[C,0E0c0]A,0A0C,4 |[a0A,0][C0E0]f[A,0A0] B,,0< [d0c0] | B0< [B,,0B,0] F,4 [F,0A0D0][e4F,,4] |
+f0[G0D0]F,0[g4f4][c0A,,0B0] |A0F,4[C,4C4G4][F,4d4] |[C,0e0F,0C0]F4f0F,4B0G,,0A3 |[G0D,0]D,0<[B,0F0][c0D,0] |
+c2[B,0E0e0]<[f0D,,0D,0][C,0c0]<[A0G0]F,,4 |[A0F0D,0]F,,2 F2[D,0A,0E0]<[G0D,0] |[A0A,0D0F0][D,4A4][G0E,,0E,0]F4 |C,4[G,0c0E0]G4C,2 C,2 |
+G,2 C,2G,5C,4[A,,0A,,,0][G0E0]D4 |E,2E,3[A0^C0A,,0]E,4 |A,8A,, |f0G,,4B0[D,0F,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:C#m
+G,0< [E,0C,0][c2C2][D0d0][c'0c0] |[G,0B,0E,0][G,5E,5B,5] | [G,0E,0B,0]<[c0C0G,0]E,2 [D2d2]C,,2 [c'0c0G,0]<G,0E,0 C,4 | [E,,0E,0G,0]<[G,0E,0][C2c2] |[D0d0]F,,,2[f'4f4]F,4 |
+[A,5F,5][A,2F,2] [C2c2][D2d2] | C,,2[e'4e4][E,,,0E,,0][E,5G,5][E,,0G,0E,0] |[G,0E,0][g0G0][A,0a0A0]C,[d'0d0] |A,5F,4[A,0F,0] A,3 |
+[^b3B3B,3]A,2[c5C5][c'0c0] | c2[G,5E,5][G,5E,5] [G,0E,0B,0] |[c0C0G,0] [D4d4] [g4g'4] [A,5C5] F,5 |[A,0F,0C0][A,2F,2] [C0c0A,0] |
+d4[f'4f4][E,5G,5] |[G,0B,0E,0]<[C,0G,0E,0][c2C2]G,2[d4D4] |[e'4e4]A,0F,5 | [G,6E,6]C,6 |
+[^B3B,3C,3][c5C5^A,5][d'5d5] |[G,5E,5][G,0^b0E,0B0] |[C,0c'0]c5[A,0F,0]<[B0G,0B,0] | [C0c'0c0A,0]<F,0[A,6A6] |
+[G0G,0E,0]<[^B,,,0B,,0] |[A,,,0A,,0]^B,,6[G,,6G,,,6B,,6] |[C,,,7C,,7][c0c'0e0][C7E7G7] | [a'3a3][g'3g3][C0E0g'0g0]G3 |
+[f'3f3] [G0E0C0f'0f0][e'3e3][E0G0e0e'0]C3 |[d'0d0]G0B,3 C0 [E3d'3] [d3G3][c'3c3C3][c'0c0][C0F0A0A,0] |[B3b3][F0C0][B3b3] [A,0C0] [A3F3a3][F0C0a0A0] |[G3g3][C0B,0g0G0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+c[c'0c0] g3e3 |[g0B0] c3g3[f'0e0] | [B3g3][d'0B0][g0B0] d3g3 |B10 c0 | [e'0e0]g3e3 g3[c0g'0] | [f'2c2]g[e'0e0] [d'2e2][e'e]g f'2[d'0B0] |
+g3d3g3 B11 |[a'0c0A0]f3 | c3f3A3 f3[c0g'0] |f3 [f'0B0]f3d3 |
+f3B11 |[a'0A0c0] f3c3f3 | [A2b'2c2][a'0c0A0]ff [g'0c0] A2[f'0c0][g'0c0] fa'2[c3f'3] |f3 d3f3B5 |
+c5 [c0C0]G3 |E3 G3C3G3 | [E0g0] G2G2B,0f2 G3d3 |G5G3D3 |
+G3[c2C2]G17 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+[C26A,26] F,26 |[A,28D28D,28F,28] |[A,0A,,0C0E,0] |B,0<[E,0A,0] |G,18 |
+[D,0C0F,0A,0] |[A,,0D,,0D,0A,0D0F,0] |[E0A,,0][A,27C27]E,27 |[E46B,46E,46G,46] |
+[F0B0F,,0F,0] C,2A4A4A2 |[F,,2B2F2]C,2A4A4A2 |[F0B0D,,0A,,0]A4A4A2 |[B2F2]A4 A4 A2 |
+[d0E0E,0A,,0]A,2 c4 c4 c2 |d0E2 c4 c4 | E2[c0E,,0B,,0] B4 [B4B,,4] | E2d2 c4 B4 |
+E2[F,0B0]F,,2C,2A4A4 |A2B2A4 A4 | A2[A,,2G2D,,2] [F0D,,0A,,0]F4 |F2G2F4 F4 |
+F2[A,,0A,0E,0E0]c4c4 |c2[d2E2]c4c4 |E2[c0E,,0B,,0]B4B4 |E2d2c4B48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:C#m
+[A0C0]<[F0B,0]C0B,2B, C2B,2<C2 |C3 C3[C,0G0]C3 |C3 C3C2B,C2C,2 |[A0F0A,0] C2BC3C3 | C2>C2C,2C0[E0G0]C3 |
+[C0A,0] [C0C,0]C3[C0C,0A,0] B,2 |[C0A0F0B,0]C,4[C0F0]B, C3[C0F0]A, |((3B,2C6G0)[B,0C0]C,2[C0G0]E3 [C0G0] B,3 |C3C3 C3C2 |
+[C,,2C,2]G0[C,0E0]B,3[C3B,3][C0B,0] |[C3^A,3][c0C0] A,2C2A,2 ^B,,2[B,0F0D0] | ^B,3 B,3B,3 |^B,0A,2C,2C0[G3E3]C2C2 |
+[F0A0]<[G0C0E0][C0F0]<[C0A,0][G2A,2] |^B,,4[E3G3]B,3 [B,0G,0][F6D6G,6] |^B,2C,2[G0C0E0]^A,3 |C0^A,3 C[F0=A0A,0][C0G0]E3C3 |
+C0A,[B0G0]((3^B,,2F0^A,6)D3[B,0A,0] |B,,2^B,3B,2^A,3 B, |C,2[C0E0G0]A,C2>C2A,[F2A2] | [C,,0C,0][E3G3]C3C2 [G2E2][E0G0^B,,,0B,,0] |
+^B,4B,B,,[D2F2] [B,,3E3=B,3G3]^B,3 |^B,2 [F0D0G,0]A,, [E0C0]A,3 |A,2 [C2G2][A,,0A0C0][A,0C0]B,3 |A,2 [G3C3][G0G,,0]^B,4G, |
+^B,G,B,G,2 [D0B,0] [B,12G,,12B12] |^B, |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+C2D2E3C,3 G,3C3 |F3B,0E,,0G3B,,3 G,3 |A4D0G,,0 B4D,4 |B,5 D,12 | CD2E0C,3 |
+G,3C3 EF2[E,0G0] |[F0B,0]B,3 E3[G,,3B3] |D0D,3G,3B,11 |D,3C2 D |
+C,0E3 G,3 C3E2 F2 |G0E,3B,7 G |A2B3G,,2D,3A3[G3B,3] | F3A3 F,,3C,3F,4 |
+GF2 E,0G3 B,3E7 |B,3B,4 |E3 G3[E,0E0]B,4 |E7G7 |
+B,3 CD2E0 C,3 |G,3C3E2F2 |GE,7E,3 | G2A2 G,,3 B3D,4G,3 |
+B,4D3G,3 B,3 |C2D2E0[G3C,3]G,3 |C3EF2 E,,3G3 B,,4 | G,4B3G,,3G3 |
+D,3G,3 B,4 G8 D8 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Gm
+B,4^C,^F=C,2 ((3G,2C2E2) [C,GG,,] |CG,C,c((3G2G,2d0)G,,2CG,0 G,0< =B0 CG,CC,0c2 | CG[G,C] =B,,0((3C,2G,2C2)EGC |=B0C,G,[G,,0c0][D0B,0][C,0G0] G,C,0^F2C | ^FG,2[=B,,C,] G,GCE [G,,G]CG,,0B |
+G,[C,0d0]<[D0C,0][E0G0]G,[C,0c0][C,0C0]E [G,0C0] |C,2G, CE[G0C,0] C[C,0E0]G, [C,0=B0] |C,2[G,0E0] G,2G3C,3 [f0G,0] |C,[F0G0] G,d2[G,0D0] GE[G,,d] |
+((3D2G2G,2) [G,,0d0]D[GC,] G,G0C,2G, |DG2 dE[G0C,0] G,[d0G,,0]G2C0 G2 |((3G,2d2D2)GG,2 [g0G,,0]C,[C,2G2] | ((3G,2d2D2) [C,0G0]E[d2C,2]FGE |
+[C,0d0][C,0D0]G G,2C, G,2[C,0D0]G [C,0G,,0d0] |[C,0E0]G D[C,d]G, G2D[C,0d0]G | G,GD2[f0G,0]C,2 G[G,,0G,0][d0G,,0] D | C,G2E [G,0d0]<C,0D[G0G,0] E[G,,0d0C,0]((3D2G2G,2) |
+d0G [C,0G0]G2G, d2DG2 |G,d2DGG,,2 d0 GDG2 | G,g2C, GG,2g DG2 E |gD2G3g2 D2<G2 g48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:G#m
+B2<B2[G,,G,,,]G,, GB2d |DGBBB0B,[D0B0]GG0BBd G2 |[G,0G0]^B0=B2 [G,,0G,,,0d0] BBBG BdB0D B |[G,0G0]B0Ge0 [G,0B,0]EB,GB0BB2[G,0G,,0B0]B G0 | BB[^^F,,0F,,,0c0] [C0B0]FcB2A c A0BC[A0A,0]cF |
+A^^Fc2c c((3c2A0C2)c B Cc0A[F0c0]cB,0A | c0 [E,2E,,2]C0((3B2A2^^F2) c2 A[cA]B2F((3^B2A2c2)d | A0DA^^F Ac2A F^BA=B[G,,0B0] |[D0B0]<[B0G0] D2BB,[D0B0]GBB |
+B,0 BDG BB,0B,cD c0< G0 B0B[^^F,,0B0] B | DGBB2 B,D[B,0B0]<G0B AA,B,[A0D0] | A0 GAA,0ADA0B2G [G,,0B,0]<[G0B0]B, | D2GG, B, B2DB,G G,G0B,[B,0D0] |
+GG2 B,GB,^B[D,0G,,0]((3G,2=B,2D2) |G,B, DB0GB,((3G2D2B2)GBG | B,GB,0B B0dBB[G,,0d0]BBGB |[d0B0]DB, G [B,D][GB]dD B,[G0B0]B B |
+DBGB,0 [B0G0] B,cB[C0B,0] GB2e |Ee0G[B,0e0]G B0 ((3d2B2G2) [B0B,0]cBC |((3G2c2B2)c [c^^F,,]Cc0Fc AcB,C [c0F0] |AcA0c0 A,0 A[^^F0c0B0]A0c cBCA0<[c0F0]c A0 c |
+[E,0c0E,,0]B, c0 ^^Fc0A0((3c2c0d2)A2F2A | [e0A0]<[A0E0]cA0^^Fd ACAFA[Ac][B2G,,2] |((3B2B,2D2)BG BBBD GB,BB,2 |DG BB,D G2[^^F,,0A0]A, G0 D |
+A,F[B,0A,0]B B,DAG AB0A,ADA | GA[A,A] B, DB,G[G,,,0G,0]B,2DB G | B,B,GD G D,BB,B G BBd G |BGd0B, [g0d0]dBd B gbA,B0d |
+gb[G,0G0] d'2d'gb2d'[d0d'0]g32 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:A
+A2 c2A2 A0 c2A2 | c2A2 c2c0A2 c2A2 A0 | c2A2 A0 ((3c2A2c0)A2 cAA2 | c2A2 A0 c2A2 A2 c2c2A2 A2 | c2c0A2 c2c0A2 c2c0A2 |
+c2A2 A0<[F0c0]F0A2c2c0A2 |c2A2c2A2c2A2 |cAA2c2A2c2A2 |[A0D0c0]A2c2A2cAA2 |
+A0c2A2 A0cAA2 A0((3c2A2c0)A2c |[Ac]Ac2A2 A0c2A2[E0e0]E0A2 |[e2A2]e0Ae A2e2e2A2 A0e2A2 | A0e2A2 A0e2A2e2A2 |
+e2A2[^E0=e0]G2e2[G2e2] |e2G[G2e2][e2G2][G2e2][G2e2][e2G2] |eGG2[d2^E2]G2d2G2 |[F0c0]A ccFA2c2A2 |
+[A0c0]A2c2A2cAA2 |A0[F0e0]A2e2A2[D0f0]f0A2 |f2f0A ff2f0A2ffA | ff2f2A2[f2A2]f0A2[f0D0]f2A2 |
+[f2A2]f2A2[E2e2][E0e0]A Eee2[A0e0] |e2A2e2A2e2A2 |e2A2e2A2e2A2 |[e2^E2]G2=e2G2[e2G2][e2G2] |
+e2G2[e2G2][G0e0]d2G2 |c2G2B2[GB] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Eb
+D3G3 [c0C0]G3 |E3 G3[g2C2] fGe2 | [d0E0C0]e2G3 f2[B,0e0] G3[d3D3] |G3 B,3G2a3D3 | [g3G3][a0A0c0]F3 C3F3 |
+A,3 F3[g0C0][f3F3] | [f0B,0]F3D3 F3B,3 |F3 [e3D3][f3F3][a3c3] | F3C3F2 A,0< [a0A0][g2F2] [f2A2] |
+[a0C0c0]g2[f2A2]e3B,2F3 | D3[d0F0] cd5c4 |c' [c''0C0]G3c3 | e3[g0a''0B0]e3 [g0g'0g''0c0B0]G3 |
+[f''0B,0f'0f0] F3[c'3c3]B3 | [d'3d3]B3[e'3e3] B2c'0<[c0c''0C0]e'2 |G3 c3e3[g0a''0B0] e3 |[G0g'0c0g''0]G3 [f''3f'3B,3]F3 |
+[d'3d3] B3[e'0e0B0]B3 | [f'3f3]B2 [Ba][A0a'0A,0]f'3 E3A3 |c3 [c''0A0c0c'0][b'b]E [a'0a0A0c0][g'2A2g2A,2][f'f] | E[e2e'2][B,0f'0f0]F2 [d0B0] d'2B3 |
+[e0B0]e'3 B2f4f'3B3 [A0a'0A,0a0] |E3A3 c3[A0e''0e'0]c2 |[Ad''d']E[c''0c'0c0][A,2b'2b2][a'ca] A[g'2A2g2][a'2B,2a2] |[g'Ag]F[f'2f2][B2e2e'2][f'0f0B0][e0e'0]B2 [d'0B0d0] |
+[e4F4e'4B4][f'0f0] |[e0B0][C,0e'0e0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:D
+[D,0B,,0B,0f0]F,8[B,,0B,0C,0E,0C0e0] |B,4[G,,12d12G,12B,12D,12] |[A,0D,0e0][f27D,,27] |A,4[D,0B,,0B,0f0F,0] |[B,0B,,0C,0e0E,0C0] [B,11G,,11D,11]a11 |
+D,0< [B,,0A,0b0] [B,0B0]< [D0A,0D,,0f0F,0] |C8 |[D,0B,,0D0B,0F,0] |[B,,0E,0][D,8e8G,8F,8][d0D,0G,,0B,0]G,12 |
+B4 |[d0D,,,0D,,0] |[B,,0D,0D0]F,8 | [G,,0D,0B,0e0] |
+[E0a0]< [G,0E,0f0] | [A,12D,12] D12 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:A
+A2B2A2 [E2C2][F,,3C3] |C,3 A,3 C,3[D,,0e0E0] |A,,3[A0A,0]B2 A2E2 [E,,0B,0] |B,,3[G,3G3][B,,3B,3] | B6[B0B,,0] c2B2 A2 |
+[F,,0A0C0] C,3 A3A,3 |[D,,0e0A0]A,,2[D,,2D,2B2] F,3 c3 |[E,,0B0E0]B,,B2[G,3G3] | B,,3[b0e0E0][B0^B,,0] c2 |
+B2A2 [D,,0A0E0] [A,,3A,3] A3e3 |F,3[E,,0B0] B,,3 [B0G,0] |c2B2B,, A2[F,,0A0]C,3 | E3A,3A6 |
+B2c2 B2A2[D,,0e0]A,,3 |[e3B3]F,3 [E,,0B0]B,,2 |[A0E,0]G,3G3[A0E0] | C,3A,44 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+c3 d2[C,0e0] |G,2[c0C0]E2[g2G2]E2 [C2f2] |[e2G,2] [E,2g2]B,2[B0E0]G2 |B2B,2E,2B,fg[F,2a2] C2 |[f0F,0F0] A2c3[f2c'2][A0b0][a2F2] |[C2g2][g2E,2][B,0b0]E2G2 [B,,2g2B2] |
+[F,2f2] [d2B,2][e2D2][C,0e0]G,2 |[c2C2]E2[g2G2c2]E2[f2C2] [e2G,2] |[g0E,0] [B,2g2]e2[E2B2]G2E,4 |[E,0f0][gB,]fg[F,0a0]C2 [F0f0F,0] |
+A2 [c'2c2f2][A2b2][a2F,2][F,,2g2] |[g0E,0]a0B,2E2[fG]ga[g2B,,2] [F,2f2] |[e2B,2] [d2D2][A,,0c0]E,2[A,2c2] | C3[A,0c0]E,2[A,,2c2][E,2d2] [G,,2c2] |
+D,2 [=B2G,2]B,3[d0B0]D3 |[G,,2G2]=B2[A,,2e2]E,2[A,2c2] C2 |[c2g2A,2] [E,2f2][A,,2e2][E,2d2][d2G,,2] |D,2G,2=B,2 D5 |
+[c2G,2]d2[G,,2e2]E,2[A,,2c2] C2 |[g2A,2][E,2f2][A,,3e3][E,3d3] | [d2G,,2]G,2 D2G2 =B2d2 g2 |G2 [G,,2d2]g2 =b2d'3 |
+g'24 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ebdor
+^B,4 D5c5[g0g'0C,0]g3 |G,3C3[f'2E2f2][e6e'6] | [d2d'2][e'0e0]Ge3 |[f2f'2E2][d4d'4]d5 | A4 [c'2c2]<c'2 E4 B2 |
+B2 E4 A2dfb B,,0 d' |d'2d' B,4[e'0e0] e'e'0<e0((3e'2F0e'2) | e'[ff']f'f0<f0[f'B] f [e'0f'0]ff[g'2g2]g'g'B | [a'0a0]<c'0e'a'e'0a' F0< e'0 aa'((3^^f'2a'2^b0) d'0< [g'0G,,0]d'g'0d'd' |
+g'0D,g'g'2 G,4g'3 ^B,3f0A0D0 a0 c' | ((3f'2f'4f'2)[G3f3] e g0<A0D0e'e'2 | e'2[^B,0e'0]e'10 |[C,2g2]G,2E2G,2D2G,2 |
+C2G,2g0C,gG,2E2G,2 |D2G,2C0a2f2A,,2E,2 |B,2E,2C2E,2B,2E,2 |f0A,,2E,2B,2E,2 C2E,2 |
+A,0 a2[f0E,0] B,,2F,2 D2F,[F,0D0] | C2F,2 [B0B,0]F,2 f0 B,,f0F,f0f D |fF,2 C2[g2F,2] [B,2a2][F,0g0]g[f0^B,,0] |f0G,f ^B,2[e2G,2]D2eG,2[d0B,0] |
+G,2^B,,2[c2G,2]B,2c0G,2[d48D48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Fm
+D0d''2 A2d2 [d''0f0]d2 |A0f'2[D0A0]d''2A2 d2[d''0f0] | [a'0d0]<[f'0A0]d2[F0c''0]c2f2a3 |c'2 a2[f0c''0]c2F2 |[c''2c2][f0b'0][F2a2a'2] [c''0C0]G2 c2 |
+[g'2f2]c2G2[f'2C2] G2 |c2 [g'2f2]c2 Gg'a'0<F0g' a' |c2f2a2[c'0c''0]f2a7 |g4fg a2 |
+A,,2 D,3f0F,2D,2A,,2 |[c'0f0D,,0]A,,2D,2 [c'2f2F,2][A,2b2] | [a2D,2]a0<[F,0F,,0] C,2F,2[g'0A,0g0]C2 |[A,0A0] [F,0a0A0]C,2 F,2[f2A,2] |
+F,2C,2a2[g0C,,0]G,,2C,2[f0F,0] | G,,2e2C,,2 G,,2C,2 |g2C,2[G,,2G,2]a0 [F,0F,,0]C,2 F,3 |[A,0f0]C2[A,2A2][F,0f0c'0c0]C,2 |
+F,2 [A0A,0f0]E,2 B,,3[D,,2c'2] |A,,2D,2[e0c0F,0] D,2A,,2 | [e0c'0] D,,2A,,2[D,2D2][e0d'0F,0][d'0e0D,0][c'2e2]A,,2 |[F,0e0F,,0]C,2F,2 [A,0a0A0]C2 |
+A,2[F,0a0]A2C,2F,,2[C,0a0][F,2g2] |A,3a2 a0 C,,2G,,2 C,2[g4F,4] |G,,2e0C,,2G,,2C,2[E,0e0] |C,2 f2 G,,2[a0F,,0] C,5 |
+[A,0A0]C5 [A7A,7] |[a4A4][g2G2][a0A0D,,0]A,,2 |D,2 F,2A,2 C2E2 |F2E2[A4a4][g2G2] [a0A0] F,,2 |
+C,2 F,2[A2A,2] [c2C2]F,2 |[A,2A2]F,2C,2[G2G,2]C,2 [A,2A2] |[A2A,2C,,2] [G,0G,,0]C,3[G2G,2][C,2C2] |G,,2 [E,13E13] |
+F,,2C,4A,2 |C2F,2A,2 F,2C,3 |C2F,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+D,,,5 A5 |f0A4A5e5 | A6d16 |A5[g0D0] A5 |e0A5A5 |
+f0 A11 |A5A5 [f0A0] |A5e5 |A5 ^^c0 A15 |
+A5 | g5A6 |e6A6 |f0 A16 |
+D,,,13 |f0A5 |D5A4e0A4D0[A0F0] |d A4 A5 |
+B,,,2^^c5[B,,,0B,,0]B,4 C9 | ^^C20 | D,,,5A5 |f0A4A0[^^F4C4][e0A0]D4 |
+[A0A,0]D0A0d5 A4 | B,,,3^^c4[B,,,0B,,0] |^^C37 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+B4G,e3D3 | G2B2f2G2g2D2 |B3 G6D5 |B3D3 e2G,2 | f2D2 g2G2B2D2e2 |
+D5D5D,e2 |A,2F2 De[A,,0A,0] FEd A, |FDd [A,A]F[E0A,,0]d [A,A]FD d |[A0A,0]F EAd[A2A,2] [A0F0]E2 |
+d2E2F3E3e2 | G,2BD eGBDfAB D |fGB DgA B2< D2G | BD2[A0g0] GBD2 f2GB |
+D2e2G2B2D2Ge2 D,2 |FA, eEF[AA,] e[D0d0]F[A,2A2] d |[E0D0]F[A0A,0d0] d[D0d0]F [A,,A]d[E0F0] F |A,0Ad[d0D0]FA0DdE2[A0F0]< [A,0A0] d2 |
+[d0D0]E2F2 E7 |D4G,2a2D2 | BG2b D((3B2A2c'2)D2 B2 |A2c'0BD2B2Db2 D |
+B2A aD2B2D3 | D,a2A, AF2 a0 A3A2 | B2g42 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+[D,,,0D,,0]A,,15 |[E,,,0E,,0] [F,,0F,,,0E,,0] |[D,,0D,,,0] | E,,,0 E,,5[F,,0F,,,0E,,0][A,,0A,,,0] | [^G,,0G,,,0] |
+[E,,5E,,,5^G,,,5] |[G,,10G,,,10] |[F,,,13G,,,13F,,13G,,13] |[^C,,6C,,,6]D,,,12D,,12 |
+[E,14E14E,,,14E,,14] |[F4F,4][F,,4F,,,4] |[G,4G4G,,4]G,,,4[E,11E,,,11E,,11E11] |[F0F,,0F,,,0F,0] |
+[G,0G0][G,,,7G,,7] [c10C10]C,10C,,10 |[A0A,0][A,,13A,,,13] | [F,,6F,,,6F6F,6] |[E0E,0E,,,0E,,0][G37G,37][G,,37G,,,37] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bdor
+D,2D2[E0F,0] |A2[E0A,0]B,4D,4 |F,4A,4B,2 D2 |C0D,4F,4A,4 |B,4D,3 F,4 | A,4 B,4 C,2D2 |
+[E0E,0]A2 [E0A,0] B,4 C,4 |E,4A,4B,2 |D3 [E0C,0]E,4A,4 |B,4C,4C3E,4 |
+A,4B,4D,2 |D2[F,0E0]A2E0A,4B,0A,4 |D,3F,4A,4 |B,2 D3[C0D,0]F,4 |
+A,4B,4D,3 |F,4A,4B,4 |C,2D2E0E,2A2[E0A,0] |B,4C,4 E,4 |
+A,4B,2D3E0C,4 |E,4A,4B,4 |C,4E,4A,4 |B,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Fm
+[G,0G0]<[A,,0E,0C0][A,A,,E,]G,2C2 |E,0[A,0A,,0] [G,0C0] [E,3A,,3]E,0A,A,,G,0[C,2C2][E,0C,0] |[E,0G,0B,0E,,0B,,0G0][B,,0E,0][G,0B,,0B,0] [B,,3E,3][G0B,,0][G,0E,0B,0E,,0] |[B,,0E,0] [F,0F0] B,B,,2[A,0B,,0]B,2[G0D,,0]G,3 | [D,2D,,2][F,5B,5G5][G0F,0B,0D,0]D,,2 [F,2G2B,2] |D,3[B,0C,0G,0F,,0] F,[B,0G,0]C,3 |
+A,0<[C,0B,0F,,0]C,[A,,0A,0B,,0] [B,2F2]<[F,2C,2] | [G,0G0C0]< [E,0A,,0]A,,2[G,2G2C2][E,0A,0][G,0G0C0]<[A,,0E,0] |A,,2[A,,0G,0C0][E,3G,3] G,0< [B,,0E,,0E,0C0][B,,0E,0] | G,0< B,,0[CG][E,3B,,3E,,3][B,,0G,0G0C0E,0]E,,2F B,,2[A2A,2C2A,,2] [B,,2E,,2] |
+[G2G,2][D,0D,,0G,0G0]D3D,,2 [G2G,2D2]<D,,2 |[G0D,,0G,0D0] [D,0D,,0][D5G,5D,5F5][F,0A,0F,,0]G3C3 |[F,,F,]A,2[G2C2][F,3F,,3] [A,0G0F,,0F,0] C2FF,,0F, | [A,2F2C2]F,3[E0C0]A,3[A,,3E,3][E,2A,2A,,2][E0C0] |
+[A,2A,,2E,2]C[C0A,0][A0c0A,,0E,0][GB]E,2 [C0B0G0]E,3 |[G0E,,0B,,0E0]G,3 [B,,2G,2][G0E0]<[G,0B,,0]C2[C0B0G0B,,0] | G2 EG,[E2G2]B,,C2 [A0D,,0] F3F,3 |[A0F,0]CG F[D,,0E0] D,2[E0C0]F,2 |
+[FC]F0<F,,0G3A,2C,[GC]A,3C,3 [F,,0C0G0] |FA,0[E3C,3]A,0C3[A,,3c3A3] | E,2[c0A,,0A,0A0] E,[E0B0][A,,0A,0]E3[E,0A,,0]C3 |E,3 E,,0< [B,0E0][B,2G,2][B0E0]G2 |
+[E,,0B,0][G,0E0] B,,0 G,2>[B,,2E2]F2G[D,,3A3] |[A,0A,,0F,0]<[A,,0A,0]GF2 [F0A,0]<A,,0E3 |A,2E2 F[F,,0G0] A,0 C,3[A,0G0] F | EC0F,,0ECA,3C,3 A,2 C,C2F,,0G3 |
+A,0C,3A,0GCFEF0F,,3 A,0 | C,3E0C,3[F,,0C0]G3A,0C,3 |A,0C0F3[F,,0F0] A,4C,4 | [C,0E0A,0]< [C0F,,0] E3A,4C,4[C0A,0]C,0=D4 |
+[=D0F,,0]A,0[E0C,0] |[C27F27] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+D5C5 |[A,0C,0G0C0F,,0]<[A,0C0E0]E,10 |[C,0C0A,0F,0] |[A,0D0F,0]C,3C7 |[D0G0E,,0]B,,0E,4E2D2 |^G,9E,8G,0<[B,,0D0][E,,0E,0] |
+[B,,0^G,0D0] E,2C0G,7 |[C0E,0A,,0]G3 [C0E0] E,2E,2 [A,,0A,0] |A,,2[A,,0G,0C0E,0]A,,3A,,2 [C0A,,0G,0E,0] |[C0A,,0E,0][C0A,,0]A,,0[G,0D0] E5 |
+E2[C,0B,0G,0] |B,9 [G,9E,9] | B,9 [E,9G,9][B,8G,8]E,8 |E0[C,0F,,0]Ac8 |
+[A,,0A,0][C5B5]E4 A5 | [A,0C0A,,0]< [G0E0]A4[A,0C0]E5 |[F0A,0A,,0]F3[E,,9E9B,,9D9^G,9]E,9 | [^G,9B,9E,9] D9 |
+[B,10^G,10E,10]D10[G,0B,0][D0E,0] | E0< e0 [G0E,0]< A,,0c9 |[A,,0C0]<[A,0E0][B5G,5]A4 |[C0E0] [G,0A,,0G0] A5 |
+[A,,0C,0C0G,0]E5[A,,5F5C5A,5][B,0B,,0]<[C,0E,0][C0G,0]E9 | [B,0G,0]< [E0E,0] |[B,9G,9]E9 |[C17B,17E17]G,17 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Em
+B3e3[e'12g12] |g'3 | [g'0C0]<[G0f'0][f'0c0][e3e'3c3] | [e'0e0c0]d'6d'3 | G3d3g3[b12d12] |
+b3 | [f'3D3][f'3A3][f'0d0][f3f'3] [g'0g0a0] |a'3g'3 | E3B3e3[g12e'12] |
+g'3 | [g'0C0][f'3G3][f'0c0][e3e'3] | [e'0e0c0]d'6d'3 | G3d3g6<a6 |
+[b3d3][e'3^c3] | [d'0D0] d3A3[d0f'0A0]<[f'0f0]d3 [d0A0g'0] | [e0g0]<[a'0A0][g'0g0] |E3 B3e3[e'0g0^A0] |
+b3 |[c'0C0c0] [c'0G0][c3c'3][e0c'0c0] |d'6c'3b3 |G3 d3g3[a0c0] |
+d3[b3d3] |[a0D0] A3[a0d0][a0f0A0] |[b6d6][a3A3]g3 |E3 B3e3g3 |
+a'3 g'3f'3[c0g'0] |C3 G3c3[e'0e0]c12 |f'3 |[g'0G0] [g'0d0]<[g'0g0][b0g'0] |
+a'6[g'3g3]f'3 |D3A4d4 |[f0A0] g4 [a0c0A0] d4 |g4b9 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Am
+[c'0A,0E0A0] c4 e4 | c'4 c4 e4 | d'12 | e'7d'4[E,E] | b4 ^G4 e4 |
+d'4 ^G4 e4 | [^G12e'12] | c'8 d'4 | [F,0C0C,0f'0] f4 a4 |
+f'4 f4 a4 | e'12 | d'8 c'4 | [d'2A,2D,2]>A2 e4 f4 |
+c'4 e2>e2 f4 | b18 |[c6A,,6] | [A,,0c0E,0A,0A0]A,, [C0A,,0]A,,A,, [A,,0E0]A,,A,, |
+A,,0 c2c2 C4 [E0A,,0] | [A,,0d0]< [C0A,,0]EE2 [A,,0E0]E3 | e2Ee [C0A,,0]e2 e [A,,0E0]EE | [^G,0E,0B0E,,0]<E0B B,2B B EB,2E |
+d2ed B,2>B2 E4 | e2E0ee [d0e0] B,ee2 E2e2E [E0e0] | d[eE][E0e0]d d0< E0 [B,2B,,2]<E2 [Ef]ee | [F,0C,0f0F,,0]<[f0E0][fF] f [f0F0]ffF Af0<A0FA |
+f2Af[f0A0] f0 F2>F2 A2((3F2A2g0) | A2fg [f0F0]gfg2 A2>A2 | [f2A2]f0Af0f[f0A0] [f0F0]fff [f0A0]f3 | [A,,0e0D,0]eee E2> e2 F4 |
+d2F2 [F0E0]F3 F4 | c2<F2 F0 E2F2 F4 | B2F2 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+[c0A,,0]A,3[A,,0E0]A,2 [A,,0A0A,0] F,,3[A,,0G0] |[A0A,,0][E0A,,0C,0]A,2[A,0A,,0][C,0A,,0E0][A2A,,2]E,2 e0 | A,,0c2[C,0C0A,,0] [B2C,2A,,2]B0C,0E,0c5 [B,,0E0] | C,2[B,,0G0C,0]<[C,0E0E,0][C,2G,2]C,0[G,2C2] [G,2E,,2] |[B,,0C,0E0]< B0 [A,,0E0] [C,2E,2]B,3[E3B,,3] [A,,0c0A,0] |
+E2[A0A,,0]A,2[A,,2G2][A0A,,0] [A,,2E2] |[A,0A,,0] [A,,2E2][A,,2A2][e2A,,2]F,2C2 |B2F2 B C,0c2G,2[C,2E2] [G0G,0]< E0 C,2 |E=A,0C G,2C,2C2G,2 E3 G,2 |
+[B0E0E,0]B,3 E3[A,,0c0A,0] |[A,,0E0] [A0A,,0] A,2[G2A,,2] A2[A,,0E0] |[A,0A,,0][A,,0E0][A2A,,2] [e0A,,0]< F,0 F2C2 | [B2F2]B0[B,,0C,0]c2A,2B,,2 [E0C,0][C,2G2] |
+E2G,2C,2E2G,2[E0C,0] [E,0A,,0B0] |B,2 [B,,0E0]<[A,,0A,0c0] [A0A,,0] |[A,,2G2]A2[A,,0E0]A,4 |[A,,2A2] [e0A,,0] F,2C2[B2F2]BC,0 c4 |
+[E0A,,0]<[G0G,0]E2G,3 |C,2 [B,,0G,0][B,,2E2][B0E0]E,0C,2B,13 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+e5_A,,0a6 |_A,0C,5E,5C5 |[E3_A,3]e4A,,b5 | [D,0_A,,0=B,0]<[A,,0F,0D0]B,6 |[_A,,3=B,3F3]F,3d4[d4G,,4] |[B,0E,0] E5G,5 |
+B,3G3e4^F,,c5 | E,0 A,5[C5^F,5] |E3A,2c4F,,0a6 |B,0D,5 F,5 D5 |
+B,3F3c4B0=E,,6 |[^C5B5]G,5B,7 =E6 |[B6^C6]G6 [B0F,,0] |E,5C5E5^F,5[B,8F8]B8 |
+F,,0A6 |E,0C7 [A,7F7] |[f9C9]A8 B,,0 | [b0B0]<F,0D5 |
+[B,,0B,0]< [D0F0]B0[G,,0f0D0][c'0B,,0] |E,0C5 [E5^F,5] C5 |[^F3E,3B,3]e3[e0B,,0][E,0A,,0]A,5 | [C0^F,0][E3A,3]C3E,3 c3 |
+B,,2d4 B,0D,5 |[D42F,42] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bdor
+F2 G,,2>C2 DE0A,,2 E,2 |F,3G3 A,,3[A,,0E,0] |F,3 [A,,0B,0]A,,3E,3F,3 |B,3[A,,2A,2]E,3F,3 | C3G,,0B,2D,3 E,2D3 |
+G,,2D,3E,3B,2G,,3 |D,3E,3B,3G,,2 | D,3E,2C3 [F,,0A,0]<[C,0F,,0] |D,3 C3F,,3C,3 D,3 |
+A,3F,,2C,3D,2 |A,3F,,2C,3 D,2B, C |E,,0G,C2 [C,0E,,0]D,3G,3 E,,2 |C,3[D,0E,,0][E,,3G,3]E,,2 |
+C,3D,2A,3 E,,2C,2 |D,2F,E,D,,0F,2 A,,2C,3 |G,3 D,,2A,,3C,2A,3 |[^G,,0B,0] D,2G,,2<E,2E3 |
+^G,,2G,,D, E,[G,,0E,0] [B,3G,,3][A,,0C0] | B,E,2 G,3C3A,,2 E,3 |G,3B,CB,,0 D2G,3 | B,3G3B,,3 G,3B,3 |
+A3 [C,0E0]A2[G,0E0]B,3 | E2C,2G,3 B,2E3 |[^C,2E2]G,2A,3 A3C,2 |G,3 E2FD E [D,0F0]A,2 |
+C3 F3[D,0C0]E3 | D3C3[C0G,,0]C D,3G,2 |C3 G,,3D,3G,3 |[G,,0D0][G,,0B,0]D,3[F,0G,,0]G,, |
+[G,,0B,0]G,,3D,3[F,0G,,0] | G,,2[G,,29D,29B,29] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+F,,3 C,4 |A,3F,4F,,4 |C,4A,3F,4 | F,,4 C,4 A,3F,4 |[F,,0C,0]C,4A,4 |F,4[F,,0c'0]C,4 |
+A,3 [F,2F,,2]d'c' F,,3=b2c'3C,3 |[d'3a3]A,3F,2 f2[fG,,]gf | g[C,0f0]gfgf [B0B,0g0]<f0g((3f2E,0g2)f g0 fgf0G,,2<e2 |C,4B,4E,4 |
+C,d'3 G,3B,3E,2 | e'd'B,,^c'2G,0d'2c' [e'3B,3] E,2 |g2[A,,0g0] aga0<C,0((3g2a2g2) a[g0A,0]aga g0 | [F,0a0]ga0ga0C0 f^f[g'0a0g0]A,2^g2 ab2[=f2F2]=bc' ^c' |
+[Cg]d'_e'=e' A,,f'f' [F,0e'0][f'2f2]^C, | f'2[A,a] e'2F,g'2^C0f'3 | [A,0e'0] [e'2F2]f'2 B,,d'2 D,2 |d2B,4 d'3F,2 ^c'2^F,_e'2 |
+D4d'3A,4a3Cec'2 |G,,b2 D,2a2 B,g2A, | ^f2[G,3G,,3]g3A,0a3[B,4b4] |[D,4d4][C,0f0]A,3 |
+F,2e2 A,d[^cc']=C,[d'2d2][A,0a0] f3 |[F,,4F,4a4]A,2f2=B,, | e3[F,0e0][e4=B,4][d'0d0D0] |[^c'0c0^g'0C0g0][E4e4e'4][A,0A0e0a0] |
+[B6b6B,6f6][c4C,4C4] |A,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+F,4 A,0< F,0 [f0A0c0]< e0 A4 F2 |c3A3[G,,,0A0G,,0]D,4 | A,4[G0E,0=B0]B,4 |G4[G,,0F0G,0]d8 |[A,4A4]F0<F,0[C,0e0]G,5 [G,,6=B,6G,6] |
+G8 |E2<[c2C,,2]G,,4G,4 |C4E4 G4 |[A,,,0G0]^C7 F,4 |
+[G,0F0][_E,,0B,0]<[B,,0C0] |G0[C,,0E0]G,,3 |E,4G,4C4 |F2G3G^C7 |
+G,4[G0F0]<[^c0B0]g9 | f3[e4C,,4]G,,3 |E,4e4[c4C4] |G4^c0<B,,0[F0B0]F,3 |
+B,4[F,,0^c0C0]B4B4 |F5c0[C,,0E0][G,,0G,,,0] |E,4[G0C0]E4 |C4[B,,F]^C4C,,4 |
+F,5 G0< [G,0^C0] | B,6^C16 |C,,G,, E |Gc2 e48 c48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:A
+[e4E,4]B,2 E2F2 G2 |[A0E,0] C2e2E2A2 |B,2 G0 E,2B,2 E2B2 |G2B,2F0^D,2B,2B2D2 |F2 B,3E2C,2E,2A,2 |
+C2 A2G2 F2 B,,2G,2 |G2B,2^D2G,3C0A,,2 | E,2A,2[^D2B,2][e0E0C0E,0]F,3 [B,,0D0] |F,3 B,2[e3E3]C3F3^D3 |
+B,3 E2<e2E,3 B,3E2 | F2G2B,2A0 E,2C2 e2 |E2 A2C2 G0E,2B,2 |E2B2G2 B,2F0^D,2 |
+B,2B2^D2F2B,2F0 =D,2 |D3 c2D,2D2B2B,3 |[C,2^E2] G,3C2F3 | G0 [B,5C5B,,5][F,,0G0]^E3 C,2G,2 |
+A,2C2G2 [A0F,,0]C,3 |G,2A,2C3 A3[f0D,0] |A,2 D2F2A2c2 |B2B,2e2 E3G3 |
+d3 [C,2e2]G,2 A,2E2 |A2G2[F0D0]B,,2 F,2C2 | D2[E2E,2]F2G0B,0G,,2E,2 B0 E2 |G,2B,2E3[B0F,,0]C2 C,2 |
+[A2A,2]F2 F,2C2G3E,2[F2D,2] |A,2 D2G2[A,2A2]B2 |[E,2G2][A2B,2]B2 c3 A2[d48E,48D48] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bbm
+C3 [C,3E3]A,3 F4 D4 F3F,0D3 |[B,,0B0B,0]D3F,,0F,3 B,0< [F,0D0]F,0F3 |d3[B,,3B,3]D3F,c2 G,,0 B3D,7 |[A0D,0]G,,3D,0G,,3F3 |[D,0D0]D G,3D,4 D4[A,,0E0] |
+[E,0A,,0][A,3A,,3]E,2A, | [A,,3C3] [E,3D3][C0E0][A,,3A,3]F3 |[A3D,3] A,3[F0D0]A, | DDC,0E3A0A,3 E0<[C,0C0] |
+A,2C2 [B,,,3D3B,,3]F,3[F0B,0]D3 |F,4B,4ED2 C0 | D2>B,2C2[G,,,0G,,0D0] |[D0G,,0]B4G,,D,2D3 [D,0d0] |
+c3d0D3A3F,,3 | D,D2 [F,0D0]D,2D15 | [C3A,,3][A,,,0E,0]D3[A,,0E0]A,7 |[A,,,3A3] D3E4D2 |
+D3f0 D,3[D,3A,3][D,0F0D0] |[D,3A,3][D0A0D,0] [F0A,0D,0] D3D0[D,0A0] |[f3D,3]A,3[e0C,,0C,0] [A,4C,4] | [A0C,0A,0C0]A,3C,3[C0C,0]<[A,0E0]A0<[A,,0A,0]C,3 |
+[A,,0C0C,0][A,3E3] A,3 [A3E3][B,,0B,,,0d0]F,,3 |B,3F,3 B,3 c3F,4 |[B,,4B,,,4]A3F,,5[B,0G,,0] |D,0C3[G,,0G,0D0][G,,0E0D,0]B,4 |
+G,,0F4B0D,4[d0D,0] |f4D,4b0G,,5G,,4 |G,,5G,,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:B
+B5B,4f4D4e5F4 |d4c0A,4[d4D4] | [c5F5] A4 | B5G,5D5D4 |E5F,,0[F,0F0] B,5 |
+[F,,0D0] |E,0B5B,5 D5 | E5[D,5F5] |B,5D4B5 |
+[A4E,4] G0 B,4 | G8 C7 F3[F0F,0] |C4G5A4 | [B4B,4] [b0D0] |
+[a4F4]g4g4A,4 |D4f4[d4F4]e4 |[f0G,0]A4A5 | B5[F,0F0] |
+B,5D4F5 |[G4E,4]A5B,4 [B5E5] | e4[d0D,0]F9 |[c0A0]C9 |
+[B0F0] [B,,4D4] F,4 | [F,,5E5F,5] C5B,48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+B6c10 |a0[A4F,,4]C,4 |A,2[b2B2]C,[c'2c2] F,,0[d'3d3]D,4 |B,2[d'2d2]D,2 [e'3e3]F,,2c'3[F,,3c3] |C,4f3[F3A,3]C,4 |
+a3[F,,3A3]^C,5B,5g5G5 |^C,8[a3F,,3]A3 |C,4A,2g2 G2C,f3F3 |e0[E3F,,3]D,4 =B,4 ^G,2 |
+d4D3[C,0e0]E3 ^G,3 =B,3 |^G,4C,4a4 A3E,4 |A,4E,2E4 |[B,,4D4]D,3 G,2E D, |
+[G,,0F0] [B,,0G0]E,4G,2 |e2B,,4A,,3c3F,3 |C3 F,F2 E [^G,,0F0]E3F,3 |=B,3F,2 D3[^C,3G3] |
+B,3E2 A2B,B3 |^C,3=c3 B,2e2 Ea2 B,2 |ga[g0D,0]A,4F4 |f5^C5=C4e4D,4 |
+A,4=B,5d5 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[c0A,,0]E,4[A,,0A,0] |C4[A0E0C0]A,,3A,4 |[A4C4]c4FB,,0e3 |F,4B,4 [f0D0] d4 | B,4 D4 A4D4 |
+[c0F,,0]C,3[F,0F,,0] |[A,0F,,0C,0]<[C0F0F,,0]C,3[F,,4F,4C,4] |[B,0B,,0F,,0G,0]<[B,,0F,,0C0][F,,3A,3] |C,4[F,,0C,0F,0] [C,4A,4] |
+[F4C4] G4 A4 B5 | CA,,0c3E,4 | [A,,0A,0] C4[A0E0]A,4 |[A3A,,3]c4e0B,,3 |
+[D0F,0]<[B,,0B0B,0]f0F3 | [d0B,0B,,0]<[D0F0] A4 B,3 B,,3D4 | [D,0A0]<[F,,0C0F,0][A,,0F,,0F0A,0][D,3C,3] |[F,,0C0F,0]<[C,0E0][F,,4F,4C4] |
+[A,0A,,0F0][F,,4C4F,4C,4][G,,0D0] | D,4 [G,4B,4G,,4]D,4[A,0F,,0C,0] |C,4[F,,0C0C,0F,0]C,4 |[G,0E,,0]C,4[C,0E,,0][E,,4E,4] |
+[G,0E,,0][E,,4G4]E,4 |C4[G,0C,0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+D,0< D,,0 [F0D0A,0] |A,4[D,,4A,,4F,4]A,4 |D4E,4[D,,0F,0] |D,4A,,4A,4 |D4E4 [D,,5D,5] | F4 A,4 [A,,0A0F,0] |
+A,4F,8 |D,,4B4D,3c2[F4A,,4] |C4 F,4 D4 | D,,0 E4 A,4 |
+[A,,4G4G,4]B,4[C4F,4] |A,4[D,0D,,0D0]E4 |[F4A,,4F,4]G5 [E,7E7] |D,3G0d4 |
+c4[D,0F0]D4 | A,4 D4 | e4G,4[D9D,9F9] |[B,5D5]d5[E5e5C5] |
+[F0A,0D0] f4 d4 | A,,0 A4 A,4D,4 |A,4[D,,0F,0]D4 |A,,4A,4F,9 |
+[E,,0E0]fB, |a3 G,3 d'3 a2>c'2 D2b3 |E,5[a5F5f5]A,4[F,,0F,0]F4B4 |B,4[d0E0]B,5 |
+F ^A10c9 |[B,0B,,0]<[D0B0]c5[d0F0] | f5 [c9D9] |[C0A,,0]A9 |
+F9A29 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+B,3 EB,2[G0E,0]B,3 E3 |G3B,3[E0_D0]G0B,3 |B,2E2G0E,3C2E3 |G0B,2 C2E3G3 C2 |E2 E,0G3C2[E3C3] |
+G2>B,2 B,2E3 G3B,3 |E3 [B,3G3]B,2E2 G3 |B,2E2 G3B,3E2 |[E0B,0] A3B,3E2[A0B,0] |
+B,3E2A0B,3B,12 |B3B,3 |E2B,0G,,0 [B0G0]<[B,0B0][E3B3][B,0G0] |B,2[B0E0][G0B,0]B,2 |
+[E0B,0] E,3[G3B,3]E3A0C2 [E0A0]<G0C,3 |C2 E2G3C2 [E0C0] |G0C2C2 E3[G,,0G0] |[g0G0]B,3 [E0B0]GG3B,2 E2 |
+G3B,3E3G3 |B,2[E0B0]G3d0[B,0B0][E0B0] |[B0A0] e3[A3B,3] E2B,0[e0B0]A0E3 |f3B,2[E2B2]e[f0B,0]A3e3 B,0<e0A2[e0B0E0] |
+[A0B0]<g0B,0e2 [E3B3]G3 |[B,0E0]E2[G0B,0] B,2E3 |G3 B,2E2E,0G3 | [f0C0]E3G3 C2[C3E3] |
+[E,0G0] C2E3 G3C3 |EB, G3b0D2ED | B3D2E2E B2>D2 | B2<E2 B3D2E3 B3 |
+[a0D0]B0E2 B3D2 | E3B3D2 E3B3 |D26 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:C
+[C,4E4]G,3C3e3 |D,F3A,3 C2d3 |[G3E,3]B,3 C4 E5 |G13 |G2F2C, D |
+E2G,3C2 [E2C,2]e2 |D,F2 A,3C3F2c3 |E,0B3[G0B,0]C4 |[E0G0]E,5G12 |
+c2 B3F,,0[F,0A0] | [C,0C0E0] |[F,,0^G0F,0] | B,3D2_B2^G2 |
+E,0G4G,5[D6B,6] | [A,,0G,0]< [^C0G0] [E,0A,,0] |[^C7G,7E,7] [E0F0A,0D,,0] D,4E10 |E3 |
+[G,,0B,0D0] G,,2>G,,2 G,,4 |[C4G,,4][G,0C,0C0] |[C,5C5] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Cm
+E,g3 G,3B,3E0a3 |E,0<[b0^f0][G0c'0f0][B,4a4] |[E0E,0]g4D,a3A,3 | D3F,0 f2g2[a0A,0]D0<[b0f0] |A,4g4F,0f4=B,,0g8 |
+G,4[f0=B,0d0] |G,4g3D4=B,5 |G15d14 |g5G,3 |
+B,3 G,3C3G,3 |D4f2 g2E,0f3 |G,3B,3 G,3 C3 |G,4D4e2G,2 |
+f3 e5E,5G,3 |B,3 G,3C3G,4 |D4G,5E,4 |G,3B,3G,3 |
+C3G,4D4G,5 | [E,0g0]G,3B,3 |G,3C3 G,4 D4 | [G,2f2]g2 [f0E,0] G,3 |
+B,3G,4C3 |G,4 D4 [e2G,2]f2 | C,,0<C,0[e0c0]E,3 G,3E,3 |B,3E,3C4 |
+E,5C,3E,3 | G,3E,3B, |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+G2[F,,0A0C0] | [C,0G0]A2 F,2c2C,4[G4E,,4] |[C,2A2] G2E,7 |[D,,0F0][A,,0F0] [F0F,0] | A,,4 [F,7A,,7A,7C,,7]C,5 | c2[B,,0d0F0]<[F,0c0]d2 |
+B,2[f0^B,,0] F,3 [c0A,,0f0F0][c2F,2] |c2A,7[D0G,,0B,0F,0] |G3G,3 B,3[B,0D0C,,0C,0] |C,4[B,0E0]C,2 |
+C2[F,,0A0][C,2G2] A2F,2c2 |C,3 [A,,0^^c0G0G,0] A2G2A,5 | F2[D,,0F0]A,,3 |F,2A,2 D2F2[C,,3A,3F3]A,,3 |
+[E0A,,0C,0]c2[B0d0G,,0] | [D,2c2][B2d2]B,3G,,2A2[G3C,,3F3] |A2 [G0F0]C5F2 | [F,,0A,0C0]< [C,0F0][B,,0B,0F,0]C,3 |
+[F,,0A,0]F,6 |C9 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:C
+G,2A,2C2[G,2E2e2] C2[A,0f0][G,2A,2] |[C,,2g2]C,2 [C,,2g2]G,3D2E2 | G2c2G2E2D5 [C,,3b3] |G, D2E2G2[c2e2]G2 | [G,2E2]D2[C,,0a0] c3[B,,0g0] G,3C2 |
+D2G2 [G,2B2]G2D2[C0C,0] | G,2B,,2G,2B,2C2 [C,2D2]G2[B,,0B0] g2 |G2[E,0C,0D0c0a0] C2[G,3B,,3][d3b3][G,0E,0e0c'0] | [A,2A,,2]B,2E,C2E2[C,,0E,,0e'0g0] E2C2B,2 |
+A,E,2 [A,,0e0E,0b0] B3[A,0A,,0]B,2C2 | E2[G0C,0e0]E,[E2A,2C2][C,0C0E,0g0]B,2 [A,2E2]E,2G,0 [d0g0] |[C,0c0] G,2A,2C2E2[A,0C0] | [A,0C,0d0][G,2C,2E,2][E,0c0G,0]G,[C,0e0] C,2[C,,2g2]G,2 |
+[C,0A,0][C0C,0] [C,2G,2E2]C2[C,0A,0] E,2[C,,0G,0A,0]E,2 | [C,0c0]<[C,0e0]G,2C2[D0G,0] [E0G,0]<[C,0G0]G,[C,0c0] |[C,0G0][E2E,2] D2C2G,2[C,3e3] | [f2C2]D2[E2g2]G2[C,0c0g0] G2[C,0E0]D2 |
+[C,0C0e0]G,2 [C,2d2]G,2B,2C2D2 | G2B2G2D2C2 B,2G,2[C,0e0] |G,2[B,0B,,0g0] C2D2G2[B2g2]G2 | [D2a2B,2]C2 [G,,0B,,0b0][G,2B,2C2]c'0A,,, c'12 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:C
+C3A,,0b2C2[E,0A,0] | [E,0a0] A2C2 [E2A,,2]C[E,2E2]C2C [E2E,2] |C2[a0G,0D,0]B,2[D0G,0] g2B,2 | G,,0 D2B,2[F,,0D0]B,2B,2 DB,2C,2g2 |A,2Ce2A,2 C2A,2 C2 |A,2A,2C2A,2 C,0< [F,,0F,0A0F0]A,2C2 |
+A,2C2G,[D,,0D,0][B2G2]B,2[G,,0G,0D0]d | e2g2B, A,,0< [e0c'0]C2[E0E,0][c0a0E,0]C2 [E2E,2] |C2[G,,0E0E,0]C2A,d2 [G,,0e0] Ead0G,0[b0D,0] | B,2[G,0D0]< [G,,0B0g0B,0G,0]B,2 D2B,2D2 |
+G,,0< [G0G,0][B2G,2] [d0B,,0]e2[C,5B5]c5 | G0 A5G5 |C4C2 C5 |C[D,,,0D,,0C0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:D#m
+F3C,3A,3C3 |[c3C,3]F,3 A,3A3 |B,,3E2D,3 [G,0G0]<[F0D,,0D,0] |^^C3A,,2C,3 F,3A,4 |B,,0E2^^C,3 G,3B,3 |
+D0F,3D,4G,,4 |C,,6 [F,,3A3]C,3 |[A,0c0][c3C3] [D,0d0]F,3 |[A,3f3] [^B,3B3d3][E,0a0]G,3 |
+[C3g3a3]c3[=e2C,2]E,3 [^^G3G,3] |^^c3[D,3^c3] F,3B,3F3 |B3[E,,0E,0G0] G,3C3 |D3E3 F4 G4 |
+B6[c0F,,0A0][C0F0F,0] | C,4 [A,0C0]F,3[c0C,0] |F,3 A3 [C,2A,2]F,3[e3B,,3E3] |D,3 [G3G,3][D,3F3][A,,2^^C2] C,3 |
+F,3A,4[B,,0E0] ^^C,3 |G,3B,3D4F,3 | D,4 G,,4 C,,4 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bm
+d0G,3[B,0B0]< A0D2[G,2G2] |[A2B,2G,2]B2D2d0<F,0A2 [B2B,2][A2D2] |[F,0G0]A2[A2B,2][B2D2] [e0E,0][G,2B2] | [G,,0B,0A0][G2E,2][A2G,2][B3B,3][e0B0E,0] | G,2B,2F,2A,3B,3 |
+d0G,2 [B0B,0]<D0A2 [G2G,2][A2B,2] |[B2D2][d0F,0][B0B,0] A0 D2[G2F,2] | [A2B,2]B3D2e2E,2[B0G,0][A0B,0] | [G2E,2][G,2A2][B3B,3][e0E,0]G,2 |
+B,2F,2A,3 B,3G,3 |B,2 D3B3G,2B,2D2 |[f3F,3]B,2D2e0F,2 B,2 |d3D2 e0E,3[B0G,0]B,2 |
+E,2G,2B,2E,2G,3 | B,2F,2A,3B,3G,2 |B,2D2[B3A,3] B,2D3 |[f3F,3] B,2D2 e2F,2B,2 |
+d3D3 [e0E,0]<[B0G,0]B,2 E,3 |G,2 B,2E,2G,3 B,2 |F,2 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:F#dor
+[d'0b0B0c0g0]e10 |d'5 g4 ^G0<[e0g0d'0b0] |[e'0^g0]b7d'3 | [A,0c'0a0]E8 |e3 [A,5^g5c'5][G8b8] |a3[e0c0D0A0]F12 |
+e3 | [D0^G0]c5e5=g8 |e3 [A,0A0F,0F0d0] D11 |A6^G16[D16F16] |
+[d'0b0g0]<[e0G0C0B0] |d'2> e2 ^G[B,0g0]b0d'5[e'0_b0] |d'3 [A,0c'0e0] |E5c3e3 [A,5^g5c'5] |
+E6b5^G3 |a2 F0 D,3 A3[c2e2]A,3E6 |D3F3[^G,0e0][G5c5] |[g0d0]D7e3 |
+[F0F,0d0D0]A5F5A6 |[^G0D0] |F5 [G0C0B,0E0d0] |d5[^G,0E0G0] [B0C0] |
+d5e8 |d3[E0A,,0c0]E,3C3 B,3 |A,3E3 [^G,,0G0c0]E,3 |[B5^G,5]A5[F,0D,,0] |
+C3 E2A,,3E,3 D,3C,3 |F,3[C,,0^G,0E0C0]D,,3=G5 |E5A,0D6 |[F,6D,6] [G,6E,6] |
+^G,11F,11 |F,5e0^F,2 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:G
+e0[G,0E0] [C,0E,0] [e6E6][d0D0G,0] | [C,0C0]< [d0G,0][c2C,2G,2E,2C2] [G,0C,0c0E,0] C3 G,2 |G,0<C,0[B4B,4]< [B4G,4]B,6A,2A2 |[A,17A17D,17G,17] |[D,14F14A,14G,14] |
+[D2A2] d2[d0D0A0][G,,6G,6] | [c2D2][G,,0c0G,0][D5A5][d0A,,0D0][G,,0G,0D,0B0] |[G,,0B0G,0]D5G,,0G, [A2D2G,,2][G,0D0A0G,,0] |[G,,0G0]G,2 [d0G,,0c0] D2[F,,4d4]D4[A,,0F,,0d0][D2F,2] |
+[c2F,2D2]c0[D0F,,0]F,2D[A,,0d0G,,0][D2F,2][B0G,,0F,,0F,0D0]E,2G,,0[B0D0] |F,2[d0D0G,,0]G,0E,0A2 [F,0F,,0A0] D2>D2 [F,,0G,0G0] |B,,2 [E,,0d0G,0E,0]< [D0G0] [G,0D0d0]<[G,0E,0c0][C,0D0C0] | [c0E,,0G,0E,0]< [D0B,0][E,0G,0B,,0d0][B2D2] [G,0B0B,,0D0]D2<D2 |
+[A2D2][G,0A0D0][E,4B,4][G2A2]D2 |[D,0d0]G2A,2[d0D0G,0C,0]c0C0 D2[c0D,0D0]C2A,2 |[D0C0][B0D0G,0][B0D0] A,4 [A2D2] |[d2D2A2] A,2G2 G,2C,0<[D0G0] |
+G,2 [G,,0c0] [D4C4]<[c4C4D4]G6E,6 |[B0C0G0D0E,0]B0[D0C0]G4G,,0C2[G,0D0A0]C2[A0D0]C2 |C2G0[B,0D0E,0][d0D,0D0G0] A,4 | [G0G,,0D0] A,2[D2D,2] [D0^D,0F0] A,4 |
+[C,2C2][G2F2] [D0A0] |[G,,0B0][G,2B,2] [G0E,0B,0D0] | B,4D2[G0E,,0]E,2[^D,0G0] |B,4D2G2 |
+D,0G3D,5A,4 |D2 G2^C,G8 |A,6G3 |C,G6 G,5 |
+[C0G,0] [G,0d0D0] | G,40 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:E
+A,0[e2E2]F,2[G,0e0E0]E,,2 B,,2E,2 | [G,0G0] B,2B,2E,3[G0e0] [F,,0A0] F,3 |[A,3d3A3]C,2F,3G,,0<[G0B0] | D,2E,2G,2D,2[B3E,3] | [G,,0B0e0]E, [B0f0]A,2[g0B0C0]E,[ac] A,2 |
+[g0B0]B,,2[db]E,2G,3 [e2E2] |e'3[g3B,3]a0c'3 C,2E,3 | [a3A,3c3]C,3E,3g0G,,0B3 | E,3G,3[B3G3] B,3E,3 |
+[B,,0B0D0]F,4A,4 |[F,15C15D15F15] |[E0E,0]B,3E3 |G3 B,2e0[B3E3][F,,2A2F,2] C |
+G2E3F3 CE4 |B3G,3 B,2E3G6 |[B,3G,,3B3][A0A,0F0]E6 | G4 [B,0F0F,,0D0] |
+[E4B,4] [B,0E,,0] [E,24E24] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:B
+[f3b3]F,3 [B,3F3][D2B2][F2B,2] [D0B0] |F3B,2[d2D2]F0B,3[e3^^F,3] |[C0^^F0]E0 [B2F2][F2B2C2] [G,2d2]G,0[G0B0B,0] |[B3D3]^^F2 [B,3G3][=A,0d0][^F3C3] | D2 =A2[F3A,3]C2[A0D0]F0 C2D0c3 |
+C3 [^B0G,0]<[B0B,0F0]D0<[B0G0] | [^B3B,3F3][d2F,2][B2F2B,2][G3D3][B,3B3]F3 |[E,3g3] G0<[^B,0B0][D0B0][B3B,3G3] | [E,0f0]B2[G3C3][c3E3][e4C4G4] |
+[F,0d0]B3 F0< [B0B,0][D0B0][B,0B0F0] | [c0F,0] B5[A0F0c0A,0] |[E7A7][C12c12]F11 | [B,,0B0] F,4 |
+B,3D3[B,3F3] |F,0D3 B,0F3 [B3D3][F,0d0F0] |[D0B0]<d0[F0B0]<f0 B7 |B,2 [DB] dF39f39b38 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+A4G,3 D3 B,3D3 |B3 D3B,3D3 |[c0A,0] F3C3F3 A3 |F3c3e4 | [d0B,0] B3F3D3 |
+B,3D3F3B4 |G0E,3B,3 E3B,3 |G3 B3d3f4 |[e4c4]C,3G3 [G,0E0]G3 |
+[d3B,3B3]G3 [G,3E3]G3 |[c0A0A,0]F3C3F3 |A3F3 c3 e4 |[d0G,0B0]A3D3G0B,3 |
+D3 A3D3G3 |B3A0[C3E,3] E3C3 |E3 [g0G0]C3[e0E0] |c2B2[A0C,0] A,3[e0E0] |
+C3G3 G,3C3 |E4[^f0F0]D,4D3 |A,3 C3D3[^f0F0] |A3[D3C3] ^F4 [g0G0=B,0] G,,3D,3 |
+=B,3G,3 [B,0D0][g3G3] |=B,3B3d4 [e0G0] E,,3E3 |[G3B,,3]B3 D3 [d3G,3]E3 |[G3B,3]c4[C,0B0]E3 |
+G,3E3C3 A3[C3E3] |G3c2B2A0D,3 C3 |D3A,3^F3 F,3 |A4D48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+0,"Input:
+X:1
+M:3/4
+L:1/16
+K:E
+B,0F,,4[B,0E0B,,0][g0G0B,0]A,,4 |[B,0B0E,,0G0E,,,0]E,,4[B,3G3] | E,2F,2 F4 B,4 G,3E4D4 |E3D0<F0B4B,4 |[f0F0D0]B,4 |
+B,4E4[g0G0]D,4 | [B0E0C0] G,2C2 [g0E0G0] G,2 |C2 [f2F2]G,2E2E2C2 |c2C,3F0<[B0B,,0]F,3 |
+B,4[=D4D,4][C4E,,4] |B,,2[B,,2B,2] E,4 B4 [A,4B4] |A4A4G2 |G2B,4F4A,4 |
+A4[A,,0A0B,,0]G4 |[B,,0G0D,0]F2F2 [G,4C,4]<E4 | [B,,4G,4] [g0G0]< [G0A,,0] |[a0A0]E,2[C0A,,0]A,4[A,,4A,4] |
+[C0^A,,0]<[F,0D0][E0A,0]A,,2G2 |^A,,2C D0<[B,,0F0] F,2=A,3 |B,C2 F2>F2 B4 B4 |[e0F,0][g3B,,3]e0<E,0[g3b3] |
+B,4[g0e0E0]<[f0F0] |[B0f0G0][e0B0]E3 [B,4d4] [e4E4E,4] |[D0D,0b0B0]B,4[f0D0B0] |E4[f4F4]B4 |
+[D4e4]g2B e0< [G0C0]b7 | g7f4 |e2e2G2 c'5 |f[B,4b4]F3[=d0B0] |
+f3=D3 e0< [B,0E,0] b4 a4 [f4D4] |b3e[b0A,0]a0E3 |[a4A4]g2 g2A,4 |[f4F4][a0A0] [a3A,3] f0 |
+[B,0E,0] a3 g4[B,0g0]D,4f2 |f2C,2 e10 |g3c0A,0g2 E2a2 c2 |A2A2A,2c2[A0B,,0]e2F,2 |
+[d0A0]A,2 c2d2 B,,2>B2e9 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+1,"Input:
+X:1
+M:3/4
+L:1/16
+K:Ab
+[E4B4] [F0F,0F,,0c0] |[F0C0]A,2B2c2[c4C4F,4A,4] [D,,0c0] | [A,,0c0][D,2D2A,2] c2B2 [A0A,0] D,,2 |A2 [A,,0A,0] E,6E,0E2 [A,,2B2] |[E2c2] [E2A,2c2][c2E2] E,,4 B2 |
+[c0G,0E,0]c2B2[c2B,2] E,2A2 [F,6F,,6] |[E0F,0F,,0C0][E2c2][c0E0][C2F,2] |E2[d6D,,6A6][D,0A,0][c0E0] |A2A,2E2[A,,0d0][A,0A0E,0] |
+[E,0D0][c0E0]A2A,2[A,,2E2][E,,0B0] |[E0B,0][c0E0]B2[B,2E,2] |E0A2[F,6F,,6][E0C0][F,0F,,0]B2 |[E2c2][c4E4F,4C4][c0D,,0]c2 |
+D0[F,0D,0]A,2[E0c0A,0]B2[A0A,0]A2[A,,5E,5A,5] | [A,2E,2A,,2] C2E2 c2E0<[C0E,0A,0] | [c0E0E,0]<[E,,0e0]E2 [E0B,0] [G,2E,2]d2 | c2[B2B,2] A4<[F,,4F,4] [F,0F,,0E0A,0C0] |
+c2 [E2c2][A,2C2F,2] E2[D,0D,,0d0A0] | [D,0D0A,0][E2c2] A2A,2E2 |[d0A,0A0A,,0][C2E,2A,2][c2E2]A21 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+2,"Input:
+X:1
+M:3/4
+L:1/16
+K:Dm
+[a0F,0]C4C3 |[e0F,0]C4[C,0E0C0]C4 | [g0F,0] F,2B,4D4 |B,0D13 | D10 |
+e0<[E,0C0E0][f0C,0]<[C0c0E,0][g0C0]F,4 |[C5E,5]a5 [C5E,5] |[g6F,6][D4B,4]B,4D3 |[B,0B0F,0]B,5D5 B,6 |
+D6f7 | F4 A,4 [a0A0D,0] |A,4[A,,0F0A,0][e0C,0]A,7 | A,4 A,4 |
+[C,0A,0] [F5A,5][C,5A,5]F5 |[=B,,0A,0]< [d0F,0] D4 | e0< [D0F,0=B,0] [B,,5f5]D5F,5 |[d5F,5]D5[g7C,7] |
+[D5B,5][B,5D5] | [g0E,0][D6B,6] | [c0B,0] [E,6D6][a0A0]<[c0C0][FF,] a6 |E0C4C4e0<[C0F,0] |
+[C0E,0] C5 |[F,0g0][B,,4B,4]D4[B,,0B,0D0] |F,4[B,,0F,0B,0D0]B,10 D10 |[e0c0]<[E0C0G,0E,0] |
+e0<[E,0C0]g4[E,0C0] |a0C5B0F,3 [_e3c3] |B0B,4D4[B,0D0C0] | [D0B,0][e6E,6] |
+f0D,7[F0A,0]D,4 |F4A,4[C,0A0A,0]A,5 |A,5 [e0=B,,0] |[F,0D0]F,5 [^G,,0G,,,0] |
+[F,6D6][D7F,7] |[G,,0G,0] |[d0G,,0D,0][e0=B,,0G,,0]D,4[B,,0e0f0] |F,5D5 [d6F,6D6] |
+g0C,7[D0B,,0B,0G,0]_E,19 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Abdor
+[a0f'0][F10F,10] a0 | [F0A0]b4e0A,0g0c'9 |e0c0E9 | c'0< [F0B0f0] |B0f4g5[A0F0=e0]f10a9 |
+e10 [E10g10] G9 |[c0c'0f0A0]D9 |[a7c7f'7A7]g'2 |g'0A,a'0c'4g'5E4[a0f'0A0c0] |
+[c'5a5] [d'0f0][B,F]B3 |c5[d5B5]f5 |[g0d0f0] [B10G10] C10 |e0c9[a0c0f'0]F5 |
+A5 [c5f5] |g4a0c0[f5E5]A4 |[e9c9] | [f'0a0] [c5f5]e'4A5e'5 |
+c'5[a0A,0] |g10 |B,0[d0g0]F5f5 |c10 |
+A0< [g0F0]f2GC2A2F10 |g0[B,0d0F0]B2f2 c'2 |c2 f2 F2B2 A0D2G2 |A2c2GC2 A2F9 |
+[B,,0D0]E2 [F,2F2] |c2 [d2B,2]e2[D2f2]c'3 |e3f3 [C0c0]G4 |A0F12 |
+B4[G0C,0B,0]D14 |c4 |F18[C,18G,18] |E22 |
+F,2[CA,] EG48 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Bb
+[g0G,0]G Bd[g0B,0D0] [f2D2G,2][g0E,0] |[c'0E,0]d'[D2c'2][B,2G,2][b0D,0] c'2[D,0a0] | C0 [^F,2A,2]a2=f2[a2f2][a0D,0f0]E0[a2^F,2=f2A,2] [a2f2] [A,2D2] |[b0g0G,0]< [g0d0][B,2D2][G,2d2][c2E,2] |[c0E,0]d [B,2D2G,2] c2[B0D,0] d2[D,0A0] |
+[C0^F,0A,0]d =efg[a0D,0] b[_Ec'F,]d' =e' A, D, |^f'[G,0g'0]g bd'[B,2g'2D2][=f'2G,2][E,0g'0] |[c''E,]d''[B,0D0] [G,0c''0]<[D,0b'0] c''2a'0D,2 | ^F,0[A,2C2]d'' c''b'a'g'0 D, =f'e'[E2^F,2]d' |
+[c'A,] [D2D,2]b[d'0D0G,0]c'[b0G,0]a[B,gD] f[eG,]d[b0E,0] | a[E,g]fD [B,e] G,d^F,[A,Cc]D,B ABc0[A,F,CD,]d |ef[C0A,0g0][D,^F,] abc'[d'0C0A,0D,0F,0] e'd'2 B16 |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
+3,"Input:
+X:1
+M:3/4
+L:1/16
+K:Edor
+[C4A,,4]G,4 |[D4B,,4][B,,0G,0]<[E0C,0C0] |F2[C,2G2][A,0A0F,,0C,0] |A,2A2A,2 G2A,2 E7 |[G0A0] |G,A,B,2[A,,4C4][F,,0F,0] |
+[D4B,,4]G,4E0[C,4C4] |F2 [C,0G0][A,3F,,3]FF0A | [GA]A,2A2A,2 G2A,2 E13 |[g0G0][G,,9D9] |
+[G,,9C9]B,17 |[c4C4] G4 [c0C0] | G4c4 |G4c2d2e2 c2 |
+[d4B,4][g0G0]d4 |G4d4G4 |d6e2 | [d0_B,0] G4d4 |
+G4d4d2 e2 |f2 e2d2 c2[F,0A0] |[F0F,0]A4[F4F,4] |[E,0A0] [F,,0E0] |
+
+Task:
+Choose the most probable emotional label of the provided score. Label Q1 refers to happy (high valence high arousal), Q2 refers to angry (low valence high arousal), Q3 refers to sad (low valence low arousal) and Q4 refers to relaxed (high valence low arousal).
+
+Options:
+0. Q1      1. Q2
+2. Q3      3. Q4
+
+Answer:"
