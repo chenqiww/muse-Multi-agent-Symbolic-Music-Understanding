@@ -18,25 +18,6 @@ The system consists of four main agents:
 - **Agent C (Emotion Expert)**: Classifies emotions using an arousal-valence approach with multiple analysts and majority voting
 - **Agent D (Aggregator)**: Combines results from multiple agents when both ABC and emotion questions are present
 
-## Features
-### Controller
-### ABC Notation Analysis
-- Analyzes key signatures, time signatures, note lengths, chords, bars, rhythm patterns, and melodic contours
-- Answers questions about music structure and notation
-
-### Emotion Recognition
-- Classifies music into 4 emotional categories:
-  - **Q1**: Happy (high valence, high arousal)
-  - **Q2**: Angry (low valence, high arousal)
-  - **Q3**: Sad (low valence, low arousal)
-  - **Q4**: Relaxed (high valence, low arousal)
-- Uses arousal-valence decomposition with multiple analysts and majority voting
-- Provides detailed reasoning for classifications
-
-### Input Validation
-- Automatically extracts ABC scores from prompts
-- Validates input completeness and question presence
-- Handles multiple input formats (code blocks, "Input:" markers, etc.)
 
 
 ## Usage
